@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "toomanyresources:block/ores/kirionite/endstone/endstone_kirionite_ore"
+  }
+}

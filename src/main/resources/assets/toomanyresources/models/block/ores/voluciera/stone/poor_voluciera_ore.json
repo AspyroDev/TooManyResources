@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "toomanyresources:block/ores/voluciera/stone/poor_voluciera_ore"
+  }
+}

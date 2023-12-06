@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "toomanyresources:block/ores/manxium/deepslate/deepslate_manxium_ore"
+  }
+}

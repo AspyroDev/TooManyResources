@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "toomanyresources:block/ores/voluciera/endstone/rich_endstone_voluciera_ore"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "toomanyresources:block/ores/ohly/endstone/rich_endstone_ohly_ore"
+    }
+  }
+}

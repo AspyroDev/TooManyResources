@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "toomanyresources:block/ores/yggs/deepslate/deepslate_yggs_ore"
+    }
+  }
+}

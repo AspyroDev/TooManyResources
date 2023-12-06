@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "toomanyresources:block/blocks/manxium/compressed_manxium_block_2"
+  }
+}

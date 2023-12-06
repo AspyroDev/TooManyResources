@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "toomanyresources:block/blocks/slithese/compressed_slithese_block_7"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "toomanyresources:item/tools/voluciera/voluciera_shovel"
+  }
+}

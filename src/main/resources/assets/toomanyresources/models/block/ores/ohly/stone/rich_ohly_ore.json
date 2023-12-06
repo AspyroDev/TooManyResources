@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "toomanyresources:block/ores/ohly/stone/rich_ohly_ore"
+  }
+}

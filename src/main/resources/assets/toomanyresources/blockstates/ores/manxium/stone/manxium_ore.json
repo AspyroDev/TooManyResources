@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "toomanyresources:block/ores/manxium/stone/manxium_ore"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "toomanyresources:block/ores/voluciera/stone/poor_voluciera_ore"
+    }
+  }
+}
