@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "toomanyresources:block/ores/ohly/deepslate/rich_deepslate_ohly_ore"
-  }
-}

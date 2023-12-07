@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "toomanyresources:block/ores/slithese/deepslate/poor_deepslate_slithese_ore"
-  }
-}

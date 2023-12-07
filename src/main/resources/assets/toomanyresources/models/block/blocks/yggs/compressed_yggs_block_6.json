@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "toomanyresources:block/blocks/yggs/compressed_yggs_block_6"
-  }
-}

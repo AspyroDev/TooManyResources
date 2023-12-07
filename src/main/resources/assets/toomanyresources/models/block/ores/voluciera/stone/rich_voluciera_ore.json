@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "toomanyresources:block/ores/voluciera/stone/rich_voluciera_ore"
-  }
-}

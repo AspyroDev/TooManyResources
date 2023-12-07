@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "toomanyresources:block/blocks/voluciera/compressed_voluciera_block_3"
-  }
-}

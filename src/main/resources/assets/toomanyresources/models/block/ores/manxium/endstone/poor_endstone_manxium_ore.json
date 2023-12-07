@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "toomanyresources:block/ores/manxium/endstone/poor_endstone_manxium_ore"
-  }
-}
