@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "toomanyresources:block/deepslate_eisselte_ore"
+  }
+}

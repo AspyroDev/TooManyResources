@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "toomanyresources:block/compressed_raw_blue_dragcite_block_4"
+  }
+}

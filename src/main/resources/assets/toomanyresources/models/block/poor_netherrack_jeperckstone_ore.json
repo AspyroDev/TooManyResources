@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "toomanyresources:block/poor_netherrack_jeperckstone_ore"
+  }
+}
