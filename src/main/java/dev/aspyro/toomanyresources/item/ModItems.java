@@ -1,6 +1,8 @@
 package dev.aspyro.toomanyresources.item;
 
+import dev.aspyro.toomanyresources.ModArmorMaterials;
 import dev.aspyro.toomanyresources.TooManyResources;
+import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -178,80 +180,80 @@ public class ModItems {
     public static final RegistryObject<Item> EISSELTE_SHOVEL = ITEMS.register("eisselte_shovel", () -> new ShovelItem(Tiers.IRON, 1.5F, -3.0F, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
     public static final RegistryObject<Item> EISSELTE_SWORD = ITEMS.register("eisselte_sword", () -> new SwordItem(Tiers.IRON, 3, -2.4F, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 
-    public static final RegistryObject<Item> MANXIUM_HELMET = ITEMS.register("manxium_helmet", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<Item> MANXIUM_CHESTPLATE = ITEMS.register("manxium_chestplate", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<Item> MANXIUM_LEGGINGS = ITEMS.register("manxium_leggings", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<Item> MANXIUM_BOOTS = ITEMS.register("manxium_boots", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> MANXIUM_HELMET = ITEMS.register("manxium_helmet", () -> new ArmorItem(ModArmorMaterials.MANXIUM, EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> MANXIUM_CHESTPLATE = ITEMS.register("manxium_chestplate", () -> new ArmorItem(ModArmorMaterials.MANXIUM, EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> MANXIUM_LEGGINGS = ITEMS.register("manxium_leggings", () -> new ArmorItem(ModArmorMaterials.MANXIUM, EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> MANXIUM_BOOTS = ITEMS.register("manxium_boots", () -> new ArmorItem(ModArmorMaterials.MANXIUM, EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 
-    public static final RegistryObject<Item> KIRIONITE_HELMET = ITEMS.register("kirionite_helmet", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<Item> KIRIONITE_CHESTPLATE = ITEMS.register("kirionite_chestplate", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<Item> KIRIONITE_LEGGINGS = ITEMS.register("kirionite_leggings", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<Item> KIRIONITE_BOOTS = ITEMS.register("kirionite_boots", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> KIRIONITE_HELMET = ITEMS.register("kirionite_helmet", () -> new ArmorItem(ModArmorMaterials.KIRIONITE, EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> KIRIONITE_CHESTPLATE = ITEMS.register("kirionite_chestplate", () -> new ArmorItem(ModArmorMaterials.KIRIONITE, EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> KIRIONITE_LEGGINGS = ITEMS.register("kirionite_leggings", () -> new ArmorItem(ModArmorMaterials.KIRIONITE, EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> KIRIONITE_BOOTS = ITEMS.register("kirionite_boots", () -> new ArmorItem(ModArmorMaterials.KIRIONITE, EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 
-    public static final RegistryObject<Item> SLITHESE_HELMET = ITEMS.register("slithese_helmet", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<Item> SLITHESE_CHESTPLATE = ITEMS.register("slithese_chestplate", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<Item> SLITHESE_LEGGINGS = ITEMS.register("slithese_leggings", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<Item> SLITHESE_BOOTS = ITEMS.register("slithese_boots", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> SLITHESE_HELMET = ITEMS.register("slithese_helmet", () -> new ArmorItem(ModArmorMaterials.SLITHESE, EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> SLITHESE_CHESTPLATE = ITEMS.register("slithese_chestplate", () -> new ArmorItem(ModArmorMaterials.SLITHESE, EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> SLITHESE_LEGGINGS = ITEMS.register("slithese_leggings", () -> new ArmorItem(ModArmorMaterials.SLITHESE, EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> SLITHESE_BOOTS = ITEMS.register("slithese_boots", () -> new ArmorItem(ModArmorMaterials.SLITHESE, EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 
-    public static final RegistryObject<Item> VOLUCIERA_HELMET = ITEMS.register("voluciera_helmet", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<Item> VOLUCIERA_CHESTPLATE = ITEMS.register("voluciera_chestplate", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<Item> VOLUCIERA_LEGGINGS = ITEMS.register("voluciera_leggings", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<Item> VOLUCIERA_BOOTS = ITEMS.register("voluciera_boots", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> VOLUCIERA_HELMET = ITEMS.register("voluciera_helmet", () -> new ArmorItem(ModArmorMaterials.VOLUCIERA, EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> VOLUCIERA_CHESTPLATE = ITEMS.register("voluciera_chestplate", () -> new ArmorItem(ModArmorMaterials.VOLUCIERA, EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> VOLUCIERA_LEGGINGS = ITEMS.register("voluciera_leggings", () -> new ArmorItem(ModArmorMaterials.VOLUCIERA, EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> VOLUCIERA_BOOTS = ITEMS.register("voluciera_boots", () -> new ArmorItem(ModArmorMaterials.VOLUCIERA, EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 
-    public static final RegistryObject<Item> YGGS_HELMET = ITEMS.register("yggs_helmet", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<Item> YGGS_CHESTPLATE = ITEMS.register("yggs_chestplate", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<Item> YGGS_LEGGINGS = ITEMS.register("yggs_leggings", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<Item> YGGS_BOOTS = ITEMS.register("yggs_boots", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> YGGS_HELMET = ITEMS.register("yggs_helmet", () -> new ArmorItem(ModArmorMaterials.YGGS, EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> YGGS_CHESTPLATE = ITEMS.register("yggs_chestplate", () -> new ArmorItem(ModArmorMaterials.YGGS, EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> YGGS_LEGGINGS = ITEMS.register("yggs_leggings", () -> new ArmorItem(ModArmorMaterials.YGGS, EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> YGGS_BOOTS = ITEMS.register("yggs_boots", () -> new ArmorItem(ModArmorMaterials.YGGS, EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 
-    public static final RegistryObject<Item> OHLY_HELMET = ITEMS.register("ohly_helmet", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<Item> OHLY_CHESTPLATE = ITEMS.register("ohly_chestplate", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<Item> OHLY_LEGGINGS = ITEMS.register("ohly_leggings", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<Item> OHLY_BOOTS = ITEMS.register("ohly_boots", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> OHLY_HELMET = ITEMS.register("ohly_helmet", () -> new ArmorItem(ModArmorMaterials.OHLY, EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> OHLY_CHESTPLATE = ITEMS.register("ohly_chestplate", () -> new ArmorItem(ModArmorMaterials.OHLY, EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> OHLY_LEGGINGS = ITEMS.register("ohly_leggings", () -> new ArmorItem(ModArmorMaterials.OHLY, EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> OHLY_BOOTS = ITEMS.register("ohly_boots", () -> new ArmorItem(ModArmorMaterials.OHLY, EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 
-    public static final RegistryObject<Item> BLUE_DRAGCITE_HELMET = ITEMS.register("blue_dragcite_helmet", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<Item> BLUE_DRAGCITE_CHESTPLATE = ITEMS.register("blue_dragcite_chestplate", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<Item> BLUE_DRAGCITE_LEGGINGS = ITEMS.register("blue_dragcite_leggings", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<Item> BLUE_DRAGCITE_BOOTS = ITEMS.register("blue_dragcite_boots", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> BLUE_DRAGCITE_HELMET = ITEMS.register("blue_dragcite_helmet", () -> new ArmorItem(ModArmorMaterials.BLUE_DRAGCITE, EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> BLUE_DRAGCITE_CHESTPLATE = ITEMS.register("blue_dragcite_chestplate", () -> new ArmorItem(ModArmorMaterials.BLUE_DRAGCITE, EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> BLUE_DRAGCITE_LEGGINGS = ITEMS.register("blue_dragcite_leggings", () -> new ArmorItem(ModArmorMaterials.BLUE_DRAGCITE, EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> BLUE_DRAGCITE_BOOTS = ITEMS.register("blue_dragcite_boots", () -> new ArmorItem(ModArmorMaterials.BLUE_DRAGCITE, EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 
-    public static final RegistryObject<Item> TARMENIS_HELMET = ITEMS.register("tarmenis_helmet", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<Item> TARMENIS_CHESTPLATE = ITEMS.register("tarmenis_chestplate", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<Item> TARMENIS_LEGGINGS = ITEMS.register("tarmenis_leggings", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<Item> TARMENIS_BOOTS = ITEMS.register("tarmenis_boots", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> TARMENIS_HELMET = ITEMS.register("tarmenis_helmet", () -> new ArmorItem(ModArmorMaterials.TARMENIS, EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> TARMENIS_CHESTPLATE = ITEMS.register("tarmenis_chestplate", () -> new ArmorItem(ModArmorMaterials.TARMENIS, EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> TARMENIS_LEGGINGS = ITEMS.register("tarmenis_leggings", () -> new ArmorItem(ModArmorMaterials.TARMENIS, EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> TARMENIS_BOOTS = ITEMS.register("tarmenis_boots", () -> new ArmorItem(ModArmorMaterials.TARMENIS, EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 
-    public static final RegistryObject<Item> KHELSTONE_HELMET = ITEMS.register("khelstone_helmet", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<Item> KHELSTONE_CHESTPLATE = ITEMS.register("khelstone_chestplate", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<Item> KHELSTONE_LEGGINGS = ITEMS.register("khelstone_leggings", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<Item> KHELSTONE_BOOTS = ITEMS.register("khelstone_boots", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> KHELSTONE_HELMET = ITEMS.register("khelstone_helmet", () -> new ArmorItem(ModArmorMaterials.KHELSTONE, EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> KHELSTONE_CHESTPLATE = ITEMS.register("khelstone_chestplate", () -> new ArmorItem(ModArmorMaterials.KHELSTONE, EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> KHELSTONE_LEGGINGS = ITEMS.register("khelstone_leggings", () -> new ArmorItem(ModArmorMaterials.KHELSTONE, EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> KHELSTONE_BOOTS = ITEMS.register("khelstone_boots", () -> new ArmorItem(ModArmorMaterials.KHELSTONE, EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 
-    public static final RegistryObject<Item> BAMIRITE_HELMET = ITEMS.register("bamirite_helmet", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<Item> BAMIRITE_CHESTPLATE = ITEMS.register("bamirite_chestplate", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<Item> BAMIRITE_LEGGINGS = ITEMS.register("bamirite_leggings", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<Item> BAMIRITE_BOOTS = ITEMS.register("bamirite_boots", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> BAMIRITE_HELMET = ITEMS.register("bamirite_helmet", () -> new ArmorItem(ModArmorMaterials.BAMIRITE, EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> BAMIRITE_CHESTPLATE = ITEMS.register("bamirite_chestplate", () -> new ArmorItem(ModArmorMaterials.BAMIRITE, EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> BAMIRITE_LEGGINGS = ITEMS.register("bamirite_leggings", () -> new ArmorItem(ModArmorMaterials.BAMIRITE, EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> BAMIRITE_BOOTS = ITEMS.register("bamirite_boots", () -> new ArmorItem(ModArmorMaterials.BAMIRITE, EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 
-    public static final RegistryObject<Item> VIGNASS_HELMET = ITEMS.register("vignass_helmet", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<Item> VIGNASS_CHESTPLATE = ITEMS.register("vignass_chestplate", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<Item> VIGNASS_LEGGINGS = ITEMS.register("vignass_leggings", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<Item> VIGNASS_BOOTS = ITEMS.register("vignass_boots", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> VIGNASS_HELMET = ITEMS.register("vignass_helmet", () -> new ArmorItem(ModArmorMaterials.VIGNASS, EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> VIGNASS_CHESTPLATE = ITEMS.register("vignass_chestplate", () -> new ArmorItem(ModArmorMaterials.VIGNASS, EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> VIGNASS_LEGGINGS = ITEMS.register("vignass_leggings", () -> new ArmorItem(ModArmorMaterials.VIGNASS, EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> VIGNASS_BOOTS = ITEMS.register("vignass_boots", () -> new ArmorItem(ModArmorMaterials.VIGNASS, EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 
-    public static final RegistryObject<Item> JEPERCKSTONE_HELMET = ITEMS.register("jeperckstone_helmet", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<Item> JEPERCKSTONE_CHESTPLATE = ITEMS.register("jeperckstone_chestplate", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<Item> JEPERCKSTONE_LEGGINGS = ITEMS.register("jeperckstone_leggings", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<Item> JEPERCKSTONE_BOOTS = ITEMS.register("jeperckstone_boots", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> JEPERCKSTONE_HELMET = ITEMS.register("jeperckstone_helmet", () -> new ArmorItem(ModArmorMaterials.JEPERCKSTONE, EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> JEPERCKSTONE_CHESTPLATE = ITEMS.register("jeperckstone_chestplate", () -> new ArmorItem(ModArmorMaterials.JEPERCKSTONE, EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> JEPERCKSTONE_LEGGINGS = ITEMS.register("jeperckstone_leggings", () -> new ArmorItem(ModArmorMaterials.JEPERCKSTONE, EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> JEPERCKSTONE_BOOTS = ITEMS.register("jeperckstone_boots", () -> new ArmorItem(ModArmorMaterials.JEPERCKSTONE, EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 
-    public static final RegistryObject<Item> HELMINIUM_HELMET = ITEMS.register("helminium_helmet", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<Item> HELMINIUM_CHESTPLATE = ITEMS.register("helminium_chestplate", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<Item> HELMINIUM_LEGGINGS = ITEMS.register("helminium_leggings", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<Item> HELMINIUM_BOOTS = ITEMS.register("helminium_boots", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> HELMINIUM_HELMET = ITEMS.register("helminium_helmet", () -> new ArmorItem(ModArmorMaterials.HELMINIUM, EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> HELMINIUM_CHESTPLATE = ITEMS.register("helminium_chestplate", () -> new ArmorItem(ModArmorMaterials.HELMINIUM, EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> HELMINIUM_LEGGINGS = ITEMS.register("helminium_leggings", () -> new ArmorItem(ModArmorMaterials.HELMINIUM, EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> HELMINIUM_BOOTS = ITEMS.register("helminium_boots", () -> new ArmorItem(ModArmorMaterials.HELMINIUM, EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 
-    public static final RegistryObject<Item> RAGOUTON_HELMET = ITEMS.register("ragouton_helmet", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<Item> RAGOUTON_CHESTPLATE = ITEMS.register("ragouton_chestplate", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<Item> RAGOUTON_LEGGINGS = ITEMS.register("ragouton_leggings", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<Item> RAGOUTON_BOOTS = ITEMS.register("ragouton_boots", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> RAGOUTON_HELMET = ITEMS.register("ragouton_helmet", () -> new ArmorItem(ModArmorMaterials.RAGOUTON, EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> RAGOUTON_CHESTPLATE = ITEMS.register("ragouton_chestplate", () -> new ArmorItem(ModArmorMaterials.RAGOUTON, EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> RAGOUTON_LEGGINGS = ITEMS.register("ragouton_leggings", () -> new ArmorItem(ModArmorMaterials.RAGOUTON, EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> RAGOUTON_BOOTS = ITEMS.register("ragouton_boots", () -> new ArmorItem(ModArmorMaterials.RAGOUTON, EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 
-    public static final RegistryObject<Item> EISSELTE_HELMET = ITEMS.register("eisselte_helmet", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<Item> EISSELTE_CHESTPLATE = ITEMS.register("eisselte_chestplate", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<Item> EISSELTE_LEGGINGS = ITEMS.register("eisselte_leggings", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<Item> EISSELTE_BOOTS = ITEMS.register("eisselte_boots", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> EISSELTE_HELMET = ITEMS.register("eisselte_helmet", () -> new ArmorItem(ModArmorMaterials.EISSELTE, EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> EISSELTE_CHESTPLATE = ITEMS.register("eisselte_chestplate", () -> new ArmorItem(ModArmorMaterials.EISSELTE, EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> EISSELTE_LEGGINGS = ITEMS.register("eisselte_leggings", () -> new ArmorItem(ModArmorMaterials.EISSELTE, EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> EISSELTE_BOOTS = ITEMS.register("eisselte_boots", () -> new ArmorItem(ModArmorMaterials.EISSELTE, EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
