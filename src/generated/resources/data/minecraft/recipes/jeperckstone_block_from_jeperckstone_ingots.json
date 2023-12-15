@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "toomanyresources:jeperckstone_ingot"
+    },
+    {
+      "item": "toomanyresources:jeperckstone_ingot"
+    },
+    {
+      "item": "toomanyresources:jeperckstone_ingot"
+    },
+    {
+      "item": "toomanyresources:jeperckstone_ingot"
+    },
+    {
+      "item": "toomanyresources:jeperckstone_ingot"
+    },
+    {
+      "item": "toomanyresources:jeperckstone_ingot"
+    },
+    {
+      "item": "toomanyresources:jeperckstone_ingot"
+    },
+    {
+      "item": "toomanyresources:jeperckstone_ingot"
+    },
+    {
+      "item": "toomanyresources:jeperckstone_ingot"
+    }
+  ],
+  "result": {
+    "item": "toomanyresources:jeperckstone_block"
+  }
+}

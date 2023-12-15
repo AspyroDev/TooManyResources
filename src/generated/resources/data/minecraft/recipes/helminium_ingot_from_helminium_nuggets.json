@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "toomanyresources:helminium_nugget"
+    },
+    {
+      "item": "toomanyresources:helminium_nugget"
+    },
+    {
+      "item": "toomanyresources:helminium_nugget"
+    },
+    {
+      "item": "toomanyresources:helminium_nugget"
+    },
+    {
+      "item": "toomanyresources:helminium_nugget"
+    },
+    {
+      "item": "toomanyresources:helminium_nugget"
+    },
+    {
+      "item": "toomanyresources:helminium_nugget"
+    },
+    {
+      "item": "toomanyresources:helminium_nugget"
+    },
+    {
+      "item": "toomanyresources:helminium_nugget"
+    }
+  ],
+  "result": {
+    "item": "toomanyresources:helminium_ingot"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "toomanyresources:khelstone_nugget"
+    },
+    {
+      "item": "toomanyresources:khelstone_nugget"
+    },
+    {
+      "item": "toomanyresources:khelstone_nugget"
+    },
+    {
+      "item": "toomanyresources:khelstone_nugget"
+    },
+    {
+      "item": "toomanyresources:khelstone_nugget"
+    },
+    {
+      "item": "toomanyresources:khelstone_nugget"
+    },
+    {
+      "item": "toomanyresources:khelstone_nugget"
+    },
+    {
+      "item": "toomanyresources:khelstone_nugget"
+    },
+    {
+      "item": "toomanyresources:khelstone_nugget"
+    }
+  ],
+  "result": {
+    "item": "toomanyresources:khelstone_ingot"
+  }
+}

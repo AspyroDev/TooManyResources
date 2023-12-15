@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "toomanyresources:bamirite_nugget"
+    },
+    {
+      "item": "toomanyresources:bamirite_nugget"
+    },
+    {
+      "item": "toomanyresources:bamirite_nugget"
+    },
+    {
+      "item": "toomanyresources:bamirite_nugget"
+    },
+    {
+      "item": "toomanyresources:bamirite_nugget"
+    },
+    {
+      "item": "toomanyresources:bamirite_nugget"
+    },
+    {
+      "item": "toomanyresources:bamirite_nugget"
+    },
+    {
+      "item": "toomanyresources:bamirite_nugget"
+    },
+    {
+      "item": "toomanyresources:bamirite_nugget"
+    }
+  ],
+  "result": {
+    "item": "toomanyresources:bamirite_ingot"
+  }
+}

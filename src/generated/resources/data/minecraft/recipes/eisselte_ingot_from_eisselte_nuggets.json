@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "toomanyresources:eisselte_nugget"
+    },
+    {
+      "item": "toomanyresources:eisselte_nugget"
+    },
+    {
+      "item": "toomanyresources:eisselte_nugget"
+    },
+    {
+      "item": "toomanyresources:eisselte_nugget"
+    },
+    {
+      "item": "toomanyresources:eisselte_nugget"
+    },
+    {
+      "item": "toomanyresources:eisselte_nugget"
+    },
+    {
+      "item": "toomanyresources:eisselte_nugget"
+    },
+    {
+      "item": "toomanyresources:eisselte_nugget"
+    },
+    {
+      "item": "toomanyresources:eisselte_nugget"
+    }
+  ],
+  "result": {
+    "item": "toomanyresources:eisselte_ingot"
+  }
+}

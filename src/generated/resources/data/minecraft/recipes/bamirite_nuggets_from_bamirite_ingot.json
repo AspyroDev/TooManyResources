@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "toomanyresources:bamirite_ingot"
+    }
+  ],
+  "result": {
+    "item": "toomanyresources:bamirite_nugget",
+    "count": 9
+  }
+}

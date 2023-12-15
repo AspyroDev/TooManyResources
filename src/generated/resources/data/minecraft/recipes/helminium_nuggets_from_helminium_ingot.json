@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "toomanyresources:helminium_ingot"
+    }
+  ],
+  "result": {
+    "item": "toomanyresources:helminium_nugget",
+    "count": 9
+  }
+}
