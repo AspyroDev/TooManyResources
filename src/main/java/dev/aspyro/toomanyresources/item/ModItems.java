@@ -124,59 +124,59 @@ public class ModItems {
     public static final RegistryObject<Item> OHLY_SHOVEL = ITEMS.register("ohly_shovel", () -> new ShovelItem(Tiers.IRON, 1.5F, -3.0F, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
     public static final RegistryObject<Item> OHLY_SWORD = ITEMS.register("ohly_sword", () -> new SwordItem(Tiers.IRON, 3, -2.4F, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 
-    public static final RegistryObject<Item> BLUE_DRAGCITE_PICKAXE = ITEMS.register("blue_dragcite_pickaxe", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
-    public static final RegistryObject<Item> BLUE_DRAGCITE_AXE = ITEMS.register("blue_dragcite_axe", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
-    public static final RegistryObject<Item> BLUE_DRAGCITE_HOE = ITEMS.register("blue_dragcite_hoe", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
-    public static final RegistryObject<Item> BLUE_DRAGCITE_SHOVEL = ITEMS.register("blue_dragcite_shovel", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
-    public static final RegistryObject<Item> BLUE_DRAGCITE_SWORD = ITEMS.register("blue_dragcite_sword", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> BLUE_DRAGCITE_PICKAXE = ITEMS.register("blue_dragcite_pickaxe", () -> new PickaxeItem(Tiers.IRON, 1, -2.8F, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
+    public static final RegistryObject<Item> BLUE_DRAGCITE_AXE = ITEMS.register("blue_dragcite_axe", () -> new AxeItem(Tiers.IRON, 6, -3.1F, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
+    public static final RegistryObject<Item> BLUE_DRAGCITE_HOE = ITEMS.register("blue_dragcite_hoe", () -> new HoeItem(Tiers.IRON, -2, -1.0F, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
+    public static final RegistryObject<Item> BLUE_DRAGCITE_SHOVEL = ITEMS.register("blue_dragcite_shovel", () -> new ShovelItem(Tiers.IRON, 1.5F, -3.0F, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
+    public static final RegistryObject<Item> BLUE_DRAGCITE_SWORD = ITEMS.register("blue_dragcite_sword", () -> new SwordItem(Tiers.IRON, 3, -2.4F, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 
-    public static final RegistryObject<Item> TARMENIS_PICKAXE = ITEMS.register("tarmenis_pickaxe", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
-    public static final RegistryObject<Item> TARMENIS_AXE = ITEMS.register("tarmenis_axe", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
-    public static final RegistryObject<Item> TARMENIS_HOE = ITEMS.register("tarmenis_hoe", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
-    public static final RegistryObject<Item> TARMENIS_SHOVEL = ITEMS.register("tarmenis_shovel", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
-    public static final RegistryObject<Item> TARMENIS_SWORD = ITEMS.register("tarmenis_sword", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> TARMENIS_PICKAXE = ITEMS.register("tarmenis_pickaxe", () -> new PickaxeItem(Tiers.IRON, 1, -2.8F, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
+    public static final RegistryObject<Item> TARMENIS_AXE = ITEMS.register("tarmenis_axe", () -> new AxeItem(Tiers.IRON, 6, -3.1F, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
+    public static final RegistryObject<Item> TARMENIS_HOE = ITEMS.register("tarmenis_hoe", () -> new HoeItem(Tiers.IRON, -2, -1.0F, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
+    public static final RegistryObject<Item> TARMENIS_SHOVEL = ITEMS.register("tarmenis_shovel", () -> new ShovelItem(Tiers.IRON, 1.5F, -3.0F, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
+    public static final RegistryObject<Item> TARMENIS_SWORD = ITEMS.register("tarmenis_sword", () -> new SwordItem(Tiers.IRON, 3, -2.4F, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 
-    public static final RegistryObject<Item> KHELSTONE_PICKAXE = ITEMS.register("khelstone_pickaxe", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
-    public static final RegistryObject<Item> KHELSTONE_AXE = ITEMS.register("khelstone_axe", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
-    public static final RegistryObject<Item> KHELSTONE_HOE = ITEMS.register("khelstone_hoe", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
-    public static final RegistryObject<Item> KHELSTONE_SHOVEL = ITEMS.register("khelstone_shovel", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
-    public static final RegistryObject<Item> KHELSTONE_SWORD = ITEMS.register("khelstone_sword", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> KHELSTONE_PICKAXE = ITEMS.register("khelstone_pickaxe", () -> new PickaxeItem(Tiers.IRON, 1, -2.8F, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
+    public static final RegistryObject<Item> KHELSTONE_AXE = ITEMS.register("khelstone_axe", () -> new AxeItem(Tiers.IRON, 6, -3.1F, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
+    public static final RegistryObject<Item> KHELSTONE_HOE = ITEMS.register("khelstone_hoe", () -> new HoeItem(Tiers.IRON, -2, -1.0F, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
+    public static final RegistryObject<Item> KHELSTONE_SHOVEL = ITEMS.register("khelstone_shovel", () -> new ShovelItem(Tiers.IRON, 1.5F, -3.0F, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
+    public static final RegistryObject<Item> KHELSTONE_SWORD = ITEMS.register("khelstone_sword", () -> new SwordItem(Tiers.IRON, 3, -2.4F, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 
-    public static final RegistryObject<Item> BAMIRITE_PICKAXE = ITEMS.register("bamirite_pickaxe", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
-    public static final RegistryObject<Item> BAMIRITE_AXE = ITEMS.register("bamirite_axe", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
-    public static final RegistryObject<Item> BAMIRITE_HOE = ITEMS.register("bamirite_hoe", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
-    public static final RegistryObject<Item> BAMIRITE_SHOVEL = ITEMS.register("bamirite_shovel", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
-    public static final RegistryObject<Item> BAMIRITE_SWORD = ITEMS.register("bamirite_sword", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> BAMIRITE_PICKAXE = ITEMS.register("bamirite_pickaxe", () -> new PickaxeItem(Tiers.IRON, 1, -2.8F, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
+    public static final RegistryObject<Item> BAMIRITE_AXE = ITEMS.register("bamirite_axe", () -> new AxeItem(Tiers.IRON, 6, -3.1F, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
+    public static final RegistryObject<Item> BAMIRITE_HOE = ITEMS.register("bamirite_hoe", () -> new HoeItem(Tiers.IRON, -2, -1.0F, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
+    public static final RegistryObject<Item> BAMIRITE_SHOVEL = ITEMS.register("bamirite_shovel", () -> new ShovelItem(Tiers.IRON, 1.5F, -3.0F, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
+    public static final RegistryObject<Item> BAMIRITE_SWORD = ITEMS.register("bamirite_sword", () -> new SwordItem(Tiers.IRON, 3, -2.4F, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 
-    public static final RegistryObject<Item> VIGNASS_PICKAXE = ITEMS.register("vignass_pickaxe", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
-    public static final RegistryObject<Item> VIGNASS_AXE = ITEMS.register("vignass_axe", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
-    public static final RegistryObject<Item> VIGNASS_HOE = ITEMS.register("vignass_hoe", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
-    public static final RegistryObject<Item> VIGNASS_SHOVEL = ITEMS.register("vignass_shovel", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
-    public static final RegistryObject<Item> VIGNASS_SWORD = ITEMS.register("vignass_sword", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> VIGNASS_PICKAXE = ITEMS.register("vignass_pickaxe", () -> new PickaxeItem(Tiers.IRON, 1, -2.8F, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
+    public static final RegistryObject<Item> VIGNASS_AXE = ITEMS.register("vignass_axe", () -> new AxeItem(Tiers.IRON, 6, -3.1F, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
+    public static final RegistryObject<Item> VIGNASS_HOE = ITEMS.register("vignass_hoe", () -> new HoeItem(Tiers.IRON, -2, -1.0F, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
+    public static final RegistryObject<Item> VIGNASS_SHOVEL = ITEMS.register("vignass_shovel", () -> new ShovelItem(Tiers.IRON, 1.5F, -3.0F, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
+    public static final RegistryObject<Item> VIGNASS_SWORD = ITEMS.register("vignass_sword", () -> new SwordItem(Tiers.IRON, 3, -2.4F, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 
-    public static final RegistryObject<Item> JEPERCKSTONE_PICKAXE = ITEMS.register("jeperckstone_pickaxe", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
-    public static final RegistryObject<Item> JEPERCKSTONE_AXE = ITEMS.register("jeperckstone_axe", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
-    public static final RegistryObject<Item> JEPERCKSTONE_HOE = ITEMS.register("jeperckstone_hoe", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
-    public static final RegistryObject<Item> JEPERCKSTONE_SHOVEL = ITEMS.register("jeperckstone_shovel", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
-    public static final RegistryObject<Item> JEPERCKSTONE_SWORD = ITEMS.register("jeperckstone_sword", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> JEPERCKSTONE_PICKAXE = ITEMS.register("jeperckstone_pickaxe", () -> new PickaxeItem(Tiers.IRON, 1, -2.8F, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
+    public static final RegistryObject<Item> JEPERCKSTONE_AXE = ITEMS.register("jeperckstone_axe", () -> new AxeItem(Tiers.IRON, 6, -3.1F, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
+    public static final RegistryObject<Item> JEPERCKSTONE_HOE = ITEMS.register("jeperckstone_hoe", () -> new HoeItem(Tiers.IRON, -2, -1.0F, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
+    public static final RegistryObject<Item> JEPERCKSTONE_SHOVEL = ITEMS.register("jeperckstone_shovel", () -> new ShovelItem(Tiers.IRON, 1.5F, -3.0F, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
+    public static final RegistryObject<Item> JEPERCKSTONE_SWORD = ITEMS.register("jeperckstone_sword", () -> new SwordItem(Tiers.IRON, 3, -2.4F, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 
-    public static final RegistryObject<Item> HELMINIUM_PICKAXE = ITEMS.register("helminium_pickaxe", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
-    public static final RegistryObject<Item> HELMINIUM_AXE = ITEMS.register("helminium_axe", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
-    public static final RegistryObject<Item> HELMINIUM_HOE = ITEMS.register("helminium_hoe", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
-    public static final RegistryObject<Item> HELMINIUM_SHOVEL = ITEMS.register("helminium_shovel", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
-    public static final RegistryObject<Item> HELMINIUM_SWORD = ITEMS.register("helminium_sword", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> HELMINIUM_PICKAXE = ITEMS.register("helminium_pickaxe", () -> new PickaxeItem(Tiers.IRON, 1, -2.8F, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
+    public static final RegistryObject<Item> HELMINIUM_AXE = ITEMS.register("helminium_axe", () -> new AxeItem(Tiers.IRON, 6, -3.1F, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
+    public static final RegistryObject<Item> HELMINIUM_HOE = ITEMS.register("helminium_hoe", () -> new HoeItem(Tiers.IRON, -2, -1.0F, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
+    public static final RegistryObject<Item> HELMINIUM_SHOVEL = ITEMS.register("helminium_shovel", () -> new ShovelItem(Tiers.IRON, 1.5F, -3.0F, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
+    public static final RegistryObject<Item> HELMINIUM_SWORD = ITEMS.register("helminium_sword", () -> new SwordItem(Tiers.IRON, 3, -2.4F, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 
-    public static final RegistryObject<Item> RAGOUTON_PICKAXE = ITEMS.register("ragouton_pickaxe", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
-    public static final RegistryObject<Item> RAGOUTON_AXE = ITEMS.register("ragouton_axe", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
-    public static final RegistryObject<Item> RAGOUTON_HOE = ITEMS.register("ragouton_hoe", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
-    public static final RegistryObject<Item> RAGOUTON_SHOVEL = ITEMS.register("ragouton_shovel", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
-    public static final RegistryObject<Item> RAGOUTON_SWORD = ITEMS.register("ragouton_sword", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> RAGOUTON_PICKAXE = ITEMS.register("ragouton_pickaxe", () -> new PickaxeItem(Tiers.IRON, 1, -2.8F, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
+    public static final RegistryObject<Item> RAGOUTON_AXE = ITEMS.register("ragouton_axe", () -> new AxeItem(Tiers.IRON, 6, -3.1F, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
+    public static final RegistryObject<Item> RAGOUTON_HOE = ITEMS.register("ragouton_hoe", () -> new HoeItem(Tiers.IRON, -2, -1.0F, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
+    public static final RegistryObject<Item> RAGOUTON_SHOVEL = ITEMS.register("ragouton_shovel", () -> new ShovelItem(Tiers.IRON, 1.5F, -3.0F, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
+    public static final RegistryObject<Item> RAGOUTON_SWORD = ITEMS.register("ragouton_sword", () -> new SwordItem(Tiers.IRON, 3, -2.4F, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 
-    public static final RegistryObject<Item> EISSELTE_PICKAXE = ITEMS.register("eisselte_pickaxe", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
-    public static final RegistryObject<Item> EISSELTE_AXE = ITEMS.register("eisselte_axe", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
-    public static final RegistryObject<Item> EISSELTE_HOE = ITEMS.register("eisselte_hoe", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
-    public static final RegistryObject<Item> EISSELTE_SHOVEL = ITEMS.register("eisselte_shovel", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
-    public static final RegistryObject<Item> EISSELTE_SWORD = ITEMS.register("eisselte_sword", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<Item> EISSELTE_PICKAXE = ITEMS.register("eisselte_pickaxe", () -> new PickaxeItem(Tiers.IRON, 1, -2.8F, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
+    public static final RegistryObject<Item> EISSELTE_AXE = ITEMS.register("eisselte_axe", () -> new AxeItem(Tiers.IRON, 6, -3.1F, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
+    public static final RegistryObject<Item> EISSELTE_HOE = ITEMS.register("eisselte_hoe", () -> new HoeItem(Tiers.IRON, -2, -1.0F, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
+    public static final RegistryObject<Item> EISSELTE_SHOVEL = ITEMS.register("eisselte_shovel", () -> new ShovelItem(Tiers.IRON, 1.5F, -3.0F, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
+    public static final RegistryObject<Item> EISSELTE_SWORD = ITEMS.register("eisselte_sword", () -> new SwordItem(Tiers.IRON, 3, -2.4F, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 
     public static final RegistryObject<Item> MANXIUM_HELMET = ITEMS.register("manxium_helmet", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
     public static final RegistryObject<Item> MANXIUM_CHESTPLATE = ITEMS.register("manxium_chestplate", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
