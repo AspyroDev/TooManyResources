@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "toomanyresources:voluciera_block"
+    }
+  ],
+  "result": {
+    "item": "toomanyresources:voluciera_ingot",
+    "count": 9
+  }
+}

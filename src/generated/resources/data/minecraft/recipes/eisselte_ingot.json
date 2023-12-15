@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "toomanyresources:eisselte_block"
+    }
+  ],
+  "result": {
+    "item": "toomanyresources:eisselte_ingot",
+    "count": 9
+  }
+}

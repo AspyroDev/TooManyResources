@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "toomanyresources:blue_dragcite_ingot"
+    }
+  },
+  "result": {
+    "item": "toomanyresources:blue_dragcite_block"
+  }
+}
