@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "toomanyresources:yggs_ingot"
+    },
+    {
+      "item": "toomanyresources:yggs_ingot"
+    },
+    {
+      "item": "toomanyresources:yggs_ingot"
+    },
+    {
+      "item": "toomanyresources:yggs_ingot"
+    },
+    {
+      "item": "toomanyresources:yggs_ingot"
+    },
+    {
+      "item": "toomanyresources:yggs_ingot"
+    },
+    {
+      "item": "toomanyresources:yggs_ingot"
+    },
+    {
+      "item": "toomanyresources:yggs_ingot"
+    },
+    {
+      "item": "toomanyresources:yggs_ingot"
+    }
+  ],
+  "result": {
+    "item": "toomanyresources:yggs_block"
+  }
+}

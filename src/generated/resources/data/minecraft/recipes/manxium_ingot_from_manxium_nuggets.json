@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "toomanyresources:manxium_nugget"
+    },
+    {
+      "item": "toomanyresources:manxium_nugget"
+    },
+    {
+      "item": "toomanyresources:manxium_nugget"
+    },
+    {
+      "item": "toomanyresources:manxium_nugget"
+    },
+    {
+      "item": "toomanyresources:manxium_nugget"
+    },
+    {
+      "item": "toomanyresources:manxium_nugget"
+    },
+    {
+      "item": "toomanyresources:manxium_nugget"
+    },
+    {
+      "item": "toomanyresources:manxium_nugget"
+    },
+    {
+      "item": "toomanyresources:manxium_nugget"
+    }
+  ],
+  "result": {
+    "item": "toomanyresources:manxium_ingot"
+  }
+}

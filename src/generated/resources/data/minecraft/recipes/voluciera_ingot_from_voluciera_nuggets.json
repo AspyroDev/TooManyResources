@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "toomanyresources:voluciera_nugget"
+    },
+    {
+      "item": "toomanyresources:voluciera_nugget"
+    },
+    {
+      "item": "toomanyresources:voluciera_nugget"
+    },
+    {
+      "item": "toomanyresources:voluciera_nugget"
+    },
+    {
+      "item": "toomanyresources:voluciera_nugget"
+    },
+    {
+      "item": "toomanyresources:voluciera_nugget"
+    },
+    {
+      "item": "toomanyresources:voluciera_nugget"
+    },
+    {
+      "item": "toomanyresources:voluciera_nugget"
+    },
+    {
+      "item": "toomanyresources:voluciera_nugget"
+    }
+  ],
+  "result": {
+    "item": "toomanyresources:voluciera_ingot"
+  }
+}

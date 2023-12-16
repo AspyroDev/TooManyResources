@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "toomanyresources:manxium_ingot"
+    }
+  ],
+  "result": {
+    "item": "toomanyresources:manxium_nugget",
+    "count": 9
+  }
+}

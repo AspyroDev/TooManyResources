@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "toomanyresources:tarmenis_ingot"
+    }
+  ],
+  "result": {
+    "item": "toomanyresources:tarmenis_nugget",
+    "count": 9
+  }
+}

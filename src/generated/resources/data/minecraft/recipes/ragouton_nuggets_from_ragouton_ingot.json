@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "toomanyresources:ragouton_ingot"
+    }
+  ],
+  "result": {
+    "item": "toomanyresources:ragouton_nugget",
+    "count": 9
+  }
+}

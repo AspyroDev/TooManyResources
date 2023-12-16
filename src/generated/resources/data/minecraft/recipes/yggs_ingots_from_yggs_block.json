@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "toomanyresources:yggs_block"
+    }
+  ],
+  "result": {
+    "item": "toomanyresources:yggs_ingot",
+    "count": 9
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "toomanyresources:ohly_nugget"
+    },
+    {
+      "item": "toomanyresources:ohly_nugget"
+    },
+    {
+      "item": "toomanyresources:ohly_nugget"
+    },
+    {
+      "item": "toomanyresources:ohly_nugget"
+    },
+    {
+      "item": "toomanyresources:ohly_nugget"
+    },
+    {
+      "item": "toomanyresources:ohly_nugget"
+    },
+    {
+      "item": "toomanyresources:ohly_nugget"
+    },
+    {
+      "item": "toomanyresources:ohly_nugget"
+    },
+    {
+      "item": "toomanyresources:ohly_nugget"
+    }
+  ],
+  "result": {
+    "item": "toomanyresources:ohly_ingot"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "toomanyresources:vignass_ingot"
+    }
+  ],
+  "result": {
+    "item": "toomanyresources:vignass_nugget",
+    "count": 9
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "toomanyresources:slithese_ingot"
+    }
+  ],
+  "result": {
+    "item": "toomanyresources:slithese_nugget",
+    "count": 9
+  }
+}

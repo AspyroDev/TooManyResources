@@ -167,15 +167,173 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         ItemPredicate.Builder.item().of(ModItems.KIRIONITE_INGOT.get()).build()))
                 .save(consumer, "kirionite_ingots_from_kirionite_block");
 
+        ShapelessRecipeBuilder.shapeless(ModItems.MANXIUM_INGOT.get(), 1)
+                .requires(ModItems.MANXIUM_NUGGET.get(), 9)
+                .unlockedBy("has_manxium_ingot", inventoryTrigger(
+                        ItemPredicate.Builder.item().of(ModItems.MANXIUM_INGOT.get()).build()))
+                .save(consumer, "manxium_ingot_from_manxium_nuggets");
+        ShapelessRecipeBuilder.shapeless(ModItems.MANXIUM_NUGGET.get(), 9)
+                .requires(ModItems.MANXIUM_INGOT.get(), 1)
+                .unlockedBy("has_manxium_ingot", inventoryTrigger(
+                        ItemPredicate.Builder.item().of(ModItems.MANXIUM_INGOT.get()).build()))
+                .save(consumer, "manxium_nuggets_from_manxium_ingot");
+        ShapelessRecipeBuilder.shapeless(ModBlocks.MANXIUM_BLOCK.get(), 1)
+                .requires(ModItems.MANXIUM_INGOT.get(), 9)
+                .unlockedBy("has_manxium_ingot", inventoryTrigger(
+                        ItemPredicate.Builder.item().of(ModItems.MANXIUM_INGOT.get()).build()))
+                .save(consumer, "manxium_block_from_manxium_ingots");
+        ShapelessRecipeBuilder.shapeless(ModItems.MANXIUM_INGOT.get(), 9)
+                .requires(ModBlocks.MANXIUM_BLOCK.get(), 1)
+                .unlockedBy("has_manxium_ingot", inventoryTrigger(
+                        ItemPredicate.Builder.item().of(ModItems.MANXIUM_INGOT.get()).build()))
+                .save(consumer, "manxium_ingots_from_manxium_block");
 
+        ShapelessRecipeBuilder.shapeless(ModItems.OHLY_INGOT.get(), 1)
+                .requires(ModItems.OHLY_NUGGET.get(), 9)
+                .unlockedBy("has_ohly_ingot", inventoryTrigger(
+                        ItemPredicate.Builder.item().of(ModItems.OHLY_INGOT.get()).build()))
+                .save(consumer, "ohly_ingot_from_ohly_nuggets");
+        ShapelessRecipeBuilder.shapeless(ModItems.OHLY_NUGGET.get(), 9)
+                .requires(ModItems.OHLY_INGOT.get(), 1)
+                .unlockedBy("has_ohly_ingot", inventoryTrigger(
+                        ItemPredicate.Builder.item().of(ModItems.OHLY_INGOT.get()).build()))
+                .save(consumer, "ohly_nuggets_from_ohly_ingot");
+        ShapelessRecipeBuilder.shapeless(ModBlocks.OHLY_BLOCK.get(), 1)
+                .requires(ModItems.OHLY_INGOT.get(), 9)
+                .unlockedBy("has_ohly_ingot", inventoryTrigger(
+                        ItemPredicate.Builder.item().of(ModItems.OHLY_INGOT.get()).build()))
+                .save(consumer, "ohly_block_from_ohly_ingots");
+        ShapelessRecipeBuilder.shapeless(ModItems.OHLY_INGOT.get(), 9)
+                .requires(ModBlocks.OHLY_BLOCK.get(), 1)
+                .unlockedBy("has_ohly_ingot", inventoryTrigger(
+                        ItemPredicate.Builder.item().of(ModItems.OHLY_INGOT.get()).build()))
+                .save(consumer, "ohly_ingots_from_ohly_block");
 
-        /*nineBlockStorageRecipes(consumer, ModItems.MANXIUM_INGOT.get(), ModBlocks.MANXIUM_BLOCK.get());
-        nineBlockStorageRecipes(consumer, ModItems.SLITHESE_INGOT.get(), ModBlocks.SLITHESE_BLOCK.get());
-        nineBlockStorageRecipes(consumer, ModItems.VOLUCIERA_INGOT.get(), ModBlocks.VOLUCIERA_BLOCK.get());
-        nineBlockStorageRecipes(consumer, ModItems.YGGS_INGOT.get(), ModBlocks.YGGS_BLOCK.get());
-        nineBlockStorageRecipes(consumer, ModItems.OHLY_INGOT.get(), ModBlocks.OHLY_BLOCK.get());
-        nineBlockStorageRecipes(consumer, ModItems.TARMENIS_INGOT.get(), ModBlocks.TARMENIS_BLOCK.get());
-        nineBlockStorageRecipes(consumer, ModItems.VIGNASS_INGOT.get(), ModBlocks.VIGNASS_BLOCK.get());
-        nineBlockStorageRecipes(consumer, ModItems.RAGOUTON_INGOT.get(), ModBlocks.RAGOUTON_BLOCK.get());*/
+        ShapelessRecipeBuilder.shapeless(ModItems.RAGOUTON_INGOT.get(), 1)
+                .requires(ModItems.RAGOUTON_NUGGET.get(), 9)
+                .unlockedBy("has_ragouton_ingot", inventoryTrigger(
+                        ItemPredicate.Builder.item().of(ModItems.RAGOUTON_INGOT.get()).build()))
+                .save(consumer, "ragouton_ingot_from_ragouton_nuggets");
+        ShapelessRecipeBuilder.shapeless(ModItems.RAGOUTON_NUGGET.get(), 9)
+                .requires(ModItems.RAGOUTON_INGOT.get(), 1)
+                .unlockedBy("has_ragouton_ingot", inventoryTrigger(
+                        ItemPredicate.Builder.item().of(ModItems.RAGOUTON_INGOT.get()).build()))
+                .save(consumer, "ragouton_nuggets_from_ragouton_ingot");
+        ShapelessRecipeBuilder.shapeless(ModBlocks.RAGOUTON_BLOCK.get(), 1)
+                .requires(ModItems.RAGOUTON_INGOT.get(), 9)
+                .unlockedBy("has_ragouton_ingot", inventoryTrigger(
+                        ItemPredicate.Builder.item().of(ModItems.RAGOUTON_INGOT.get()).build()))
+                .save(consumer, "ragouton_block_from_ragouton_ingots");
+        ShapelessRecipeBuilder.shapeless(ModItems.RAGOUTON_INGOT.get(), 9)
+                .requires(ModBlocks.RAGOUTON_BLOCK.get(), 1)
+                .unlockedBy("has_ragouton_ingot", inventoryTrigger(
+                        ItemPredicate.Builder.item().of(ModItems.RAGOUTON_INGOT.get()).build()))
+                .save(consumer, "ragouton_ingots_from_ragouton_block");
+
+        ShapelessRecipeBuilder.shapeless(ModItems.SLITHESE_INGOT.get(), 1)
+                .requires(ModItems.SLITHESE_NUGGET.get(), 9)
+                .unlockedBy("has_slithese_ingot", inventoryTrigger(
+                        ItemPredicate.Builder.item().of(ModItems.SLITHESE_INGOT.get()).build()))
+                .save(consumer, "slithese_ingot_from_slithese_nuggets");
+        ShapelessRecipeBuilder.shapeless(ModItems.SLITHESE_NUGGET.get(), 9)
+                .requires(ModItems.SLITHESE_INGOT.get(), 1)
+                .unlockedBy("has_slithese_ingot", inventoryTrigger(
+                        ItemPredicate.Builder.item().of(ModItems.SLITHESE_INGOT.get()).build()))
+                .save(consumer, "slithese_nuggets_from_slithese_ingot");
+        ShapelessRecipeBuilder.shapeless(ModBlocks.SLITHESE_BLOCK.get(), 1)
+                .requires(ModItems.SLITHESE_INGOT.get(), 9)
+                .unlockedBy("has_slithese_ingot", inventoryTrigger(
+                        ItemPredicate.Builder.item().of(ModItems.SLITHESE_INGOT.get()).build()))
+                .save(consumer, "slithese_block_from_slithese_ingots");
+        ShapelessRecipeBuilder.shapeless(ModItems.SLITHESE_INGOT.get(), 9)
+                .requires(ModBlocks.SLITHESE_BLOCK.get(), 1)
+                .unlockedBy("has_slithese_ingot", inventoryTrigger(
+                        ItemPredicate.Builder.item().of(ModItems.SLITHESE_INGOT.get()).build()))
+                .save(consumer, "slithese_ingots_from_slithese_block");
+
+        ShapelessRecipeBuilder.shapeless(ModItems.TARMENIS_INGOT.get(), 1)
+                .requires(ModItems.TARMENIS_NUGGET.get(), 9)
+                .unlockedBy("has_tarmenis_ingot", inventoryTrigger(
+                        ItemPredicate.Builder.item().of(ModItems.TARMENIS_INGOT.get()).build()))
+                .save(consumer, "tarmenis_ingot_from_tarmenis_nuggets");
+        ShapelessRecipeBuilder.shapeless(ModItems.TARMENIS_NUGGET.get(), 9)
+                .requires(ModItems.TARMENIS_INGOT.get(), 1)
+                .unlockedBy("has_tarmenis_ingot", inventoryTrigger(
+                        ItemPredicate.Builder.item().of(ModItems.TARMENIS_INGOT.get()).build()))
+                .save(consumer, "tarmenis_nuggets_from_tarmenis_ingot");
+        ShapelessRecipeBuilder.shapeless(ModBlocks.TARMENIS_BLOCK.get(), 1)
+                .requires(ModItems.TARMENIS_INGOT.get(), 9)
+                .unlockedBy("has_tarmenis_ingot", inventoryTrigger(
+                        ItemPredicate.Builder.item().of(ModItems.TARMENIS_INGOT.get()).build()))
+                .save(consumer, "tarmenis_block_from_tarmenis_ingots");
+        ShapelessRecipeBuilder.shapeless(ModItems.TARMENIS_INGOT.get(), 9)
+                .requires(ModBlocks.TARMENIS_BLOCK.get(), 1)
+                .unlockedBy("has_tarmenis_ingot", inventoryTrigger(
+                        ItemPredicate.Builder.item().of(ModItems.TARMENIS_INGOT.get()).build()))
+                .save(consumer, "tarmenis_ingots_from_tarmenis_block");
+
+        ShapelessRecipeBuilder.shapeless(ModItems.VIGNASS_INGOT.get(), 1)
+                .requires(ModItems.VIGNASS_NUGGET.get(), 9)
+                .unlockedBy("has_vignass_ingot", inventoryTrigger(
+                        ItemPredicate.Builder.item().of(ModItems.VIGNASS_INGOT.get()).build()))
+                .save(consumer, "vignass_ingot_from_vignass_nuggets");
+        ShapelessRecipeBuilder.shapeless(ModItems.VIGNASS_NUGGET.get(), 9)
+                .requires(ModItems.VIGNASS_INGOT.get(), 1)
+                .unlockedBy("has_vignass_ingot", inventoryTrigger(
+                        ItemPredicate.Builder.item().of(ModItems.VIGNASS_INGOT.get()).build()))
+                .save(consumer, "vignass_nuggets_from_vignass_ingot");
+        ShapelessRecipeBuilder.shapeless(ModBlocks.VIGNASS_BLOCK.get(), 1)
+                .requires(ModItems.VIGNASS_INGOT.get(), 9)
+                .unlockedBy("has_vignass_ingot", inventoryTrigger(
+                        ItemPredicate.Builder.item().of(ModItems.VIGNASS_INGOT.get()).build()))
+                .save(consumer, "vignass_block_from_vignass_ingots");
+        ShapelessRecipeBuilder.shapeless(ModItems.VIGNASS_INGOT.get(), 9)
+                .requires(ModBlocks.VIGNASS_BLOCK.get(), 1)
+                .unlockedBy("has_vignass_ingot", inventoryTrigger(
+                        ItemPredicate.Builder.item().of(ModItems.VIGNASS_INGOT.get()).build()))
+                .save(consumer, "vignass_ingots_from_vignass_block");
+
+        ShapelessRecipeBuilder.shapeless(ModItems.VOLUCIERA_INGOT.get(), 1)
+                .requires(ModItems.VOLUCIERA_NUGGET.get(), 9)
+                .unlockedBy("has_voluciera_ingot", inventoryTrigger(
+                        ItemPredicate.Builder.item().of(ModItems.VOLUCIERA_INGOT.get()).build()))
+                .save(consumer, "voluciera_ingot_from_voluciera_nuggets");
+        ShapelessRecipeBuilder.shapeless(ModItems.VOLUCIERA_NUGGET.get(), 9)
+                .requires(ModItems.VOLUCIERA_INGOT.get(), 1)
+                .unlockedBy("has_voluciera_ingot", inventoryTrigger(
+                        ItemPredicate.Builder.item().of(ModItems.VOLUCIERA_INGOT.get()).build()))
+                .save(consumer, "voluciera_nuggets_from_voluciera_ingot");
+        ShapelessRecipeBuilder.shapeless(ModBlocks.VOLUCIERA_BLOCK.get(), 1)
+                .requires(ModItems.VOLUCIERA_INGOT.get(), 9)
+                .unlockedBy("has_voluciera_ingot", inventoryTrigger(
+                        ItemPredicate.Builder.item().of(ModItems.VOLUCIERA_INGOT.get()).build()))
+                .save(consumer, "voluciera_block_from_voluciera_ingots");
+        ShapelessRecipeBuilder.shapeless(ModItems.VOLUCIERA_INGOT.get(), 9)
+                .requires(ModBlocks.VOLUCIERA_BLOCK.get(), 1)
+                .unlockedBy("has_voluciera_ingot", inventoryTrigger(
+                        ItemPredicate.Builder.item().of(ModItems.VOLUCIERA_INGOT.get()).build()))
+                .save(consumer, "voluciera_ingots_from_voluciera_block");
+
+        ShapelessRecipeBuilder.shapeless(ModItems.YGGS_INGOT.get(), 1)
+                .requires(ModItems.YGGS_NUGGET.get(), 9)
+                .unlockedBy("has_yggs_ingot", inventoryTrigger(
+                        ItemPredicate.Builder.item().of(ModItems.YGGS_INGOT.get()).build()))
+                .save(consumer, "yggs_ingot_from_yggs_nuggets");
+        ShapelessRecipeBuilder.shapeless(ModItems.YGGS_NUGGET.get(), 9)
+                .requires(ModItems.YGGS_INGOT.get(), 1)
+                .unlockedBy("has_yggs_ingot", inventoryTrigger(
+                        ItemPredicate.Builder.item().of(ModItems.YGGS_INGOT.get()).build()))
+                .save(consumer, "yggs_nuggets_from_yggs_ingot");
+        ShapelessRecipeBuilder.shapeless(ModBlocks.YGGS_BLOCK.get(), 1)
+                .requires(ModItems.YGGS_INGOT.get(), 9)
+                .unlockedBy("has_yggs_ingot", inventoryTrigger(
+                        ItemPredicate.Builder.item().of(ModItems.YGGS_INGOT.get()).build()))
+                .save(consumer, "yggs_block_fromyggs_ingots");
+        ShapelessRecipeBuilder.shapeless(ModItems.YGGS_INGOT.get(), 9)
+                .requires(ModBlocks.YGGS_BLOCK.get(), 1)
+                .unlockedBy("has_yggs_ingot", inventoryTrigger(
+                        ItemPredicate.Builder.item().of(ModItems.YGGS_INGOT.get()).build()))
+                .save(consumer, "yggs_ingots_from_yggs_block");
+
     }
 }

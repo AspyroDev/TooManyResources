@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "toomanyresources:slithese_ingot"
+    },
+    {
+      "item": "toomanyresources:slithese_ingot"
+    },
+    {
+      "item": "toomanyresources:slithese_ingot"
+    },
+    {
+      "item": "toomanyresources:slithese_ingot"
+    },
+    {
+      "item": "toomanyresources:slithese_ingot"
+    },
+    {
+      "item": "toomanyresources:slithese_ingot"
+    },
+    {
+      "item": "toomanyresources:slithese_ingot"
+    },
+    {
+      "item": "toomanyresources:slithese_ingot"
+    },
+    {
+      "item": "toomanyresources:slithese_ingot"
+    }
+  ],
+  "result": {
+    "item": "toomanyresources:slithese_block"
+  }
+}
