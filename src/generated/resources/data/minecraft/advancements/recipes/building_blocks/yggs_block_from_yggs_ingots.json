@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "minecraft:yggs_block_fromyggs_ingots"
+      "minecraft:yggs_block_from_yggs_ingots"
     ]
   },
   "criteria": {
@@ -21,7 +21,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "minecraft:yggs_block_fromyggs_ingots"
+        "recipe": "minecraft:yggs_block_from_yggs_ingots"
       }
     }
   },
