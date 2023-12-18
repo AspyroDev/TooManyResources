@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "toomanyresources:compressed_voluciera_block_2"
+    }
+  ],
+  "result": {
+    "item": "toomanyresources:compressed_voluciera_block_1",
+    "count": 9
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "toomanyresources:compressed_manxium_block_8"
+    }
+  ],
+  "result": {
+    "item": "toomanyresources:compressed_manxium_block_7",
+    "count": 9
+  }
+}

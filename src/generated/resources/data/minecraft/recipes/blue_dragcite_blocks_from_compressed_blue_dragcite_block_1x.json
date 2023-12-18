@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "toomanyresources:compressed_blue_dragcite_block_1"
+    }
+  ],
+  "result": {
+    "item": "toomanyresources:blue_dragcite_block",
+    "count": 9
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "toomanyresources:helminium_block"
+    },
+    {
+      "item": "toomanyresources:helminium_block"
+    },
+    {
+      "item": "toomanyresources:helminium_block"
+    },
+    {
+      "item": "toomanyresources:helminium_block"
+    },
+    {
+      "item": "toomanyresources:helminium_block"
+    },
+    {
+      "item": "toomanyresources:helminium_block"
+    },
+    {
+      "item": "toomanyresources:helminium_block"
+    },
+    {
+      "item": "toomanyresources:helminium_block"
+    },
+    {
+      "item": "toomanyresources:helminium_block"
+    }
+  ],
+  "result": {
+    "item": "toomanyresources:compressed_helminium_block_1"
+  }
+}

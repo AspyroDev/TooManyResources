@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "toomanyresources:compressed_tarmenis_block_1"
+    }
+  ],
+  "result": {
+    "item": "toomanyresources:tarmenis_block",
+    "count": 9
+  }
+}

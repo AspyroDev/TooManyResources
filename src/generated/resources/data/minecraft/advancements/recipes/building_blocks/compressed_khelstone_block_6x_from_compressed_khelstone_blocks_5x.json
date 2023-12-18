@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:compressed_khelstone_block_6x_from_compressed_khelstone_blocks_5x"
+    ]
+  },
+  "criteria": {
+    "has_khelstone_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "toomanyresources:khelstone_ingot"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:compressed_khelstone_block_6x_from_compressed_khelstone_blocks_5x"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_khelstone_ingot",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "toomanyresources:ragouton_block"
+    },
+    {
+      "item": "toomanyresources:ragouton_block"
+    },
+    {
+      "item": "toomanyresources:ragouton_block"
+    },
+    {
+      "item": "toomanyresources:ragouton_block"
+    },
+    {
+      "item": "toomanyresources:ragouton_block"
+    },
+    {
+      "item": "toomanyresources:ragouton_block"
+    },
+    {
+      "item": "toomanyresources:ragouton_block"
+    },
+    {
+      "item": "toomanyresources:ragouton_block"
+    },
+    {
+      "item": "toomanyresources:ragouton_block"
+    }
+  ],
+  "result": {
+    "item": "toomanyresources:compressed_ragouton_block_1"
+  }
+}

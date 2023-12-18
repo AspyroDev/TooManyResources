@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "toomanyresources:khelstone_block"
+    },
+    {
+      "item": "toomanyresources:khelstone_block"
+    },
+    {
+      "item": "toomanyresources:khelstone_block"
+    },
+    {
+      "item": "toomanyresources:khelstone_block"
+    },
+    {
+      "item": "toomanyresources:khelstone_block"
+    },
+    {
+      "item": "toomanyresources:khelstone_block"
+    },
+    {
+      "item": "toomanyresources:khelstone_block"
+    },
+    {
+      "item": "toomanyresources:khelstone_block"
+    },
+    {
+      "item": "toomanyresources:khelstone_block"
+    }
+  ],
+  "result": {
+    "item": "toomanyresources:compressed_khelstone_block_1"
+  }
+}

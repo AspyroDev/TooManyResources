@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "toomanyresources:compressed_kirionite_block_1"
+    }
+  ],
+  "result": {
+    "item": "toomanyresources:kirionite_block",
+    "count": 9
+  }
+}

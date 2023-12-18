@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "toomanyresources:compressed_helminium_block_6"
+    }
+  ],
+  "result": {
+    "item": "toomanyresources:compressed_helminium_block_5",
+    "count": 9
+  }
+}

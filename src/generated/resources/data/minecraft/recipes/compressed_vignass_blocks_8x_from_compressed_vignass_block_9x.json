@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "toomanyresources:compressed_vignass_block_9"
+    }
+  ],
+  "result": {
+    "item": "toomanyresources:compressed_vignass_block_8",
+    "count": 9
+  }
+}
