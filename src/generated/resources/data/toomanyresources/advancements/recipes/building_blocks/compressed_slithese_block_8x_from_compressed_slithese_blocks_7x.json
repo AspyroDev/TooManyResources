@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "toomanyresources:compressed_slithese_block_8x_from_compressed_slithese_blocks_7x"
+    ]
+  },
+  "criteria": {
+    "has_slithese_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "toomanyresources:slithese_ingot"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "toomanyresources:compressed_slithese_block_8x_from_compressed_slithese_blocks_7x"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_slithese_ingot",
+      "has_the_recipe"
+    ]
+  ]
+}

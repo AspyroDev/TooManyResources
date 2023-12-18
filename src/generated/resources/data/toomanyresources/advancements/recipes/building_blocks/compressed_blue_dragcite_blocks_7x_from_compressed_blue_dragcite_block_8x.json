@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "toomanyresources:compressed_blue_dragcite_blocks_7x_from_compressed_blue_dragcite_block_8x"
+    ]
+  },
+  "criteria": {
+    "has_blue_dragcite_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "toomanyresources:blue_dragcite_ingot"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "toomanyresources:compressed_blue_dragcite_blocks_7x_from_compressed_blue_dragcite_block_8x"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_blue_dragcite_ingot",
+      "has_the_recipe"
+    ]
+  ]
+}

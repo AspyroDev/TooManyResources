@@ -1,5 +1,6 @@
 package dev.aspyro.toomanyresources.datagen;
 
+import dev.aspyro.toomanyresources.TooManyResources;
 import dev.aspyro.toomanyresources.block.ModBlocks;
 import dev.aspyro.toomanyresources.item.ModItems;
 import net.minecraft.advancements.critereon.ItemPredicate;
@@ -780,7 +781,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(nuggetItem, 9)
                 .unlockedBy("has_" + getItemName(advancementItem),
                         inventoryTrigger(ItemPredicate.Builder.item().of(advancementItem).build()))
-                .save(consumer, getItemName(ingotItem) + "_from_" + getItemName(nuggetItem) + "s");
+                .save(consumer, TooManyResources.MOD_ID + ":" + getItemName(ingotItem) + "_from_" + getItemName(nuggetItem) + "s");
         }
 
     private void nuggetsFromIngotUnpacking(Consumer<FinishedRecipe> consumer, ItemLike nuggetItem,
@@ -790,7 +791,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(ingotItem, 1)
                 .unlockedBy("has_" + getItemName(advancementItem),
                         inventoryTrigger(ItemPredicate.Builder.item().of(advancementItem).build()))
-                .save(consumer, getItemName(nuggetItem) + "s_from_" + getItemName(ingotItem));
+                .save(consumer, TooManyResources.MOD_ID + ":" + getItemName(nuggetItem) + "s_from_" + getItemName(ingotItem));
     }
 
     private void blockFromIngotsPacking(Consumer<FinishedRecipe> consumer, ItemLike blockItem,
@@ -800,7 +801,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(ingotItem, 9)
                 .unlockedBy("has_" + getItemName(advancementItem), inventoryTrigger(
                         ItemPredicate.Builder.item().of(advancementItem).build()))
-                .save(consumer, getItemName(blockItem) + "_from_" + getItemName(ingotItem) + "s");
+                .save(consumer, TooManyResources.MOD_ID + ":" + getItemName(blockItem) + "_from_" + getItemName(ingotItem) + "s");
     }
 
     private void ingotsFromBlockUnpacking(Consumer<FinishedRecipe> consumer, ItemLike ingotItem,
@@ -810,7 +811,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(blockItem, 1)
                 .unlockedBy("has_" + getItemName(advancementItem), inventoryTrigger(
                         ItemPredicate.Builder.item().of(advancementItem).build()))
-                .save(consumer, getItemName(ingotItem) + "s_from_" + getItemName(blockItem));
+                .save(consumer, TooManyResources.MOD_ID + ":" + getItemName(ingotItem) + "s_from_" + getItemName(blockItem));
 
     }
 
@@ -820,7 +821,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(blockItem, 9)
                 .unlockedBy("has_" + getItemName(advancementItem),
                         inventoryTrigger(ItemPredicate.Builder.item().of(advancementItem).build()))
-                .save(consumer, recipeName);
+                .save(consumer, TooManyResources.MOD_ID + ":" + recipeName);
     }
 
     private void decompressBlock(Consumer<FinishedRecipe> consumer, ItemLike compressedItem, ItemLike blockItem,
@@ -829,7 +830,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(compressedItem, 1)
                 .unlockedBy("has_" + getItemName(advancementItem),
                         inventoryTrigger(ItemPredicate.Builder.item().of(advancementItem).build()))
-                .save(consumer, recipeName);
+                .save(consumer, TooManyResources.MOD_ID + ":" + recipeName);
     }
 
     private void pickaxeRecipe(Consumer<FinishedRecipe> consumer, ItemLike finishedPickaxe, ItemLike pickaxeMaterial) {
