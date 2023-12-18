@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX",
+    " #",
+    " #"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "toomanyresources:manxium_ingot"
+    }
+  },
+  "result": {
+    "item": "toomanyresources:manxium_hoe"
+  }
+}

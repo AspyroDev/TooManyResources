@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X X",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "toomanyresources:tarmenis_ingot"
+    }
+  },
+  "result": {
+    "item": "toomanyresources:tarmenis_chestplate"
+  }
+}

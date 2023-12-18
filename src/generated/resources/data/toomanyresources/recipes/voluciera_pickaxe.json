@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "toomanyresources:voluciera_ingot"
+    }
+  },
+  "result": {
+    "item": "toomanyresources:voluciera_pickaxe"
+  }
+}

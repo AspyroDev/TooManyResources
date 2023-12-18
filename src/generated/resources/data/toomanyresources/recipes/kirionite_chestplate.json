@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X X",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "toomanyresources:kirionite_ingot"
+    }
+  },
+  "result": {
+    "item": "toomanyresources:kirionite_chestplate"
+  }
+}

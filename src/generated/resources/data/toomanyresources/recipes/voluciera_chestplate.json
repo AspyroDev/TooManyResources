@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X X",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "toomanyresources:voluciera_ingot"
+    }
+  },
+  "result": {
+    "item": "toomanyresources:voluciera_chestplate"
+  }
+}

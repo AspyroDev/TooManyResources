@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "toomanyresources:eisselte_shovel"
+    ]
+  },
+  "criteria": {
+    "has_eisselte_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "toomanyresources:eisselte_ingot"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "toomanyresources:eisselte_shovel"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_eisselte_ingot",
+      "has_the_recipe"
+    ]
+  ]
+}

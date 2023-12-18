@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX",
+    "X#",
+    " #"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "toomanyresources:ragouton_ingot"
+    }
+  },
+  "result": {
+    "item": "toomanyresources:ragouton_axe"
+  }
+}

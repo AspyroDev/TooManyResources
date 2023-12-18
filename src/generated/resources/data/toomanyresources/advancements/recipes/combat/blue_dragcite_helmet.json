@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "toomanyresources:blue_dragcite_helmet"
+    ]
+  },
+  "criteria": {
+    "has_blue_dragcite_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "toomanyresources:blue_dragcite_ingot"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "toomanyresources:blue_dragcite_helmet"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_blue_dragcite_ingot",
+      "has_the_recipe"
+    ]
+  ]
+}

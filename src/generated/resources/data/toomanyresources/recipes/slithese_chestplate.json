@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X X",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "toomanyresources:slithese_ingot"
+    }
+  },
+  "result": {
+    "item": "toomanyresources:slithese_chestplate"
+  }
+}
