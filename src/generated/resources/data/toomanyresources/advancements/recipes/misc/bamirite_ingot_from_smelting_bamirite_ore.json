@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "toomanyresources:bamirite_ingot_from_smelting_bamirite_ore"
+    ]
+  },
+  "criteria": {
+    "has_bamirite_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "toomanyresources:bamirite_ore"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "toomanyresources:bamirite_ingot_from_smelting_bamirite_ore"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_bamirite_ore",
+      "has_the_recipe"
+    ]
+  ]
+}

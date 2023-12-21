@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "toomanyresources:jeperckstone_ingot_from_blasting_endstone_jeperckstone_ore"
+    ]
+  },
+  "criteria": {
+    "has_endstone_jeperckstone_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "toomanyresources:endstone_jeperckstone_ore"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "toomanyresources:jeperckstone_ingot_from_blasting_endstone_jeperckstone_ore"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_endstone_jeperckstone_ore",
+      "has_the_recipe"
+    ]
+  ]
+}

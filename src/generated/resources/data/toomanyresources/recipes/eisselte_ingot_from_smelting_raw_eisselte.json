@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "toomanyresources:raw_eisselte"
+  },
+  "result": "toomanyresources:eisselte_ingot",
+  "experience": 0.7,
+  "cookingtime": 100
+}

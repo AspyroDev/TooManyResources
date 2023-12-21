@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "toomanyresources:deepslate_jeperckstone_ore"
+  },
+  "result": "toomanyresources:jeperckstone_ingot",
+  "experience": 0.7,
+  "cookingtime": 100
+}

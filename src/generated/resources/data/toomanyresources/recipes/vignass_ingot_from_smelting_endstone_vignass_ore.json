@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "toomanyresources:endstone_vignass_ore"
+  },
+  "result": "toomanyresources:vignass_ingot",
+  "experience": 0.7,
+  "cookingtime": 100
+}

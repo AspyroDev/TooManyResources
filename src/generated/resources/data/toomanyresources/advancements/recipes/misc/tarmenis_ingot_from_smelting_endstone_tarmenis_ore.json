@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "toomanyresources:tarmenis_ingot_from_smelting_endstone_tarmenis_ore"
+    ]
+  },
+  "criteria": {
+    "has_endstone_tarmenis_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "toomanyresources:endstone_tarmenis_ore"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "toomanyresources:tarmenis_ingot_from_smelting_endstone_tarmenis_ore"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_endstone_tarmenis_ore",
+      "has_the_recipe"
+    ]
+  ]
+}

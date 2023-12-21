@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "toomanyresources:ragouton_ingot_from_smelting_netherrack_ragouton_ore"
+    ]
+  },
+  "criteria": {
+    "has_netherrack_ragouton_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "toomanyresources:netherrack_ragouton_ore"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "toomanyresources:ragouton_ingot_from_smelting_netherrack_ragouton_ore"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_netherrack_ragouton_ore",
+      "has_the_recipe"
+    ]
+  ]
+}

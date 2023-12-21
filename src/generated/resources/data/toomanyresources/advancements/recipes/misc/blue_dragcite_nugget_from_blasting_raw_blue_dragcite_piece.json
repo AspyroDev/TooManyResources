@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "toomanyresources:blue_dragcite_nugget_from_blasting_raw_blue_dragcite_piece"
+    ]
+  },
+  "criteria": {
+    "has_raw_blue_dragcite_piece": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "toomanyresources:raw_blue_dragcite_piece"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "toomanyresources:blue_dragcite_nugget_from_blasting_raw_blue_dragcite_piece"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_blue_dragcite_piece",
+      "has_the_recipe"
+    ]
+  ]
+}

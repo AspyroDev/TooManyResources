@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "toomanyresources:endstone_slithese_ore"
+  },
+  "result": "toomanyresources:slithese_ingot",
+  "experience": 0.7,
+  "cookingtime": 50
+}

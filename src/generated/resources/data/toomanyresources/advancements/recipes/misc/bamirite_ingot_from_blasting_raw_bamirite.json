@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "toomanyresources:bamirite_ingot_from_blasting_raw_bamirite"
+    ]
+  },
+  "criteria": {
+    "has_raw_bamirite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "toomanyresources:raw_bamirite"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "toomanyresources:bamirite_ingot_from_blasting_raw_bamirite"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_bamirite",
+      "has_the_recipe"
+    ]
+  ]
+}

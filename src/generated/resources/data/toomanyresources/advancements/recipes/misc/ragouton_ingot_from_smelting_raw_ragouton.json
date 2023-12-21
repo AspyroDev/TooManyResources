@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "toomanyresources:ragouton_ingot_from_smelting_raw_ragouton"
+    ]
+  },
+  "criteria": {
+    "has_raw_ragouton": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "toomanyresources:raw_ragouton"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "toomanyresources:ragouton_ingot_from_smelting_raw_ragouton"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_ragouton",
+      "has_the_recipe"
+    ]
+  ]
+}

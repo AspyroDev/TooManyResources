@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "toomanyresources:voluciera_ingot_from_smelting_endstone_voluciera_ore"
+    ]
+  },
+  "criteria": {
+    "has_endstone_voluciera_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "toomanyresources:endstone_voluciera_ore"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "toomanyresources:voluciera_ingot_from_smelting_endstone_voluciera_ore"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_endstone_voluciera_ore",
+      "has_the_recipe"
+    ]
+  ]
+}

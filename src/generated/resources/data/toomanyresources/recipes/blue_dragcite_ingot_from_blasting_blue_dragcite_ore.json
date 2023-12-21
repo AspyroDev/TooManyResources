@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "toomanyresources:blue_dragcite_ore"
+  },
+  "result": "toomanyresources:blue_dragcite_ingot",
+  "experience": 0.7,
+  "cookingtime": 50
+}

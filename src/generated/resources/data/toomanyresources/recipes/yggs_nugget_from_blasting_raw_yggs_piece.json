@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "toomanyresources:raw_yggs_piece"
+  },
+  "result": "toomanyresources:yggs_nugget",
+  "experience": 0.1,
+  "cookingtime": 50
+}

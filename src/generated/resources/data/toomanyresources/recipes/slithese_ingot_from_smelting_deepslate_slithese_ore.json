@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "toomanyresources:deepslate_slithese_ore"
+  },
+  "result": "toomanyresources:slithese_ingot",
+  "experience": 0.7,
+  "cookingtime": 100
+}

@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "toomanyresources:blue_dragcite_ingot_from_smelting_blue_dragcite_ore"
+    ]
+  },
+  "criteria": {
+    "has_blue_dragcite_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "toomanyresources:blue_dragcite_ore"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "toomanyresources:blue_dragcite_ingot_from_smelting_blue_dragcite_ore"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_blue_dragcite_ore",
+      "has_the_recipe"
+    ]
+  ]
+}

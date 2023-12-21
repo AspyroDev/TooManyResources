@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "toomanyresources:raw_jeperckstone_piece"
+  },
+  "result": "toomanyresources:jeperckstone_nugget",
+  "experience": 0.1,
+  "cookingtime": 50
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "toomanyresources:raw_khelstone_piece"
+  },
+  "result": "toomanyresources:khelstone_nugget",
+  "experience": 0.1,
+  "cookingtime": 100
+}

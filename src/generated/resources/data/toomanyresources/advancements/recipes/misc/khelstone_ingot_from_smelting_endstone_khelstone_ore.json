@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "toomanyresources:khelstone_ingot_from_smelting_endstone_khelstone_ore"
+    ]
+  },
+  "criteria": {
+    "has_endstone_khelstone_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "toomanyresources:endstone_khelstone_ore"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "toomanyresources:khelstone_ingot_from_smelting_endstone_khelstone_ore"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_endstone_khelstone_ore",
+      "has_the_recipe"
+    ]
+  ]
+}

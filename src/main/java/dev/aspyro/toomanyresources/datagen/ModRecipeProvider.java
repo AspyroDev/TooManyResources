@@ -1,18 +1,18 @@
 package dev.aspyro.toomanyresources.datagen;
 
+import com.google.common.collect.ImmutableList;
 import dev.aspyro.toomanyresources.TooManyResources;
 import dev.aspyro.toomanyresources.block.ModBlocks;
 import dev.aspyro.toomanyresources.item.ModItems;
 import net.minecraft.advancements.critereon.ItemPredicate;
 import net.minecraft.data.DataGenerator;
-import net.minecraft.data.recipes.FinishedRecipe;
-import net.minecraft.data.recipes.RecipeProvider;
-import net.minecraft.data.recipes.ShapedRecipeBuilder;
-import net.minecraft.data.recipes.ShapelessRecipeBuilder;
+import net.minecraft.data.recipes.*;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.item.crafting.*;
 import net.minecraft.world.level.ItemLike;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 
+import java.util.List;
 import java.util.function.Consumer;
 
 public class ModRecipeProvider extends RecipeProvider implements IConditionBuilder {
@@ -23,6 +23,25 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     @Override
     protected void buildCraftingRecipes(Consumer<FinishedRecipe> consumer) {
 
+        // BAMIRITE COOKING
+        oreSmelting(consumer, ModItems.BAMIRITE_INGOT.get(), ModItems.RAW_BAMIRITE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.BAMIRITE_NUGGET.get(), ModItems.RAW_BAMIRITE_PIECE.get(), 0.1F, 100);
+        oreSmelting(consumer, ModItems.BAMIRITE_INGOT.get(), ModBlocks.BAMIRITE_ORE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.BAMIRITE_INGOT.get(), ModBlocks.DEEPSLATE_BAMIRITE_ORE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.BAMIRITE_INGOT.get(), ModBlocks.NETHERRACK_BAMIRITE_ORE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.BAMIRITE_INGOT.get(), ModBlocks.ENDSTONE_BAMIRITE_ORE.get(), 0.7F, 100);
+        // oreSmelting(consumer, ModItems.BAMIRITE_NUGGET.get(), ModBlocks.POOR_BAMIRITE_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.BAMIRITE_NUGGET.get(), ModBlocks.POOR_DEEPSLATE_BAMIRITE_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.BAMIRITE_NUGGET.get(), ModBlocks.POOR_NETHERRACK_BAMIRITE_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.BAMIRITE_NUGGET.get(), ModBlocks.POOR_ENDSTONE_BAMIRITE_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.BAMIRITE_INGOT.get(), ModBlocks.RICH_BAMIRITE_ORE.get(), 1.1F, 100);
+        // oreSmelting(consumer, ModItems.BAMIRITE_INGOT.get(), ModBlocks.RICH_DEEPSLATE_BAMIRITE_ORE.get(), 1.1F, 100);
+        // oreSmelting(consumer, ModItems.BAMIRITE_INGOT.get(), ModBlocks.RICH_NETHERRACK_BAMIRITE_ORE.get(), 1.1F, 100);
+        // oreSmelting(consumer, ModItems.BAMIRITE_INGOT.get(), ModBlocks.RICH_ENDSTONE_BAMIRITE_ORE.get(), 1.1F, 100);
+
+        // BAMIRITE RAW ORE ITEMS
+
+        // BAMIRITE ORE ITEMS
         ingotFromNuggetsPacking(consumer, ModItems.BAMIRITE_INGOT.get(), ModItems.BAMIRITE_NUGGET.get(), ModItems.BAMIRITE_INGOT.get());
         nuggetsFromIngotUnpacking(consumer, ModItems.BAMIRITE_NUGGET.get(), ModItems.BAMIRITE_INGOT.get(), ModItems.BAMIRITE_INGOT.get());
         blockFromIngotsPacking(consumer, ModBlocks.BAMIRITE_BLOCK.get(), ModItems.BAMIRITE_INGOT.get(), ModItems.BAMIRITE_INGOT.get());
@@ -63,6 +82,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 ModItems.BAMIRITE_INGOT.get(), "compressed_bamirite_blocks_7x_from_compressed_bamirite_block_8x");
         decompressBlock(consumer, ModBlocks.COMPRESSED_BAMIRITE_BLOCK_9.get(), ModBlocks.COMPRESSED_BAMIRITE_BLOCK_8.get(),
                 ModItems.BAMIRITE_INGOT.get(), "compressed_bamirite_blocks_8x_from_compressed_bamirite_block_9x");
+
+        // BAMIRITE TOOLS
         axeRecipe(consumer, ModItems.BAMIRITE_AXE.get(), ModItems.BAMIRITE_INGOT.get());
         hoeRecipe(consumer, ModItems.BAMIRITE_HOE.get(), ModItems.BAMIRITE_INGOT.get());
         pickaxeRecipe(consumer, ModItems.BAMIRITE_PICKAXE.get(), ModItems.BAMIRITE_INGOT.get());
@@ -73,6 +94,25 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         leggingsRecipe(consumer, ModItems.BAMIRITE_LEGGINGS.get(), ModItems.BAMIRITE_INGOT.get());
         bootsRecipe(consumer, ModItems.BAMIRITE_BOOTS.get(), ModItems.BAMIRITE_INGOT.get());
 
+        // BLUE DRAGCITE COOKING
+        oreSmelting(consumer, ModItems.BLUE_DRAGCITE_INGOT.get(), ModItems.RAW_BLUE_DRAGCITE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.BLUE_DRAGCITE_NUGGET.get(), ModItems.RAW_BLUE_DRAGCITE_PIECE.get(), 0.1F, 100);
+        oreSmelting(consumer, ModItems.BLUE_DRAGCITE_INGOT.get(), ModBlocks.BLUE_DRAGCITE_ORE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.BLUE_DRAGCITE_INGOT.get(), ModBlocks.DEEPSLATE_BLUE_DRAGCITE_ORE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.BLUE_DRAGCITE_INGOT.get(), ModBlocks.NETHERRACK_BLUE_DRAGCITE_ORE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.BLUE_DRAGCITE_INGOT.get(), ModBlocks.ENDSTONE_BLUE_DRAGCITE_ORE.get(), 0.7F, 100);
+        // oreSmelting(consumer, ModItems.BLUE_DRAGCITE_NUGGET.get(), ModBlocks.POOR_BLUE_DRAGCITE_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.BLUE_DRAGCITE_NUGGET.get(), ModBlocks.POOR_DEEPSLATE_BLUE_DRAGCITE_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.BLUE_DRAGCITE_NUGGET.get(), ModBlocks.POOR_NETHERRACK_BLUE_DRAGCITE_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.BLUE_DRAGCITE_NUGGET.get(), ModBlocks.POOR_ENDSTONE_BLUE_DRAGCITE_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.BLUE_DRAGCITE_INGOT.get(), ModBlocks.RICH_BLUE_DRAGCITE_ORE.get(), 1.1F, 100);
+        // oreSmelting(consumer, ModItems.BLUE_DRAGCITE_INGOT.get(), ModBlocks.RICH_DEEPSLATE_BLUE_DRAGCITE_ORE.get(), 1.1F, 100);
+        // oreSmelting(consumer, ModItems.BLUE_DRAGCITE_INGOT.get(), ModBlocks.RICH_NETHERRACK_BLUE_DRAGCITE_ORE.get(), 1.1F, 100);
+        // oreSmelting(consumer, ModItems.BLUE_DRAGCITE_INGOT.get(), ModBlocks.RICH_ENDSTONE_BLUE_DRAGCITE_ORE.get(), 1.1F, 100);
+
+        // BLUE DRAGCITE RAW ORE ITEMS
+
+        // BLUE DRAGCITE ORE ITEMS
         ingotFromNuggetsPacking(consumer, ModItems.BLUE_DRAGCITE_INGOT.get(), ModItems.BLUE_DRAGCITE_NUGGET.get(), ModItems.BLUE_DRAGCITE_INGOT.get());
         nuggetsFromIngotUnpacking(consumer, ModItems.BLUE_DRAGCITE_NUGGET.get(), ModItems.BLUE_DRAGCITE_INGOT.get(), ModItems.BLUE_DRAGCITE_INGOT.get());
         blockFromIngotsPacking(consumer, ModBlocks.BLUE_DRAGCITE_BLOCK.get(), ModItems.BLUE_DRAGCITE_INGOT.get(), ModItems.BLUE_DRAGCITE_INGOT.get());
@@ -123,6 +163,25 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         leggingsRecipe(consumer, ModItems.BLUE_DRAGCITE_LEGGINGS.get(), ModItems.BLUE_DRAGCITE_INGOT.get());
         bootsRecipe(consumer, ModItems.BLUE_DRAGCITE_BOOTS.get(), ModItems.BLUE_DRAGCITE_INGOT.get());
 
+        // EISSELTE COOKING
+        oreSmelting(consumer, ModItems.EISSELTE_INGOT.get(), ModItems.RAW_EISSELTE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.EISSELTE_NUGGET.get(), ModItems.RAW_EISSELTE_PIECE.get(), 0.1F, 100);
+        oreSmelting(consumer, ModItems.EISSELTE_INGOT.get(), ModBlocks.EISSELTE_ORE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.EISSELTE_INGOT.get(), ModBlocks.DEEPSLATE_EISSELTE_ORE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.EISSELTE_INGOT.get(), ModBlocks.NETHERRACK_EISSELTE_ORE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.EISSELTE_INGOT.get(), ModBlocks.ENDSTONE_EISSELTE_ORE.get(), 0.7F, 100);
+        // oreSmelting(consumer, ModItems.EISSELTE_NUGGET.get(), ModBlocks.POOR_EISSELTE_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.EISSELTE_NUGGET.get(), ModBlocks.POOR_DEEPSLATE_EISSELTE_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.EISSELTE_NUGGET.get(), ModBlocks.POOR_NETHERRACK_EISSELTE_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.EISSELTE_NUGGET.get(), ModBlocks.POOR_ENDSTONE_EISSELTE_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.EISSELTE_INGOT.get(), ModBlocks.RICH_EISSELTE_ORE.get(), 1.1F, 100);
+        // oreSmelting(consumer, ModItems.EISSELTE_INGOT.get(), ModBlocks.RICH_DEEPSLATE_EISSELTE_ORE.get(), 1.1F, 100);
+        // oreSmelting(consumer, ModItems.EISSELTE_INGOT.get(), ModBlocks.RICH_NETHERRACK_EISSELTE_ORE.get(), 1.1F, 100);
+        // oreSmelting(consumer, ModItems.EISSELTE_INGOT.get(), ModBlocks.RICH_ENDSTONE_EISSELTE_ORE.get(), 1.1F, 100);
+
+        // EISSELTE RAW ORE ITEMS
+
+        // EISSELTE ORE ITEMS
         ingotFromNuggetsPacking(consumer, ModItems.EISSELTE_INGOT.get(), ModItems.EISSELTE_NUGGET.get(), ModItems.EISSELTE_INGOT.get());
         nuggetsFromIngotUnpacking(consumer, ModItems.EISSELTE_NUGGET.get(), ModItems.EISSELTE_INGOT.get(), ModItems.EISSELTE_INGOT.get());
         blockFromIngotsPacking(consumer, ModBlocks.EISSELTE_BLOCK.get(), ModItems.EISSELTE_INGOT.get(), ModItems.EISSELTE_INGOT.get());
@@ -173,6 +232,25 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         leggingsRecipe(consumer, ModItems.EISSELTE_LEGGINGS.get(), ModItems.EISSELTE_INGOT.get());
         bootsRecipe(consumer, ModItems.EISSELTE_BOOTS.get(), ModItems.EISSELTE_INGOT.get());
 
+        // HELMINIUM COOKING
+        oreSmelting(consumer, ModItems.HELMINIUM_INGOT.get(), ModItems.RAW_HELMINIUM.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.HELMINIUM_NUGGET.get(), ModItems.RAW_HELMINIUM_PIECE.get(), 0.1F, 100);
+        oreSmelting(consumer, ModItems.HELMINIUM_INGOT.get(), ModBlocks.HELMINIUM_ORE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.HELMINIUM_INGOT.get(), ModBlocks.DEEPSLATE_HELMINIUM_ORE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.HELMINIUM_INGOT.get(), ModBlocks.NETHERRACK_HELMINIUM_ORE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.HELMINIUM_INGOT.get(), ModBlocks.ENDSTONE_HELMINIUM_ORE.get(), 0.7F, 100);
+        // oreSmelting(consumer, ModItems.HELMINIUM_NUGGET.get(), ModBlocks.POOR_HELMINIUM_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.HELMINIUM_NUGGET.get(), ModBlocks.POOR_DEEPSLATE_HELMINIUM_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.HELMINIUM_NUGGET.get(), ModBlocks.POOR_NETHERRACK_HELMINIUM_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.HELMINIUM_NUGGET.get(), ModBlocks.POOR_ENDSTONE_HELMINIUM_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.HELMINIUM_INGOT.get(), ModBlocks.RICH_HELMINIUM_ORE.get(), 1.1F, 100);
+        // oreSmelting(consumer, ModItems.HELMINIUM_INGOT.get(), ModBlocks.RICH_DEEPSLATE_HELMINIUM_ORE.get(), 1.1F, 100);
+        // oreSmelting(consumer, ModItems.HELMINIUM_INGOT.get(), ModBlocks.RICH_NETHERRACK_HELMINIUM_ORE.get(), 1.1F, 100);
+        // oreSmelting(consumer, ModItems.HELMINIUM_INGOT.get(), ModBlocks.RICH_ENDSTONE_HELMINIUM_ORE.get(), 1.1F, 100);
+
+        // HELMINIUM RAW ORE ITEMS
+
+        // HELMINIUM ORE ITEMS
         ingotFromNuggetsPacking(consumer, ModItems.HELMINIUM_INGOT.get(), ModItems.HELMINIUM_NUGGET.get(), ModItems.HELMINIUM_INGOT.get());
         nuggetsFromIngotUnpacking(consumer, ModItems.HELMINIUM_NUGGET.get(), ModItems.HELMINIUM_INGOT.get(), ModItems.HELMINIUM_INGOT.get());
         blockFromIngotsPacking(consumer, ModBlocks.HELMINIUM_BLOCK.get(), ModItems.HELMINIUM_INGOT.get(), ModItems.HELMINIUM_INGOT.get());
@@ -223,6 +301,25 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         leggingsRecipe(consumer, ModItems.HELMINIUM_LEGGINGS.get(), ModItems.HELMINIUM_INGOT.get());
         bootsRecipe(consumer, ModItems.HELMINIUM_BOOTS.get(), ModItems.HELMINIUM_INGOT.get());
 
+        // JEPERCKSTONE COOKING
+        oreSmelting(consumer, ModItems.JEPERCKSTONE_INGOT.get(), ModItems.RAW_JEPERCKSTONE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.JEPERCKSTONE_NUGGET.get(), ModItems.RAW_JEPERCKSTONE_PIECE.get(), 0.1F, 100);
+        oreSmelting(consumer, ModItems.JEPERCKSTONE_INGOT.get(), ModBlocks.JEPERCKSTONE_ORE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.JEPERCKSTONE_INGOT.get(), ModBlocks.DEEPSLATE_JEPERCKSTONE_ORE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.JEPERCKSTONE_INGOT.get(), ModBlocks.NETHERRACK_JEPERCKSTONE_ORE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.JEPERCKSTONE_INGOT.get(), ModBlocks.ENDSTONE_JEPERCKSTONE_ORE.get(), 0.7F, 100);
+        // oreSmelting(consumer, ModItems.JEPERCKSTONE_NUGGET.get(), ModBlocks.POOR_JEPERCKSTONE_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.JEPERCKSTONE_NUGGET.get(), ModBlocks.POOR_DEEPSLATE_JEPERCKSTONE_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.JEPERCKSTONE_NUGGET.get(), ModBlocks.POOR_NETHERRACK_JEPERCKSTONE_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.JEPERCKSTONE_NUGGET.get(), ModBlocks.POOR_ENDSTONE_JEPERCKSTONE_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.JEPERCKSTONE_INGOT.get(), ModBlocks.RICH_JEPERCKSTONE_ORE.get(), 1.1F, 100);
+        // oreSmelting(consumer, ModItems.JEPERCKSTONE_INGOT.get(), ModBlocks.RICH_DEEPSLATE_JEPERCKSTONE_ORE.get(), 1.1F, 100);
+        // oreSmelting(consumer, ModItems.JEPERCKSTONE_INGOT.get(), ModBlocks.RICH_NETHERRACK_JEPERCKSTONE_ORE.get(), 1.1F, 100);
+        // oreSmelting(consumer, ModItems.JEPERCKSTONE_INGOT.get(), ModBlocks.RICH_ENDSTONE_JEPERCKSTONE_ORE.get(), 1.1F, 100);
+
+        // JEPERCKSTONE RAW ORE ITEMS
+
+        // JEPERCKSTONE ORE ITEMS
         ingotFromNuggetsPacking(consumer, ModItems.JEPERCKSTONE_INGOT.get(), ModItems.JEPERCKSTONE_NUGGET.get(), ModItems.JEPERCKSTONE_INGOT.get());
         nuggetsFromIngotUnpacking(consumer, ModItems.JEPERCKSTONE_NUGGET.get(), ModItems.JEPERCKSTONE_INGOT.get(), ModItems.JEPERCKSTONE_INGOT.get());
         blockFromIngotsPacking(consumer, ModBlocks.JEPERCKSTONE_BLOCK.get(), ModItems.JEPERCKSTONE_INGOT.get(), ModItems.JEPERCKSTONE_INGOT.get());
@@ -273,6 +370,25 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         leggingsRecipe(consumer, ModItems.JEPERCKSTONE_LEGGINGS.get(), ModItems.JEPERCKSTONE_INGOT.get());
         bootsRecipe(consumer, ModItems.JEPERCKSTONE_BOOTS.get(), ModItems.JEPERCKSTONE_INGOT.get());
 
+        // KHELSTONE COOKING
+        oreSmelting(consumer, ModItems.KHELSTONE_INGOT.get(), ModItems.RAW_KHELSTONE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.KHELSTONE_NUGGET.get(), ModItems.RAW_KHELSTONE_PIECE.get(), 0.1F, 100);
+        oreSmelting(consumer, ModItems.KHELSTONE_INGOT.get(), ModBlocks.KHELSTONE_ORE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.KHELSTONE_INGOT.get(), ModBlocks.DEEPSLATE_KHELSTONE_ORE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.KHELSTONE_INGOT.get(), ModBlocks.NETHERRACK_KHELSTONE_ORE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.KHELSTONE_INGOT.get(), ModBlocks.ENDSTONE_KHELSTONE_ORE.get(), 0.7F, 100);
+        // oreSmelting(consumer, ModItems.KHELSTONE_NUGGET.get(), ModBlocks.POOR_KHELSTONE_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.KHELSTONE_NUGGET.get(), ModBlocks.POOR_DEEPSLATE_KHELSTONE_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.KHELSTONE_NUGGET.get(), ModBlocks.POOR_NETHERRACK_KHELSTONE_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.KHELSTONE_NUGGET.get(), ModBlocks.POOR_ENDSTONE_KHELSTONE_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.KHELSTONE_INGOT.get(), ModBlocks.RICH_KHELSTONE_ORE.get(), 1.1F, 100);
+        // oreSmelting(consumer, ModItems.KHELSTONE_INGOT.get(), ModBlocks.RICH_DEEPSLATE_KHELSTONE_ORE.get(), 1.1F, 100);
+        // oreSmelting(consumer, ModItems.KHELSTONE_INGOT.get(), ModBlocks.RICH_NETHERRACK_KHELSTONE_ORE.get(), 1.1F, 100);
+        // oreSmelting(consumer, ModItems.KHELSTONE_INGOT.get(), ModBlocks.RICH_ENDSTONE_KHELSTONE_ORE.get(), 1.1F, 100);
+
+        // KHELSTONE RAW ORE ITEMS
+
+        // KHELSTONE ORE ITEMS
         ingotFromNuggetsPacking(consumer, ModItems.KHELSTONE_INGOT.get(), ModItems.KHELSTONE_NUGGET.get(), ModItems.KHELSTONE_INGOT.get());
         nuggetsFromIngotUnpacking(consumer, ModItems.KHELSTONE_NUGGET.get(), ModItems.KHELSTONE_INGOT.get(), ModItems.KHELSTONE_INGOT.get());
         blockFromIngotsPacking(consumer, ModBlocks.KHELSTONE_BLOCK.get(), ModItems.KHELSTONE_INGOT.get(), ModItems.KHELSTONE_INGOT.get());
@@ -323,6 +439,25 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         leggingsRecipe(consumer, ModItems.KHELSTONE_LEGGINGS.get(), ModItems.KHELSTONE_INGOT.get());
         bootsRecipe(consumer, ModItems.KHELSTONE_BOOTS.get(), ModItems.KHELSTONE_INGOT.get());
 
+        // KIRIONITE COOKING
+        oreSmelting(consumer, ModItems.KIRIONITE_INGOT.get(), ModItems.RAW_KIRIONITE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.KIRIONITE_NUGGET.get(), ModItems.RAW_KIRIONITE_PIECE.get(), 0.1F, 100);
+        oreSmelting(consumer, ModItems.KIRIONITE_INGOT.get(), ModBlocks.KIRIONITE_ORE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.KIRIONITE_INGOT.get(), ModBlocks.DEEPSLATE_KIRIONITE_ORE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.KIRIONITE_INGOT.get(), ModBlocks.NETHERRACK_KIRIONITE_ORE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.KIRIONITE_INGOT.get(), ModBlocks.ENDSTONE_KIRIONITE_ORE.get(), 0.7F, 100);
+        // oreSmelting(consumer, ModItems.KIRIONITE_NUGGET.get(), ModBlocks.POOR_KIRIONITE_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.KIRIONITE_NUGGET.get(), ModBlocks.POOR_DEEPSLATE_KIRIONITE_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.KIRIONITE_NUGGET.get(), ModBlocks.POOR_NETHERRACK_KIRIONITE_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.KIRIONITE_NUGGET.get(), ModBlocks.POOR_ENDSTONE_KIRIONITE_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.KIRIONITE_INGOT.get(), ModBlocks.RICH_KIRIONITE_ORE.get(), 1.1F, 100);
+        // oreSmelting(consumer, ModItems.KIRIONITE_INGOT.get(), ModBlocks.RICH_DEEPSLATE_KIRIONITE_ORE.get(), 1.1F, 100);
+        // oreSmelting(consumer, ModItems.KIRIONITE_INGOT.get(), ModBlocks.RICH_NETHERRACK_KIRIONITE_ORE.get(), 1.1F, 100);
+        // oreSmelting(consumer, ModItems.KIRIONITE_INGOT.get(), ModBlocks.RICH_ENDSTONE_KIRIONITE_ORE.get(), 1.1F, 100);
+
+        // KIRIONITE RAW ORE ITEMS
+
+        // KIRIONITE ORE ITEMS
         ingotFromNuggetsPacking(consumer, ModItems.KIRIONITE_INGOT.get(), ModItems.KIRIONITE_NUGGET.get(), ModItems.KIRIONITE_INGOT.get());
         nuggetsFromIngotUnpacking(consumer, ModItems.KIRIONITE_NUGGET.get(), ModItems.KIRIONITE_INGOT.get(), ModItems.KIRIONITE_INGOT.get());
         blockFromIngotsPacking(consumer, ModBlocks.KIRIONITE_BLOCK.get(), ModItems.KIRIONITE_INGOT.get(), ModItems.KIRIONITE_INGOT.get());
@@ -373,6 +508,25 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         leggingsRecipe(consumer, ModItems.KIRIONITE_LEGGINGS.get(), ModItems.KIRIONITE_INGOT.get());
         bootsRecipe(consumer, ModItems.KIRIONITE_BOOTS.get(), ModItems.KIRIONITE_INGOT.get());
 
+        // MANXIUM COOKING
+        oreSmelting(consumer, ModItems.MANXIUM_INGOT.get(), ModItems.RAW_MANXIUM.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.MANXIUM_NUGGET.get(), ModItems.RAW_MANXIUM_PIECE.get(), 0.1F, 100);
+        oreSmelting(consumer, ModItems.MANXIUM_INGOT.get(), ModBlocks.MANXIUM_ORE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.MANXIUM_INGOT.get(), ModBlocks.DEEPSLATE_MANXIUM_ORE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.MANXIUM_INGOT.get(), ModBlocks.NETHERRACK_MANXIUM_ORE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.MANXIUM_INGOT.get(), ModBlocks.ENDSTONE_MANXIUM_ORE.get(), 0.7F, 100);
+        // oreSmelting(consumer, ModItems.MANXIUM_NUGGET.get(), ModBlocks.POOR_MANXIUM_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.MANXIUM_NUGGET.get(), ModBlocks.POOR_DEEPSLATE_MANXIUM_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.MANXIUM_NUGGET.get(), ModBlocks.POOR_NETHERRACK_MANXIUM_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.MANXIUM_NUGGET.get(), ModBlocks.POOR_ENDSTONE_MANXIUM_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.MANXIUM_INGOT.get(), ModBlocks.RICH_MANXIUM_ORE.get(), 1.1F, 100);
+        // oreSmelting(consumer, ModItems.MANXIUM_INGOT.get(), ModBlocks.RICH_DEEPSLATE_MANXIUM_ORE.get(), 1.1F, 100);
+        // oreSmelting(consumer, ModItems.MANXIUM_INGOT.get(), ModBlocks.RICH_NETHERRACK_MANXIUM_ORE.get(), 1.1F, 100);
+        // oreSmelting(consumer, ModItems.MANXIUM_INGOT.get(), ModBlocks.RICH_ENDSTONE_MANXIUM_ORE.get(), 1.1F, 100);
+
+        // MANXIUM RAW ORE ITEMS
+
+        // MANXIUM ORE ITEMS
         ingotFromNuggetsPacking(consumer, ModItems.MANXIUM_INGOT.get(), ModItems.MANXIUM_NUGGET.get(), ModItems.MANXIUM_INGOT.get());
         nuggetsFromIngotUnpacking(consumer, ModItems.MANXIUM_NUGGET.get(), ModItems.MANXIUM_INGOT.get(), ModItems.MANXIUM_INGOT.get());
         blockFromIngotsPacking(consumer, ModBlocks.MANXIUM_BLOCK.get(), ModItems.MANXIUM_INGOT.get(), ModItems.MANXIUM_INGOT.get());
@@ -423,6 +577,25 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         leggingsRecipe(consumer, ModItems.MANXIUM_LEGGINGS.get(), ModItems.MANXIUM_INGOT.get());
         bootsRecipe(consumer, ModItems.MANXIUM_BOOTS.get(), ModItems.MANXIUM_INGOT.get());
 
+        // OHLY COOKING
+        oreSmelting(consumer, ModItems.OHLY_INGOT.get(), ModItems.RAW_OHLY.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.OHLY_NUGGET.get(), ModItems.RAW_OHLY_PIECE.get(), 0.1F, 100);
+        oreSmelting(consumer, ModItems.OHLY_INGOT.get(), ModBlocks.OHLY_ORE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.OHLY_INGOT.get(), ModBlocks.DEEPSLATE_OHLY_ORE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.OHLY_INGOT.get(), ModBlocks.NETHERRACK_OHLY_ORE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.OHLY_INGOT.get(), ModBlocks.ENDSTONE_OHLY_ORE.get(), 0.7F, 100);
+        // oreSmelting(consumer, ModItems.OHLY_NUGGET.get(), ModBlocks.POOR_OHLY_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.OHLY_NUGGET.get(), ModBlocks.POOR_DEEPSLATE_OHLY_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.OHLY_NUGGET.get(), ModBlocks.POOR_NETHERRACK_OHLY_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.OHLY_NUGGET.get(), ModBlocks.POOR_ENDSTONE_OHLY_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.OHLY_INGOT.get(), ModBlocks.RICH_OHLY_ORE.get(), 1.1F, 100);
+        // oreSmelting(consumer, ModItems.OHLY_INGOT.get(), ModBlocks.RICH_DEEPSLATE_OHLY_ORE.get(), 1.1F, 100);
+        // oreSmelting(consumer, ModItems.OHLY_INGOT.get(), ModBlocks.RICH_NETHERRACK_OHLY_ORE.get(), 1.1F, 100);
+        // oreSmelting(consumer, ModItems.OHLY_INGOT.get(), ModBlocks.RICH_ENDSTONE_OHLY_ORE.get(), 1.1F, 100);
+
+        // OHLY RAW ORE ITEMS
+
+        // OHLY ORE ITEMS
         ingotFromNuggetsPacking(consumer, ModItems.OHLY_INGOT.get(), ModItems.OHLY_NUGGET.get(), ModItems.OHLY_INGOT.get());
         nuggetsFromIngotUnpacking(consumer, ModItems.OHLY_NUGGET.get(), ModItems.OHLY_INGOT.get(), ModItems.OHLY_INGOT.get());
         blockFromIngotsPacking(consumer, ModBlocks.OHLY_BLOCK.get(), ModItems.OHLY_INGOT.get(), ModItems.OHLY_INGOT.get());
@@ -473,6 +646,25 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         leggingsRecipe(consumer, ModItems.OHLY_LEGGINGS.get(), ModItems.OHLY_INGOT.get());
         bootsRecipe(consumer, ModItems.OHLY_BOOTS.get(), ModItems.OHLY_INGOT.get());
 
+        // RAGOUTON COOKING
+        oreSmelting(consumer, ModItems.RAGOUTON_INGOT.get(), ModItems.RAW_RAGOUTON.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.RAGOUTON_NUGGET.get(), ModItems.RAW_RAGOUTON_PIECE.get(), 0.1F, 100);
+        oreSmelting(consumer, ModItems.RAGOUTON_INGOT.get(), ModBlocks.RAGOUTON_ORE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.RAGOUTON_INGOT.get(), ModBlocks.DEEPSLATE_RAGOUTON_ORE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.RAGOUTON_INGOT.get(), ModBlocks.NETHERRACK_RAGOUTON_ORE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.RAGOUTON_INGOT.get(), ModBlocks.ENDSTONE_RAGOUTON_ORE.get(), 0.7F, 100);
+        // oreSmelting(consumer, ModItems.RAGOUTON_NUGGET.get(), ModBlocks.POOR_RAGOUTON_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.RAGOUTON_NUGGET.get(), ModBlocks.POOR_DEEPSLATE_RAGOUTON_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.RAGOUTON_NUGGET.get(), ModBlocks.POOR_NETHERRACK_RAGOUTON_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.RAGOUTON_NUGGET.get(), ModBlocks.POOR_ENDSTONE_RAGOUTON_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.RAGOUTON_INGOT.get(), ModBlocks.RICH_RAGOUTON_ORE.get(), 1.1F, 100);
+        // oreSmelting(consumer, ModItems.RAGOUTON_INGOT.get(), ModBlocks.RICH_DEEPSLATE_RAGOUTON_ORE.get(), 1.1F, 100);
+        // oreSmelting(consumer, ModItems.RAGOUTON_INGOT.get(), ModBlocks.RICH_NETHERRACK_RAGOUTON_ORE.get(), 1.1F, 100);
+        // oreSmelting(consumer, ModItems.RAGOUTON_INGOT.get(), ModBlocks.RICH_ENDSTONE_RAGOUTON_ORE.get(), 1.1F, 100);
+
+        // RAGOUTON RAW ORE ITEMS
+
+        // RAGOUTON ORE ITEMS
         ingotFromNuggetsPacking(consumer, ModItems.RAGOUTON_INGOT.get(), ModItems.RAGOUTON_NUGGET.get(), ModItems.RAGOUTON_INGOT.get());
         nuggetsFromIngotUnpacking(consumer,ModItems.RAGOUTON_NUGGET.get(), ModItems.RAGOUTON_INGOT.get(), ModItems.RAGOUTON_INGOT.get());
         blockFromIngotsPacking(consumer, ModBlocks.RAGOUTON_BLOCK.get(), ModItems.RAGOUTON_INGOT.get(), ModItems.RAGOUTON_INGOT.get());
@@ -523,6 +715,25 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         leggingsRecipe(consumer, ModItems.RAGOUTON_LEGGINGS.get(), ModItems.RAGOUTON_INGOT.get());
         bootsRecipe(consumer, ModItems.RAGOUTON_BOOTS.get(), ModItems.RAGOUTON_INGOT.get());
 
+        // SLITHESE COOKING
+        oreSmelting(consumer, ModItems.SLITHESE_INGOT.get(), ModItems.RAW_SLITHESE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.SLITHESE_NUGGET.get(), ModItems.RAW_SLITHESE_PIECE.get(), 0.1F, 100);
+        oreSmelting(consumer, ModItems.SLITHESE_INGOT.get(), ModBlocks.SLITHESE_ORE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.SLITHESE_INGOT.get(), ModBlocks.DEEPSLATE_SLITHESE_ORE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.SLITHESE_INGOT.get(), ModBlocks.NETHERRACK_SLITHESE_ORE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.SLITHESE_INGOT.get(), ModBlocks.ENDSTONE_SLITHESE_ORE.get(), 0.7F, 100);
+        // oreSmelting(consumer, ModItems.SLITHESE_NUGGET.get(), ModBlocks.POOR_SLITHESE_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.SLITHESE_NUGGET.get(), ModBlocks.POOR_DEEPSLATE_SLITHESE_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.SLITHESE_NUGGET.get(), ModBlocks.POOR_NETHERRACK_SLITHESE_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.SLITHESE_NUGGET.get(), ModBlocks.POOR_ENDSTONE_SLITHESE_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.SLITHESE_INGOT.get(), ModBlocks.RICH_SLITHESE_ORE.get(), 1.1F, 100);
+        // oreSmelting(consumer, ModItems.SLITHESE_INGOT.get(), ModBlocks.RICH_DEEPSLATE_SLITHESE_ORE.get(), 1.1F, 100);
+        // oreSmelting(consumer, ModItems.SLITHESE_INGOT.get(), ModBlocks.RICH_NETHERRACK_SLITHESE_ORE.get(), 1.1F, 100);
+        // oreSmelting(consumer, ModItems.SLITHESE_INGOT.get(), ModBlocks.RICH_ENDSTONE_SLITHESE_ORE.get(), 1.1F, 100);
+
+        // SLITHESE RAW ORE ITEMS
+
+        // SLITHESE ORE ITEMS
         ingotFromNuggetsPacking(consumer, ModItems.SLITHESE_INGOT.get(), ModItems.SLITHESE_NUGGET.get(), ModItems.SLITHESE_INGOT.get());
         nuggetsFromIngotUnpacking(consumer, ModItems.SLITHESE_NUGGET.get(), ModItems.SLITHESE_INGOT.get(), ModItems.SLITHESE_INGOT.get());
         blockFromIngotsPacking(consumer, ModBlocks.SLITHESE_BLOCK.get(), ModItems.SLITHESE_INGOT.get(), ModItems.SLITHESE_INGOT.get());
@@ -573,6 +784,25 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         leggingsRecipe(consumer, ModItems.SLITHESE_LEGGINGS.get(), ModItems.SLITHESE_INGOT.get());
         bootsRecipe(consumer, ModItems.SLITHESE_BOOTS.get(), ModItems.SLITHESE_INGOT.get());
 
+        // TARMENIS COOKING
+        oreSmelting(consumer, ModItems.TARMENIS_INGOT.get(), ModItems.RAW_TARMENIS.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.TARMENIS_NUGGET.get(), ModItems.RAW_TARMENIS_PIECE.get(), 0.1F, 100);
+        oreSmelting(consumer, ModItems.TARMENIS_INGOT.get(), ModBlocks.TARMENIS_ORE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.TARMENIS_INGOT.get(), ModBlocks.DEEPSLATE_TARMENIS_ORE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.TARMENIS_INGOT.get(), ModBlocks.NETHERRACK_TARMENIS_ORE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.TARMENIS_INGOT.get(), ModBlocks.ENDSTONE_TARMENIS_ORE.get(), 0.7F, 100);
+        // oreSmelting(consumer, ModItems.TARMENIS_NUGGET.get(), ModBlocks.POOR_TARMENIS_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.TARMENIS_NUGGET.get(), ModBlocks.POOR_DEEPSLATE_TARMENIS_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.TARMENIS_NUGGET.get(), ModBlocks.POOR_NETHERRACK_TARMENIS_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.TARMENIS_NUGGET.get(), ModBlocks.POOR_ENDSTONE_TARMENIS_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.TARMENIS_INGOT.get(), ModBlocks.RICH_TARMENIS_ORE.get(), 1.1F, 100);
+        // oreSmelting(consumer, ModItems.TARMENIS_INGOT.get(), ModBlocks.RICH_DEEPSLATE_TARMENIS_ORE.get(), 1.1F, 100);
+        // oreSmelting(consumer, ModItems.TARMENIS_INGOT.get(), ModBlocks.RICH_NETHERRACK_TARMENIS_ORE.get(), 1.1F, 100);
+        // oreSmelting(consumer, ModItems.TARMENIS_INGOT.get(), ModBlocks.RICH_ENDSTONE_TARMENIS_ORE.get(), 1.1F, 100);
+
+        // TARMENIS RAW ORE ITEMS
+
+        // TARMENIS ORE ITEMS
         ingotFromNuggetsPacking(consumer, ModItems.TARMENIS_INGOT.get(), ModItems.TARMENIS_NUGGET.get(), ModItems.TARMENIS_INGOT.get());
         nuggetsFromIngotUnpacking(consumer, ModItems.TARMENIS_NUGGET.get(), ModItems.TARMENIS_INGOT.get(), ModItems.TARMENIS_INGOT.get());
         blockFromIngotsPacking(consumer, ModBlocks.TARMENIS_BLOCK.get(), ModItems.TARMENIS_INGOT.get(), ModItems.TARMENIS_INGOT.get());
@@ -623,6 +853,25 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         leggingsRecipe(consumer, ModItems.TARMENIS_LEGGINGS.get(), ModItems.TARMENIS_INGOT.get());
         bootsRecipe(consumer, ModItems.TARMENIS_BOOTS.get(), ModItems.TARMENIS_INGOT.get());
 
+        // VIGNASS COOKING
+        oreSmelting(consumer, ModItems.VIGNASS_INGOT.get(), ModItems.RAW_VIGNASS.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.VIGNASS_NUGGET.get(), ModItems.RAW_VIGNASS_PIECE.get(), 0.1F, 100);
+        oreSmelting(consumer, ModItems.VIGNASS_INGOT.get(), ModBlocks.VIGNASS_ORE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.VIGNASS_INGOT.get(), ModBlocks.DEEPSLATE_VIGNASS_ORE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.VIGNASS_INGOT.get(), ModBlocks.NETHERRACK_VIGNASS_ORE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.VIGNASS_INGOT.get(), ModBlocks.ENDSTONE_VIGNASS_ORE.get(), 0.7F, 100);
+        // oreSmelting(consumer, ModItems.VIGNASS_NUGGET.get(), ModBlocks.POOR_VIGNASS_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.VIGNASS_NUGGET.get(), ModBlocks.POOR_DEEPSLATE_VIGNASS_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.VIGNASS_NUGGET.get(), ModBlocks.POOR_NETHERRACK_VIGNASS_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.VIGNASS_NUGGET.get(), ModBlocks.POOR_ENDSTONE_VIGNASS_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.VIGNASS_INGOT.get(), ModBlocks.RICH_VIGNASS_ORE.get(), 1.1F, 100);
+        // oreSmelting(consumer, ModItems.VIGNASS_INGOT.get(), ModBlocks.RICH_DEEPSLATE_VIGNASS_ORE.get(), 1.1F, 100);
+        // oreSmelting(consumer, ModItems.VIGNASS_INGOT.get(), ModBlocks.RICH_NETHERRACK_VIGNASS_ORE.get(), 1.1F, 100);
+        // oreSmelting(consumer, ModItems.VIGNASS_INGOT.get(), ModBlocks.RICH_ENDSTONE_VIGNASS_ORE.get(), 1.1F, 100);
+
+        // VIGNASS RAW ORE ITEMS
+
+        // VIGNASS ORE ITEMS
         ingotFromNuggetsPacking(consumer, ModItems.VIGNASS_INGOT.get(), ModItems.VIGNASS_NUGGET.get(), ModItems.VIGNASS_INGOT.get());
         nuggetsFromIngotUnpacking(consumer, ModItems.VIGNASS_NUGGET.get(), ModItems.VIGNASS_INGOT.get(), ModItems.VIGNASS_INGOT.get());
         blockFromIngotsPacking(consumer, ModBlocks.VIGNASS_BLOCK.get(), ModItems.VIGNASS_INGOT.get(), ModItems.VIGNASS_INGOT.get());
@@ -673,6 +922,25 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         leggingsRecipe(consumer, ModItems.VIGNASS_LEGGINGS.get(), ModItems.VIGNASS_INGOT.get());
         bootsRecipe(consumer, ModItems.VIGNASS_BOOTS.get(), ModItems.VIGNASS_INGOT.get());
 
+        // VOLUCIERA COOKING
+        oreSmelting(consumer, ModItems.VOLUCIERA_INGOT.get(), ModItems.RAW_VOLUCIERA.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.VOLUCIERA_NUGGET.get(), ModItems.RAW_VOLUCIERA_PIECE.get(), 0.1F, 100);
+        oreSmelting(consumer, ModItems.VOLUCIERA_INGOT.get(), ModBlocks.VOLUCIERA_ORE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.VOLUCIERA_INGOT.get(), ModBlocks.DEEPSLATE_VOLUCIERA_ORE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.VOLUCIERA_INGOT.get(), ModBlocks.NETHERRACK_VOLUCIERA_ORE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.VOLUCIERA_INGOT.get(), ModBlocks.ENDSTONE_VOLUCIERA_ORE.get(), 0.7F, 100);
+        // oreSmelting(consumer, ModItems.VOLUCIERA_NUGGET.get(), ModBlocks.POOR_VOLUCIERA_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.VOLUCIERA_NUGGET.get(), ModBlocks.POOR_DEEPSLATE_VOLUCIERA_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.VOLUCIERA_NUGGET.get(), ModBlocks.POOR_NETHERRACK_VOLUCIERA_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.VOLUCIERA_NUGGET.get(), ModBlocks.POOR_ENDSTONE_VOLUCIERA_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.VOLUCIERA_INGOT.get(), ModBlocks.RICH_VOLUCIERA_ORE.get(), 1.1F, 100);
+        // oreSmelting(consumer, ModItems.VOLUCIERA_INGOT.get(), ModBlocks.RICH_DEEPSLATE_VOLUCIERA_ORE.get(), 1.1F, 100);
+        // oreSmelting(consumer, ModItems.VOLUCIERA_INGOT.get(), ModBlocks.RICH_NETHERRACK_VOLUCIERA_ORE.get(), 1.1F, 100);
+        // oreSmelting(consumer, ModItems.VOLUCIERA_INGOT.get(), ModBlocks.RICH_ENDSTONE_VOLUCIERA_ORE.get(), 1.1F, 100);
+
+        // VOLUCIERA RAW ORE ITEMS
+
+        // VOLUCIERA ORE ITEMS
         ingotFromNuggetsPacking(consumer, ModItems.VOLUCIERA_INGOT.get(), ModItems.VOLUCIERA_NUGGET.get(), ModItems.VOLUCIERA_INGOT.get());
         nuggetsFromIngotUnpacking(consumer, ModItems.VOLUCIERA_NUGGET.get(), ModItems.VOLUCIERA_INGOT.get(), ModItems.VOLUCIERA_INGOT.get());
         blockFromIngotsPacking(consumer, ModBlocks.VOLUCIERA_BLOCK.get(), ModItems.VOLUCIERA_INGOT.get(), ModItems.VOLUCIERA_INGOT.get());
@@ -723,6 +991,25 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         leggingsRecipe(consumer, ModItems.VOLUCIERA_LEGGINGS.get(), ModItems.VOLUCIERA_INGOT.get());
         bootsRecipe(consumer, ModItems.VOLUCIERA_BOOTS.get(), ModItems.VOLUCIERA_INGOT.get());
 
+        // YGGS COOKING
+        oreSmelting(consumer, ModItems.YGGS_INGOT.get(), ModItems.RAW_YGGS.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.YGGS_NUGGET.get(), ModItems.RAW_YGGS_PIECE.get(), 0.1F, 100);
+        oreSmelting(consumer, ModItems.YGGS_INGOT.get(), ModBlocks.YGGS_ORE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.YGGS_INGOT.get(), ModBlocks.DEEPSLATE_YGGS_ORE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.YGGS_INGOT.get(), ModBlocks.NETHERRACK_YGGS_ORE.get(), 0.7F, 100);
+        oreSmelting(consumer, ModItems.YGGS_INGOT.get(), ModBlocks.ENDSTONE_YGGS_ORE.get(), 0.7F, 100);
+        // oreSmelting(consumer, ModItems.YGGS_NUGGET.get(), ModBlocks.POOR_YGGS_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.YGGS_NUGGET.get(), ModBlocks.POOR_DEEPSLATE_YGGS_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.YGGS_NUGGET.get(), ModBlocks.POOR_NETHERRACK_YGGS_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.YGGS_NUGGET.get(), ModBlocks.POOR_ENDSTONE_YGGS_ORE.get(), 0.4F, 100);
+        // oreSmelting(consumer, ModItems.YGGS_INGOT.get(), ModBlocks.RICH_YGGS_ORE.get(), 1.1F, 100);
+        // oreSmelting(consumer, ModItems.YGGS_INGOT.get(), ModBlocks.RICH_DEEPSLATE_YGGS_ORE.get(), 1.1F, 100);
+        // oreSmelting(consumer, ModItems.YGGS_INGOT.get(), ModBlocks.RICH_NETHERRACK_YGGS_ORE.get(), 1.1F, 100);
+        // oreSmelting(consumer, ModItems.YGGS_INGOT.get(), ModBlocks.RICH_ENDSTONE_YGGS_ORE.get(), 1.1F, 100);
+
+        // YGGS RAW ORE ITEMS
+
+        // YGGS ORE ITEMS
         ingotFromNuggetsPacking(consumer, ModItems.YGGS_INGOT.get(), ModItems.YGGS_NUGGET.get(), ModItems.YGGS_INGOT.get());
         nuggetsFromIngotUnpacking(consumer, ModItems.YGGS_NUGGET.get(), ModItems.YGGS_INGOT.get(), ModItems.YGGS_INGOT.get());
         blockFromIngotsPacking(consumer, ModBlocks.YGGS_BLOCK.get(), ModItems.YGGS_INGOT.get(), ModItems.YGGS_INGOT.get());
@@ -912,5 +1199,14 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_" + getItemName(bootsMaterial),
                         inventoryTrigger(ItemPredicate.Builder.item().of(bootsMaterial).build()))
                 .save(consumer);
+    }
+
+    private void oreSmelting(Consumer<FinishedRecipe> consumer, ItemLike result, ItemLike ingredient, float experience, int cookingTime) {
+        SimpleCookingRecipeBuilder.smelting(Ingredient.of(ingredient), result, experience, cookingTime)
+                .unlockedBy(getHasName(ingredient), inventoryTrigger(ItemPredicate.Builder.item().of(ingredient).build()))
+                .save(consumer, TooManyResources.MOD_ID + ":" + getSmeltingRecipeName(result) + "_" + getItemName(ingredient));
+        SimpleCookingRecipeBuilder.blasting(Ingredient.of(ingredient), result, experience, cookingTime / 2)
+                .unlockedBy(getHasName(ingredient), inventoryTrigger(ItemPredicate.Builder.item().of(ingredient).build()))
+                .save(consumer, TooManyResources.MOD_ID + ":" + getBlastingRecipeName(result) + "_" + getItemName(ingredient));
     }
 }

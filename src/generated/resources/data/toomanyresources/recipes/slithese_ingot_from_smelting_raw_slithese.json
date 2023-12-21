@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "toomanyresources:raw_slithese"
+  },
+  "result": "toomanyresources:slithese_ingot",
+  "experience": 0.7,
+  "cookingtime": 100
+}

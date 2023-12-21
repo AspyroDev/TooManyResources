@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "toomanyresources:yggs_ore"
+  },
+  "result": "toomanyresources:yggs_ingot",
+  "experience": 0.7,
+  "cookingtime": 50
+}

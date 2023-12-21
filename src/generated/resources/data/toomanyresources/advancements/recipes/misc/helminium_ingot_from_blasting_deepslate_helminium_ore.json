@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "toomanyresources:helminium_ingot_from_blasting_deepslate_helminium_ore"
+    ]
+  },
+  "criteria": {
+    "has_deepslate_helminium_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "toomanyresources:deepslate_helminium_ore"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "toomanyresources:helminium_ingot_from_blasting_deepslate_helminium_ore"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_deepslate_helminium_ore",
+      "has_the_recipe"
+    ]
+  ]
+}

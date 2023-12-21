@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "toomanyresources:yggs_ingot_from_blasting_raw_yggs"
+    ]
+  },
+  "criteria": {
+    "has_raw_yggs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "toomanyresources:raw_yggs"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "toomanyresources:yggs_ingot_from_blasting_raw_yggs"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_yggs",
+      "has_the_recipe"
+    ]
+  ]
+}

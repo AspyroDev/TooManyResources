@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "toomanyresources:raw_manxium_piece"
+  },
+  "result": "toomanyresources:manxium_nugget",
+  "experience": 0.1,
+  "cookingtime": 50
+}

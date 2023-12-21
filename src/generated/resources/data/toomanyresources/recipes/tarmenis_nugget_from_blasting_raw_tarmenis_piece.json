@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "toomanyresources:raw_tarmenis_piece"
+  },
+  "result": "toomanyresources:tarmenis_nugget",
+  "experience": 0.1,
+  "cookingtime": 50
+}

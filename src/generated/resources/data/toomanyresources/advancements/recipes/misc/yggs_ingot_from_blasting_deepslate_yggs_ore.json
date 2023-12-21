@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "toomanyresources:yggs_ingot_from_blasting_deepslate_yggs_ore"
+    ]
+  },
+  "criteria": {
+    "has_deepslate_yggs_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "toomanyresources:deepslate_yggs_ore"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "toomanyresources:yggs_ingot_from_blasting_deepslate_yggs_ore"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_deepslate_yggs_ore",
+      "has_the_recipe"
+    ]
+  ]
+}
