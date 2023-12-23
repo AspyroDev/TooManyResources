@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "toomanyresources:helminium_ingot_from_helminium_nugget"
+    ]
+  },
+  "criteria": {
+    "has_helminium_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "toomanyresources:helminium_ingot"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "toomanyresources:helminium_ingot_from_helminium_nugget"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_helminium_ingot",
+      "has_the_recipe"
+    ]
+  ]
+}

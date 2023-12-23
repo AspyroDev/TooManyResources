@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "toomanyresources:compressed_kirionite_block_5_from_compressed_kirionite_block_4"
+    ]
+  },
+  "criteria": {
+    "has_kirionite_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "toomanyresources:kirionite_ingot"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "toomanyresources:compressed_kirionite_block_5_from_compressed_kirionite_block_4"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_kirionite_ingot",
+      "has_the_recipe"
+    ]
+  ]
+}
