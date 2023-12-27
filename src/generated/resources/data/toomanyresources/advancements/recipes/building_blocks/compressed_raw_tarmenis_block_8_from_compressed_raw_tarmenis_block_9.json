@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "toomanyresources:compressed_raw_tarmenis_block_8_from_compressed_raw_tarmenis_block_9"
+    ]
+  },
+  "criteria": {
+    "has_raw_tarmenis": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "toomanyresources:raw_tarmenis"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "toomanyresources:compressed_raw_tarmenis_block_8_from_compressed_raw_tarmenis_block_9"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_tarmenis",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "toomanyresources:raw_yggs"
+    }
+  ],
+  "result": {
+    "item": "toomanyresources:raw_yggs_piece",
+    "count": 9
+  }
+}

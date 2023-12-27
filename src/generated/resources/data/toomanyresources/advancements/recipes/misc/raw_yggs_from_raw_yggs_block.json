@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "toomanyresources:raw_yggs_from_raw_yggs_block"
+    ]
+  },
+  "criteria": {
+    "has_raw_yggs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "toomanyresources:raw_yggs"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "toomanyresources:raw_yggs_from_raw_yggs_block"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_yggs",
+      "has_the_recipe"
+    ]
+  ]
+}

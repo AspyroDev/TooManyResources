@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "toomanyresources:compressed_raw_tarmenis_block_2"
+    },
+    {
+      "item": "toomanyresources:compressed_raw_tarmenis_block_2"
+    },
+    {
+      "item": "toomanyresources:compressed_raw_tarmenis_block_2"
+    },
+    {
+      "item": "toomanyresources:compressed_raw_tarmenis_block_2"
+    },
+    {
+      "item": "toomanyresources:compressed_raw_tarmenis_block_2"
+    },
+    {
+      "item": "toomanyresources:compressed_raw_tarmenis_block_2"
+    },
+    {
+      "item": "toomanyresources:compressed_raw_tarmenis_block_2"
+    },
+    {
+      "item": "toomanyresources:compressed_raw_tarmenis_block_2"
+    },
+    {
+      "item": "toomanyresources:compressed_raw_tarmenis_block_2"
+    }
+  ],
+  "result": {
+    "item": "toomanyresources:compressed_raw_tarmenis_block_3"
+  }
+}

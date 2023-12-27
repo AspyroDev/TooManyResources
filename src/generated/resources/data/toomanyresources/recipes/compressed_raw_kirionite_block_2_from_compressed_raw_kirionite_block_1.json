@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "toomanyresources:compressed_raw_kirionite_block_1"
+    },
+    {
+      "item": "toomanyresources:compressed_raw_kirionite_block_1"
+    },
+    {
+      "item": "toomanyresources:compressed_raw_kirionite_block_1"
+    },
+    {
+      "item": "toomanyresources:compressed_raw_kirionite_block_1"
+    },
+    {
+      "item": "toomanyresources:compressed_raw_kirionite_block_1"
+    },
+    {
+      "item": "toomanyresources:compressed_raw_kirionite_block_1"
+    },
+    {
+      "item": "toomanyresources:compressed_raw_kirionite_block_1"
+    },
+    {
+      "item": "toomanyresources:compressed_raw_kirionite_block_1"
+    },
+    {
+      "item": "toomanyresources:compressed_raw_kirionite_block_1"
+    }
+  ],
+  "result": {
+    "item": "toomanyresources:compressed_raw_kirionite_block_2"
+  }
+}

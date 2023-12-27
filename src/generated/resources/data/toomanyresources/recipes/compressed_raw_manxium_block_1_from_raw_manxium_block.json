@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "toomanyresources:raw_manxium_block"
+    },
+    {
+      "item": "toomanyresources:raw_manxium_block"
+    },
+    {
+      "item": "toomanyresources:raw_manxium_block"
+    },
+    {
+      "item": "toomanyresources:raw_manxium_block"
+    },
+    {
+      "item": "toomanyresources:raw_manxium_block"
+    },
+    {
+      "item": "toomanyresources:raw_manxium_block"
+    },
+    {
+      "item": "toomanyresources:raw_manxium_block"
+    },
+    {
+      "item": "toomanyresources:raw_manxium_block"
+    },
+    {
+      "item": "toomanyresources:raw_manxium_block"
+    }
+  ],
+  "result": {
+    "item": "toomanyresources:compressed_raw_manxium_block_1"
+  }
+}

@@ -40,6 +40,28 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         // oreSmelting(consumer, ModItems.BAMIRITE_INGOT.get(), ModBlocks.RICH_ENDSTONE_BAMIRITE_ORE.get(), 1.1F, 200);
 
         // BAMIRITE RAW ORE ITEMS
+        oneFromNinePacking(consumer, ModItems.RAW_BAMIRITE.get(), ModItems.RAW_BAMIRITE_PIECE.get(), ModItems.RAW_BAMIRITE.get());
+        nineFromOneUnpacking(consumer, ModItems.RAW_BAMIRITE_PIECE.get(), ModItems.RAW_BAMIRITE.get(), ModItems.RAW_BAMIRITE.get());
+        oneFromNinePacking(consumer, ModBlocks.RAW_BAMIRITE_BLOCK.get(), ModItems.RAW_BAMIRITE.get(), ModItems.RAW_BAMIRITE.get());
+        nineFromOneUnpacking(consumer, ModItems.RAW_BAMIRITE.get(), ModBlocks.RAW_BAMIRITE_BLOCK.get(), ModItems.RAW_BAMIRITE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.RAW_BAMIRITE_BLOCK.get(), ModBlocks.COMPRESSED_RAW_BAMIRITE_BLOCK_1.get(), ModItems.RAW_BAMIRITE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_BAMIRITE_BLOCK_1.get(), ModBlocks.COMPRESSED_RAW_BAMIRITE_BLOCK_2.get(), ModItems.RAW_BAMIRITE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_BAMIRITE_BLOCK_2.get(), ModBlocks.COMPRESSED_RAW_BAMIRITE_BLOCK_3.get(), ModItems.RAW_BAMIRITE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_BAMIRITE_BLOCK_3.get(), ModBlocks.COMPRESSED_RAW_BAMIRITE_BLOCK_4.get(), ModItems.RAW_BAMIRITE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_BAMIRITE_BLOCK_4.get(), ModBlocks.COMPRESSED_RAW_BAMIRITE_BLOCK_5.get(), ModItems.RAW_BAMIRITE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_BAMIRITE_BLOCK_5.get(), ModBlocks.COMPRESSED_RAW_BAMIRITE_BLOCK_6.get(), ModItems.RAW_BAMIRITE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_BAMIRITE_BLOCK_6.get(), ModBlocks.COMPRESSED_RAW_BAMIRITE_BLOCK_7.get(), ModItems.RAW_BAMIRITE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_BAMIRITE_BLOCK_7.get(), ModBlocks.COMPRESSED_RAW_BAMIRITE_BLOCK_8.get(), ModItems.RAW_BAMIRITE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_BAMIRITE_BLOCK_8.get(), ModBlocks.COMPRESSED_RAW_BAMIRITE_BLOCK_9.get(), ModItems.RAW_BAMIRITE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_BAMIRITE_BLOCK_1.get(), ModBlocks.RAW_BAMIRITE_BLOCK.get(), ModItems.RAW_BAMIRITE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_BAMIRITE_BLOCK_2.get(), ModBlocks.COMPRESSED_RAW_BAMIRITE_BLOCK_1.get(), ModItems.RAW_BAMIRITE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_BAMIRITE_BLOCK_3.get(), ModBlocks.COMPRESSED_RAW_BAMIRITE_BLOCK_2.get(), ModItems.RAW_BAMIRITE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_BAMIRITE_BLOCK_4.get(), ModBlocks.COMPRESSED_RAW_BAMIRITE_BLOCK_3.get(), ModItems.RAW_BAMIRITE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_BAMIRITE_BLOCK_5.get(), ModBlocks.COMPRESSED_RAW_BAMIRITE_BLOCK_4.get(), ModItems.RAW_BAMIRITE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_BAMIRITE_BLOCK_6.get(), ModBlocks.COMPRESSED_RAW_BAMIRITE_BLOCK_5.get(), ModItems.RAW_BAMIRITE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_BAMIRITE_BLOCK_7.get(), ModBlocks.COMPRESSED_RAW_BAMIRITE_BLOCK_6.get(), ModItems.RAW_BAMIRITE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_BAMIRITE_BLOCK_8.get(), ModBlocks.COMPRESSED_RAW_BAMIRITE_BLOCK_7.get(), ModItems.RAW_BAMIRITE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_BAMIRITE_BLOCK_9.get(), ModBlocks.COMPRESSED_RAW_BAMIRITE_BLOCK_8.get(), ModItems.RAW_BAMIRITE.get());
 
         // BAMIRITE ORE ITEMS
         oneFromNinePacking(consumer, ModItems.BAMIRITE_INGOT.get(), ModItems.BAMIRITE_NUGGET.get(), ModItems.BAMIRITE_INGOT.get());
@@ -93,6 +115,28 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         // oreSmelting(consumer, ModItems.BLUE_DRAGCITE_INGOT.get(), ModBlocks.RICH_ENDSTONE_BLUE_DRAGCITE_ORE.get(), 1.1F, 200);
 
         // BLUE DRAGCITE RAW ORE ITEMS
+        oneFromNinePacking(consumer, ModItems.RAW_BLUE_DRAGCITE.get(), ModItems.RAW_BLUE_DRAGCITE_PIECE.get(), ModItems.RAW_BLUE_DRAGCITE.get());
+        nineFromOneUnpacking(consumer, ModItems.RAW_BLUE_DRAGCITE_PIECE.get(), ModItems.RAW_BLUE_DRAGCITE.get(), ModItems.RAW_BLUE_DRAGCITE.get());
+        oneFromNinePacking(consumer, ModBlocks.RAW_BLUE_DRAGCITE_BLOCK.get(), ModItems.RAW_BLUE_DRAGCITE.get(), ModItems.RAW_BLUE_DRAGCITE.get());
+        nineFromOneUnpacking(consumer, ModItems.RAW_BLUE_DRAGCITE.get(), ModBlocks.RAW_BLUE_DRAGCITE_BLOCK.get(), ModItems.RAW_BLUE_DRAGCITE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.RAW_BLUE_DRAGCITE_BLOCK.get(), ModBlocks.COMPRESSED_RAW_BLUE_DRAGCITE_BLOCK_1.get(), ModItems.RAW_BLUE_DRAGCITE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_BLUE_DRAGCITE_BLOCK_1.get(), ModBlocks.COMPRESSED_RAW_BLUE_DRAGCITE_BLOCK_2.get(), ModItems.RAW_BLUE_DRAGCITE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_BLUE_DRAGCITE_BLOCK_2.get(), ModBlocks.COMPRESSED_RAW_BLUE_DRAGCITE_BLOCK_3.get(), ModItems.RAW_BLUE_DRAGCITE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_BLUE_DRAGCITE_BLOCK_3.get(), ModBlocks.COMPRESSED_RAW_BLUE_DRAGCITE_BLOCK_4.get(), ModItems.RAW_BLUE_DRAGCITE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_BLUE_DRAGCITE_BLOCK_4.get(), ModBlocks.COMPRESSED_RAW_BLUE_DRAGCITE_BLOCK_5.get(), ModItems.RAW_BLUE_DRAGCITE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_BLUE_DRAGCITE_BLOCK_5.get(), ModBlocks.COMPRESSED_RAW_BLUE_DRAGCITE_BLOCK_6.get(), ModItems.RAW_BLUE_DRAGCITE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_BLUE_DRAGCITE_BLOCK_6.get(), ModBlocks.COMPRESSED_RAW_BLUE_DRAGCITE_BLOCK_7.get(), ModItems.RAW_BLUE_DRAGCITE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_BLUE_DRAGCITE_BLOCK_7.get(), ModBlocks.COMPRESSED_RAW_BLUE_DRAGCITE_BLOCK_8.get(), ModItems.RAW_BLUE_DRAGCITE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_BLUE_DRAGCITE_BLOCK_8.get(), ModBlocks.COMPRESSED_RAW_BLUE_DRAGCITE_BLOCK_9.get(), ModItems.RAW_BLUE_DRAGCITE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_BLUE_DRAGCITE_BLOCK_1.get(), ModBlocks.RAW_BLUE_DRAGCITE_BLOCK.get(), ModItems.RAW_BLUE_DRAGCITE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_BLUE_DRAGCITE_BLOCK_2.get(), ModBlocks.COMPRESSED_RAW_BLUE_DRAGCITE_BLOCK_1.get(), ModItems.RAW_BLUE_DRAGCITE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_BLUE_DRAGCITE_BLOCK_3.get(), ModBlocks.COMPRESSED_RAW_BLUE_DRAGCITE_BLOCK_2.get(), ModItems.RAW_BLUE_DRAGCITE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_BLUE_DRAGCITE_BLOCK_4.get(), ModBlocks.COMPRESSED_RAW_BLUE_DRAGCITE_BLOCK_3.get(), ModItems.RAW_BLUE_DRAGCITE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_BLUE_DRAGCITE_BLOCK_5.get(), ModBlocks.COMPRESSED_RAW_BLUE_DRAGCITE_BLOCK_4.get(), ModItems.RAW_BLUE_DRAGCITE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_BLUE_DRAGCITE_BLOCK_6.get(), ModBlocks.COMPRESSED_RAW_BLUE_DRAGCITE_BLOCK_5.get(), ModItems.RAW_BLUE_DRAGCITE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_BLUE_DRAGCITE_BLOCK_7.get(), ModBlocks.COMPRESSED_RAW_BLUE_DRAGCITE_BLOCK_6.get(), ModItems.RAW_BLUE_DRAGCITE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_BLUE_DRAGCITE_BLOCK_8.get(), ModBlocks.COMPRESSED_RAW_BLUE_DRAGCITE_BLOCK_7.get(), ModItems.RAW_BLUE_DRAGCITE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_BLUE_DRAGCITE_BLOCK_9.get(), ModBlocks.COMPRESSED_RAW_BLUE_DRAGCITE_BLOCK_8.get(), ModItems.RAW_BLUE_DRAGCITE.get());
 
         // BLUE DRAGCITE ORE ITEMS
         oneFromNinePacking(consumer, ModItems.BLUE_DRAGCITE_INGOT.get(), ModItems.BLUE_DRAGCITE_NUGGET.get(), ModItems.BLUE_DRAGCITE_INGOT.get());
@@ -144,6 +188,28 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         // oreSmelting(consumer, ModItems.EISSELTE_INGOT.get(), ModBlocks.RICH_ENDSTONE_EISSELTE_ORE.get(), 1.1F, 200);
 
         // EISSELTE RAW ORE ITEMS
+        oneFromNinePacking(consumer, ModItems.RAW_EISSELTE.get(), ModItems.RAW_EISSELTE_PIECE.get(), ModItems.RAW_EISSELTE.get());
+        nineFromOneUnpacking(consumer, ModItems.RAW_EISSELTE_PIECE.get(), ModItems.RAW_EISSELTE.get(), ModItems.RAW_EISSELTE.get());
+        oneFromNinePacking(consumer, ModBlocks.RAW_EISSELTE_BLOCK.get(), ModItems.RAW_EISSELTE.get(), ModItems.RAW_EISSELTE.get());
+        nineFromOneUnpacking(consumer, ModItems.RAW_EISSELTE.get(), ModBlocks.RAW_EISSELTE_BLOCK.get(), ModItems.RAW_EISSELTE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.RAW_EISSELTE_BLOCK.get(), ModBlocks.COMPRESSED_RAW_EISSELTE_BLOCK_1.get(), ModItems.RAW_EISSELTE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_EISSELTE_BLOCK_1.get(), ModBlocks.COMPRESSED_RAW_EISSELTE_BLOCK_2.get(), ModItems.RAW_EISSELTE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_EISSELTE_BLOCK_2.get(), ModBlocks.COMPRESSED_RAW_EISSELTE_BLOCK_3.get(), ModItems.RAW_EISSELTE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_EISSELTE_BLOCK_3.get(), ModBlocks.COMPRESSED_RAW_EISSELTE_BLOCK_4.get(), ModItems.RAW_EISSELTE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_EISSELTE_BLOCK_4.get(), ModBlocks.COMPRESSED_RAW_EISSELTE_BLOCK_5.get(), ModItems.RAW_EISSELTE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_EISSELTE_BLOCK_5.get(), ModBlocks.COMPRESSED_RAW_EISSELTE_BLOCK_6.get(), ModItems.RAW_EISSELTE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_EISSELTE_BLOCK_6.get(), ModBlocks.COMPRESSED_RAW_EISSELTE_BLOCK_7.get(), ModItems.RAW_EISSELTE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_EISSELTE_BLOCK_7.get(), ModBlocks.COMPRESSED_RAW_EISSELTE_BLOCK_8.get(), ModItems.RAW_EISSELTE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_EISSELTE_BLOCK_8.get(), ModBlocks.COMPRESSED_RAW_EISSELTE_BLOCK_9.get(), ModItems.RAW_EISSELTE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_EISSELTE_BLOCK_1.get(), ModBlocks.RAW_EISSELTE_BLOCK.get(), ModItems.RAW_EISSELTE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_EISSELTE_BLOCK_2.get(), ModBlocks.COMPRESSED_RAW_EISSELTE_BLOCK_1.get(), ModItems.RAW_EISSELTE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_EISSELTE_BLOCK_3.get(), ModBlocks.COMPRESSED_RAW_EISSELTE_BLOCK_2.get(), ModItems.RAW_EISSELTE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_EISSELTE_BLOCK_4.get(), ModBlocks.COMPRESSED_RAW_EISSELTE_BLOCK_3.get(), ModItems.RAW_EISSELTE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_EISSELTE_BLOCK_5.get(), ModBlocks.COMPRESSED_RAW_EISSELTE_BLOCK_4.get(), ModItems.RAW_EISSELTE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_EISSELTE_BLOCK_6.get(), ModBlocks.COMPRESSED_RAW_EISSELTE_BLOCK_5.get(), ModItems.RAW_EISSELTE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_EISSELTE_BLOCK_7.get(), ModBlocks.COMPRESSED_RAW_EISSELTE_BLOCK_6.get(), ModItems.RAW_EISSELTE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_EISSELTE_BLOCK_8.get(), ModBlocks.COMPRESSED_RAW_EISSELTE_BLOCK_7.get(), ModItems.RAW_EISSELTE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_EISSELTE_BLOCK_9.get(), ModBlocks.COMPRESSED_RAW_EISSELTE_BLOCK_8.get(), ModItems.RAW_EISSELTE.get());
 
         // EISSELTE ORE ITEMS
         oneFromNinePacking(consumer, ModItems.EISSELTE_INGOT.get(), ModItems.EISSELTE_NUGGET.get(), ModItems.EISSELTE_INGOT.get());
@@ -195,6 +261,28 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         // oreSmelting(consumer, ModItems.HELMINIUM_INGOT.get(), ModBlocks.RICH_ENDSTONE_HELMINIUM_ORE.get(), 1.1F, 200);
 
         // HELMINIUM RAW ORE ITEMS
+        oneFromNinePacking(consumer, ModItems.RAW_HELMINIUM.get(), ModItems.RAW_HELMINIUM_PIECE.get(), ModItems.RAW_HELMINIUM.get());
+        nineFromOneUnpacking(consumer, ModItems.RAW_HELMINIUM_PIECE.get(), ModItems.RAW_HELMINIUM.get(), ModItems.RAW_HELMINIUM.get());
+        oneFromNinePacking(consumer, ModBlocks.RAW_HELMINIUM_BLOCK.get(), ModItems.RAW_HELMINIUM.get(), ModItems.RAW_HELMINIUM.get());
+        nineFromOneUnpacking(consumer, ModItems.RAW_HELMINIUM.get(), ModBlocks.RAW_HELMINIUM_BLOCK.get(), ModItems.RAW_HELMINIUM.get());
+        nineFromOneUnpacking(consumer, ModBlocks.RAW_HELMINIUM_BLOCK.get(), ModBlocks.COMPRESSED_RAW_HELMINIUM_BLOCK_1.get(), ModItems.RAW_HELMINIUM.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_HELMINIUM_BLOCK_1.get(), ModBlocks.COMPRESSED_RAW_HELMINIUM_BLOCK_2.get(), ModItems.RAW_HELMINIUM.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_HELMINIUM_BLOCK_2.get(), ModBlocks.COMPRESSED_RAW_HELMINIUM_BLOCK_3.get(), ModItems.RAW_HELMINIUM.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_HELMINIUM_BLOCK_3.get(), ModBlocks.COMPRESSED_RAW_HELMINIUM_BLOCK_4.get(), ModItems.RAW_HELMINIUM.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_HELMINIUM_BLOCK_4.get(), ModBlocks.COMPRESSED_RAW_HELMINIUM_BLOCK_5.get(), ModItems.RAW_HELMINIUM.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_HELMINIUM_BLOCK_5.get(), ModBlocks.COMPRESSED_RAW_HELMINIUM_BLOCK_6.get(), ModItems.RAW_HELMINIUM.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_HELMINIUM_BLOCK_6.get(), ModBlocks.COMPRESSED_RAW_HELMINIUM_BLOCK_7.get(), ModItems.RAW_HELMINIUM.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_HELMINIUM_BLOCK_7.get(), ModBlocks.COMPRESSED_RAW_HELMINIUM_BLOCK_8.get(), ModItems.RAW_HELMINIUM.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_HELMINIUM_BLOCK_8.get(), ModBlocks.COMPRESSED_RAW_HELMINIUM_BLOCK_9.get(), ModItems.RAW_HELMINIUM.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_HELMINIUM_BLOCK_1.get(), ModBlocks.RAW_HELMINIUM_BLOCK.get(), ModItems.RAW_HELMINIUM.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_HELMINIUM_BLOCK_2.get(), ModBlocks.COMPRESSED_RAW_HELMINIUM_BLOCK_1.get(), ModItems.RAW_HELMINIUM.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_HELMINIUM_BLOCK_3.get(), ModBlocks.COMPRESSED_RAW_HELMINIUM_BLOCK_2.get(), ModItems.RAW_HELMINIUM.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_HELMINIUM_BLOCK_4.get(), ModBlocks.COMPRESSED_RAW_HELMINIUM_BLOCK_3.get(), ModItems.RAW_HELMINIUM.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_HELMINIUM_BLOCK_5.get(), ModBlocks.COMPRESSED_RAW_HELMINIUM_BLOCK_4.get(), ModItems.RAW_HELMINIUM.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_HELMINIUM_BLOCK_6.get(), ModBlocks.COMPRESSED_RAW_HELMINIUM_BLOCK_5.get(), ModItems.RAW_HELMINIUM.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_HELMINIUM_BLOCK_7.get(), ModBlocks.COMPRESSED_RAW_HELMINIUM_BLOCK_6.get(), ModItems.RAW_HELMINIUM.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_HELMINIUM_BLOCK_8.get(), ModBlocks.COMPRESSED_RAW_HELMINIUM_BLOCK_7.get(), ModItems.RAW_HELMINIUM.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_HELMINIUM_BLOCK_9.get(), ModBlocks.COMPRESSED_RAW_HELMINIUM_BLOCK_8.get(), ModItems.RAW_HELMINIUM.get());
 
         // HELMINIUM ORE ITEMS
         oneFromNinePacking(consumer, ModItems.HELMINIUM_INGOT.get(), ModItems.HELMINIUM_NUGGET.get(), ModItems.HELMINIUM_INGOT.get());
@@ -246,6 +334,28 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         // oreSmelting(consumer, ModItems.JEPERCKSTONE_INGOT.get(), ModBlocks.RICH_ENDSTONE_JEPERCKSTONE_ORE.get(), 1.1F, 200);
 
         // JEPERCKSTONE RAW ORE ITEMS
+        oneFromNinePacking(consumer, ModItems.RAW_JEPERCKSTONE.get(), ModItems.RAW_JEPERCKSTONE_PIECE.get(), ModItems.RAW_JEPERCKSTONE.get());
+        nineFromOneUnpacking(consumer, ModItems.RAW_JEPERCKSTONE_PIECE.get(), ModItems.RAW_JEPERCKSTONE.get(), ModItems.RAW_JEPERCKSTONE.get());
+        oneFromNinePacking(consumer, ModBlocks.RAW_JEPERCKSTONE_BLOCK.get(), ModItems.RAW_JEPERCKSTONE.get(), ModItems.RAW_JEPERCKSTONE.get());
+        nineFromOneUnpacking(consumer, ModItems.RAW_JEPERCKSTONE.get(), ModBlocks.RAW_JEPERCKSTONE_BLOCK.get(), ModItems.RAW_JEPERCKSTONE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.RAW_JEPERCKSTONE_BLOCK.get(), ModBlocks.COMPRESSED_RAW_JEPERCKSTONE_BLOCK_1.get(), ModItems.RAW_JEPERCKSTONE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_JEPERCKSTONE_BLOCK_1.get(), ModBlocks.COMPRESSED_RAW_JEPERCKSTONE_BLOCK_2.get(), ModItems.RAW_JEPERCKSTONE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_JEPERCKSTONE_BLOCK_2.get(), ModBlocks.COMPRESSED_RAW_JEPERCKSTONE_BLOCK_3.get(), ModItems.RAW_JEPERCKSTONE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_JEPERCKSTONE_BLOCK_3.get(), ModBlocks.COMPRESSED_RAW_JEPERCKSTONE_BLOCK_4.get(), ModItems.RAW_JEPERCKSTONE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_JEPERCKSTONE_BLOCK_4.get(), ModBlocks.COMPRESSED_RAW_JEPERCKSTONE_BLOCK_5.get(), ModItems.RAW_JEPERCKSTONE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_JEPERCKSTONE_BLOCK_5.get(), ModBlocks.COMPRESSED_RAW_JEPERCKSTONE_BLOCK_6.get(), ModItems.RAW_JEPERCKSTONE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_JEPERCKSTONE_BLOCK_6.get(), ModBlocks.COMPRESSED_RAW_JEPERCKSTONE_BLOCK_7.get(), ModItems.RAW_JEPERCKSTONE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_JEPERCKSTONE_BLOCK_7.get(), ModBlocks.COMPRESSED_RAW_JEPERCKSTONE_BLOCK_8.get(), ModItems.RAW_JEPERCKSTONE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_JEPERCKSTONE_BLOCK_8.get(), ModBlocks.COMPRESSED_RAW_JEPERCKSTONE_BLOCK_9.get(), ModItems.RAW_JEPERCKSTONE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_JEPERCKSTONE_BLOCK_1.get(), ModBlocks.RAW_JEPERCKSTONE_BLOCK.get(), ModItems.RAW_JEPERCKSTONE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_JEPERCKSTONE_BLOCK_2.get(), ModBlocks.COMPRESSED_RAW_JEPERCKSTONE_BLOCK_1.get(), ModItems.RAW_JEPERCKSTONE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_JEPERCKSTONE_BLOCK_3.get(), ModBlocks.COMPRESSED_RAW_JEPERCKSTONE_BLOCK_2.get(), ModItems.RAW_JEPERCKSTONE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_JEPERCKSTONE_BLOCK_4.get(), ModBlocks.COMPRESSED_RAW_JEPERCKSTONE_BLOCK_3.get(), ModItems.RAW_JEPERCKSTONE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_JEPERCKSTONE_BLOCK_5.get(), ModBlocks.COMPRESSED_RAW_JEPERCKSTONE_BLOCK_4.get(), ModItems.RAW_JEPERCKSTONE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_JEPERCKSTONE_BLOCK_6.get(), ModBlocks.COMPRESSED_RAW_JEPERCKSTONE_BLOCK_5.get(), ModItems.RAW_JEPERCKSTONE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_JEPERCKSTONE_BLOCK_7.get(), ModBlocks.COMPRESSED_RAW_JEPERCKSTONE_BLOCK_6.get(), ModItems.RAW_JEPERCKSTONE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_JEPERCKSTONE_BLOCK_8.get(), ModBlocks.COMPRESSED_RAW_JEPERCKSTONE_BLOCK_7.get(), ModItems.RAW_JEPERCKSTONE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_JEPERCKSTONE_BLOCK_9.get(), ModBlocks.COMPRESSED_RAW_JEPERCKSTONE_BLOCK_8.get(), ModItems.RAW_JEPERCKSTONE.get());
 
         // JEPERCKSTONE ORE ITEMS
         oneFromNinePacking(consumer, ModItems.JEPERCKSTONE_INGOT.get(), ModItems.JEPERCKSTONE_NUGGET.get(), ModItems.JEPERCKSTONE_INGOT.get());
@@ -297,6 +407,28 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         // oreSmelting(consumer, ModItems.KHELSTONE_INGOT.get(), ModBlocks.RICH_ENDSTONE_KHELSTONE_ORE.get(), 1.1F, 200);
 
         // KHELSTONE RAW ORE ITEMS
+        oneFromNinePacking(consumer, ModItems.RAW_KHELSTONE.get(), ModItems.RAW_KHELSTONE_PIECE.get(), ModItems.RAW_KHELSTONE.get());
+        nineFromOneUnpacking(consumer, ModItems.RAW_KHELSTONE_PIECE.get(), ModItems.RAW_KHELSTONE.get(), ModItems.RAW_KHELSTONE.get());
+        oneFromNinePacking(consumer, ModBlocks.RAW_KHELSTONE_BLOCK.get(), ModItems.RAW_KHELSTONE.get(), ModItems.RAW_KHELSTONE.get());
+        nineFromOneUnpacking(consumer, ModItems.RAW_KHELSTONE.get(), ModBlocks.RAW_KHELSTONE_BLOCK.get(), ModItems.RAW_KHELSTONE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.RAW_KHELSTONE_BLOCK.get(), ModBlocks.COMPRESSED_RAW_KHELSTONE_BLOCK_1.get(), ModItems.RAW_KHELSTONE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_KHELSTONE_BLOCK_1.get(), ModBlocks.COMPRESSED_RAW_KHELSTONE_BLOCK_2.get(), ModItems.RAW_KHELSTONE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_KHELSTONE_BLOCK_2.get(), ModBlocks.COMPRESSED_RAW_KHELSTONE_BLOCK_3.get(), ModItems.RAW_KHELSTONE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_KHELSTONE_BLOCK_3.get(), ModBlocks.COMPRESSED_RAW_KHELSTONE_BLOCK_4.get(), ModItems.RAW_KHELSTONE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_KHELSTONE_BLOCK_4.get(), ModBlocks.COMPRESSED_RAW_KHELSTONE_BLOCK_5.get(), ModItems.RAW_KHELSTONE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_KHELSTONE_BLOCK_5.get(), ModBlocks.COMPRESSED_RAW_KHELSTONE_BLOCK_6.get(), ModItems.RAW_KHELSTONE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_KHELSTONE_BLOCK_6.get(), ModBlocks.COMPRESSED_RAW_KHELSTONE_BLOCK_7.get(), ModItems.RAW_KHELSTONE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_KHELSTONE_BLOCK_7.get(), ModBlocks.COMPRESSED_RAW_KHELSTONE_BLOCK_8.get(), ModItems.RAW_KHELSTONE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_KHELSTONE_BLOCK_8.get(), ModBlocks.COMPRESSED_RAW_KHELSTONE_BLOCK_9.get(), ModItems.RAW_KHELSTONE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_KHELSTONE_BLOCK_1.get(), ModBlocks.RAW_KHELSTONE_BLOCK.get(), ModItems.RAW_KHELSTONE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_KHELSTONE_BLOCK_2.get(), ModBlocks.COMPRESSED_RAW_KHELSTONE_BLOCK_1.get(), ModItems.RAW_KHELSTONE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_KHELSTONE_BLOCK_3.get(), ModBlocks.COMPRESSED_RAW_KHELSTONE_BLOCK_2.get(), ModItems.RAW_KHELSTONE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_KHELSTONE_BLOCK_4.get(), ModBlocks.COMPRESSED_RAW_KHELSTONE_BLOCK_3.get(), ModItems.RAW_KHELSTONE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_KHELSTONE_BLOCK_5.get(), ModBlocks.COMPRESSED_RAW_KHELSTONE_BLOCK_4.get(), ModItems.RAW_KHELSTONE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_KHELSTONE_BLOCK_6.get(), ModBlocks.COMPRESSED_RAW_KHELSTONE_BLOCK_5.get(), ModItems.RAW_KHELSTONE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_KHELSTONE_BLOCK_7.get(), ModBlocks.COMPRESSED_RAW_KHELSTONE_BLOCK_6.get(), ModItems.RAW_KHELSTONE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_KHELSTONE_BLOCK_8.get(), ModBlocks.COMPRESSED_RAW_KHELSTONE_BLOCK_7.get(), ModItems.RAW_KHELSTONE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_KHELSTONE_BLOCK_9.get(), ModBlocks.COMPRESSED_RAW_KHELSTONE_BLOCK_8.get(), ModItems.RAW_KHELSTONE.get());
 
         // KHELSTONE ORE ITEMS
         oneFromNinePacking(consumer, ModItems.KHELSTONE_INGOT.get(), ModItems.KHELSTONE_NUGGET.get(), ModItems.KHELSTONE_INGOT.get());
@@ -348,6 +480,28 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         // oreSmelting(consumer, ModItems.KIRIONITE_INGOT.get(), ModBlocks.RICH_ENDSTONE_KIRIONITE_ORE.get(), 1.1F, 200);
 
         // KIRIONITE RAW ORE ITEMS
+        oneFromNinePacking(consumer, ModItems.RAW_KIRIONITE.get(), ModItems.RAW_KIRIONITE_PIECE.get(), ModItems.RAW_KIRIONITE.get());
+        nineFromOneUnpacking(consumer, ModItems.RAW_KIRIONITE_PIECE.get(), ModItems.RAW_KIRIONITE.get(), ModItems.RAW_KIRIONITE.get());
+        oneFromNinePacking(consumer, ModBlocks.RAW_KIRIONITE_BLOCK.get(), ModItems.RAW_KIRIONITE.get(), ModItems.RAW_KIRIONITE.get());
+        nineFromOneUnpacking(consumer, ModItems.RAW_KIRIONITE.get(), ModBlocks.RAW_KIRIONITE_BLOCK.get(), ModItems.RAW_KIRIONITE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.RAW_KIRIONITE_BLOCK.get(), ModBlocks.COMPRESSED_RAW_KIRIONITE_BLOCK_1.get(), ModItems.RAW_KIRIONITE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_KIRIONITE_BLOCK_1.get(), ModBlocks.COMPRESSED_RAW_KIRIONITE_BLOCK_2.get(), ModItems.RAW_KIRIONITE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_KIRIONITE_BLOCK_2.get(), ModBlocks.COMPRESSED_RAW_KIRIONITE_BLOCK_3.get(), ModItems.RAW_KIRIONITE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_KIRIONITE_BLOCK_3.get(), ModBlocks.COMPRESSED_RAW_KIRIONITE_BLOCK_4.get(), ModItems.RAW_KIRIONITE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_KIRIONITE_BLOCK_4.get(), ModBlocks.COMPRESSED_RAW_KIRIONITE_BLOCK_5.get(), ModItems.RAW_KIRIONITE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_KIRIONITE_BLOCK_5.get(), ModBlocks.COMPRESSED_RAW_KIRIONITE_BLOCK_6.get(), ModItems.RAW_KIRIONITE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_KIRIONITE_BLOCK_6.get(), ModBlocks.COMPRESSED_RAW_KIRIONITE_BLOCK_7.get(), ModItems.RAW_KIRIONITE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_KIRIONITE_BLOCK_7.get(), ModBlocks.COMPRESSED_RAW_KIRIONITE_BLOCK_8.get(), ModItems.RAW_KIRIONITE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_KIRIONITE_BLOCK_8.get(), ModBlocks.COMPRESSED_RAW_KIRIONITE_BLOCK_9.get(), ModItems.RAW_KIRIONITE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_KIRIONITE_BLOCK_1.get(), ModBlocks.RAW_KIRIONITE_BLOCK.get(), ModItems.RAW_KIRIONITE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_KIRIONITE_BLOCK_2.get(), ModBlocks.COMPRESSED_RAW_KIRIONITE_BLOCK_1.get(), ModItems.RAW_KIRIONITE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_KIRIONITE_BLOCK_3.get(), ModBlocks.COMPRESSED_RAW_KIRIONITE_BLOCK_2.get(), ModItems.RAW_KIRIONITE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_KIRIONITE_BLOCK_4.get(), ModBlocks.COMPRESSED_RAW_KIRIONITE_BLOCK_3.get(), ModItems.RAW_KIRIONITE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_KIRIONITE_BLOCK_5.get(), ModBlocks.COMPRESSED_RAW_KIRIONITE_BLOCK_4.get(), ModItems.RAW_KIRIONITE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_KIRIONITE_BLOCK_6.get(), ModBlocks.COMPRESSED_RAW_KIRIONITE_BLOCK_5.get(), ModItems.RAW_KIRIONITE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_KIRIONITE_BLOCK_7.get(), ModBlocks.COMPRESSED_RAW_KIRIONITE_BLOCK_6.get(), ModItems.RAW_KIRIONITE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_KIRIONITE_BLOCK_8.get(), ModBlocks.COMPRESSED_RAW_KIRIONITE_BLOCK_7.get(), ModItems.RAW_KIRIONITE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_KIRIONITE_BLOCK_9.get(), ModBlocks.COMPRESSED_RAW_KIRIONITE_BLOCK_8.get(), ModItems.RAW_KIRIONITE.get());
 
         // KIRIONITE ORE ITEMS
         oneFromNinePacking(consumer, ModItems.KIRIONITE_INGOT.get(), ModItems.KIRIONITE_NUGGET.get(), ModItems.KIRIONITE_INGOT.get());
@@ -399,6 +553,28 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         // oreSmelting(consumer, ModItems.MANXIUM_INGOT.get(), ModBlocks.RICH_ENDSTONE_MANXIUM_ORE.get(), 1.1F, 200);
 
         // MANXIUM RAW ORE ITEMS
+        oneFromNinePacking(consumer, ModItems.RAW_MANXIUM.get(), ModItems.RAW_MANXIUM_PIECE.get(), ModItems.RAW_MANXIUM.get());
+        nineFromOneUnpacking(consumer, ModItems.RAW_MANXIUM_PIECE.get(), ModItems.RAW_MANXIUM.get(), ModItems.RAW_MANXIUM.get());
+        oneFromNinePacking(consumer, ModBlocks.RAW_MANXIUM_BLOCK.get(), ModItems.RAW_MANXIUM.get(), ModItems.RAW_MANXIUM.get());
+        nineFromOneUnpacking(consumer, ModItems.RAW_MANXIUM.get(), ModBlocks.RAW_MANXIUM_BLOCK.get(), ModItems.RAW_MANXIUM.get());
+        nineFromOneUnpacking(consumer, ModBlocks.RAW_MANXIUM_BLOCK.get(), ModBlocks.COMPRESSED_RAW_MANXIUM_BLOCK_1.get(), ModItems.RAW_MANXIUM.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_MANXIUM_BLOCK_1.get(), ModBlocks.COMPRESSED_RAW_MANXIUM_BLOCK_2.get(), ModItems.RAW_MANXIUM.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_MANXIUM_BLOCK_2.get(), ModBlocks.COMPRESSED_RAW_MANXIUM_BLOCK_3.get(), ModItems.RAW_MANXIUM.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_MANXIUM_BLOCK_3.get(), ModBlocks.COMPRESSED_RAW_MANXIUM_BLOCK_4.get(), ModItems.RAW_MANXIUM.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_MANXIUM_BLOCK_4.get(), ModBlocks.COMPRESSED_RAW_MANXIUM_BLOCK_5.get(), ModItems.RAW_MANXIUM.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_MANXIUM_BLOCK_5.get(), ModBlocks.COMPRESSED_RAW_MANXIUM_BLOCK_6.get(), ModItems.RAW_MANXIUM.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_MANXIUM_BLOCK_6.get(), ModBlocks.COMPRESSED_RAW_MANXIUM_BLOCK_7.get(), ModItems.RAW_MANXIUM.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_MANXIUM_BLOCK_7.get(), ModBlocks.COMPRESSED_RAW_MANXIUM_BLOCK_8.get(), ModItems.RAW_MANXIUM.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_MANXIUM_BLOCK_8.get(), ModBlocks.COMPRESSED_RAW_MANXIUM_BLOCK_9.get(), ModItems.RAW_MANXIUM.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_MANXIUM_BLOCK_1.get(), ModBlocks.RAW_MANXIUM_BLOCK.get(), ModItems.RAW_MANXIUM.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_MANXIUM_BLOCK_2.get(), ModBlocks.COMPRESSED_RAW_MANXIUM_BLOCK_1.get(), ModItems.RAW_MANXIUM.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_MANXIUM_BLOCK_3.get(), ModBlocks.COMPRESSED_RAW_MANXIUM_BLOCK_2.get(), ModItems.RAW_MANXIUM.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_MANXIUM_BLOCK_4.get(), ModBlocks.COMPRESSED_RAW_MANXIUM_BLOCK_3.get(), ModItems.RAW_MANXIUM.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_MANXIUM_BLOCK_5.get(), ModBlocks.COMPRESSED_RAW_MANXIUM_BLOCK_4.get(), ModItems.RAW_MANXIUM.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_MANXIUM_BLOCK_6.get(), ModBlocks.COMPRESSED_RAW_MANXIUM_BLOCK_5.get(), ModItems.RAW_MANXIUM.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_MANXIUM_BLOCK_7.get(), ModBlocks.COMPRESSED_RAW_MANXIUM_BLOCK_6.get(), ModItems.RAW_MANXIUM.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_MANXIUM_BLOCK_8.get(), ModBlocks.COMPRESSED_RAW_MANXIUM_BLOCK_7.get(), ModItems.RAW_MANXIUM.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_MANXIUM_BLOCK_9.get(), ModBlocks.COMPRESSED_RAW_MANXIUM_BLOCK_8.get(), ModItems.RAW_MANXIUM.get());
 
         // MANXIUM ORE ITEMS
         oneFromNinePacking(consumer, ModItems.MANXIUM_INGOT.get(), ModItems.MANXIUM_NUGGET.get(), ModItems.MANXIUM_INGOT.get());
@@ -450,6 +626,28 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         // oreSmelting(consumer, ModItems.OHLY_INGOT.get(), ModBlocks.RICH_ENDSTONE_OHLY_ORE.get(), 1.1F, 200);
 
         // OHLY RAW ORE ITEMS
+        oneFromNinePacking(consumer, ModItems.RAW_OHLY.get(), ModItems.RAW_OHLY_PIECE.get(), ModItems.RAW_OHLY.get());
+        nineFromOneUnpacking(consumer, ModItems.RAW_OHLY_PIECE.get(), ModItems.RAW_OHLY.get(), ModItems.RAW_OHLY.get());
+        oneFromNinePacking(consumer, ModBlocks.RAW_OHLY_BLOCK.get(), ModItems.RAW_OHLY.get(), ModItems.RAW_OHLY.get());
+        nineFromOneUnpacking(consumer, ModItems.RAW_OHLY.get(), ModBlocks.RAW_OHLY_BLOCK.get(), ModItems.RAW_OHLY.get());
+        nineFromOneUnpacking(consumer, ModBlocks.RAW_OHLY_BLOCK.get(), ModBlocks.COMPRESSED_RAW_OHLY_BLOCK_1.get(), ModItems.RAW_OHLY.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_OHLY_BLOCK_1.get(), ModBlocks.COMPRESSED_RAW_OHLY_BLOCK_2.get(), ModItems.RAW_OHLY.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_OHLY_BLOCK_2.get(), ModBlocks.COMPRESSED_RAW_OHLY_BLOCK_3.get(), ModItems.RAW_OHLY.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_OHLY_BLOCK_3.get(), ModBlocks.COMPRESSED_RAW_OHLY_BLOCK_4.get(), ModItems.RAW_OHLY.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_OHLY_BLOCK_4.get(), ModBlocks.COMPRESSED_RAW_OHLY_BLOCK_5.get(), ModItems.RAW_OHLY.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_OHLY_BLOCK_5.get(), ModBlocks.COMPRESSED_RAW_OHLY_BLOCK_6.get(), ModItems.RAW_OHLY.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_OHLY_BLOCK_6.get(), ModBlocks.COMPRESSED_RAW_OHLY_BLOCK_7.get(), ModItems.RAW_OHLY.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_OHLY_BLOCK_7.get(), ModBlocks.COMPRESSED_RAW_OHLY_BLOCK_8.get(), ModItems.RAW_OHLY.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_OHLY_BLOCK_8.get(), ModBlocks.COMPRESSED_RAW_OHLY_BLOCK_9.get(), ModItems.RAW_OHLY.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_OHLY_BLOCK_1.get(), ModBlocks.RAW_OHLY_BLOCK.get(), ModItems.RAW_OHLY.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_OHLY_BLOCK_2.get(), ModBlocks.COMPRESSED_RAW_OHLY_BLOCK_1.get(), ModItems.RAW_OHLY.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_OHLY_BLOCK_3.get(), ModBlocks.COMPRESSED_RAW_OHLY_BLOCK_2.get(), ModItems.RAW_OHLY.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_OHLY_BLOCK_4.get(), ModBlocks.COMPRESSED_RAW_OHLY_BLOCK_3.get(), ModItems.RAW_OHLY.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_OHLY_BLOCK_5.get(), ModBlocks.COMPRESSED_RAW_OHLY_BLOCK_4.get(), ModItems.RAW_OHLY.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_OHLY_BLOCK_6.get(), ModBlocks.COMPRESSED_RAW_OHLY_BLOCK_5.get(), ModItems.RAW_OHLY.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_OHLY_BLOCK_7.get(), ModBlocks.COMPRESSED_RAW_OHLY_BLOCK_6.get(), ModItems.RAW_OHLY.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_OHLY_BLOCK_8.get(), ModBlocks.COMPRESSED_RAW_OHLY_BLOCK_7.get(), ModItems.RAW_OHLY.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_OHLY_BLOCK_9.get(), ModBlocks.COMPRESSED_RAW_OHLY_BLOCK_8.get(), ModItems.RAW_OHLY.get());
 
         // OHLY ORE ITEMS
         oneFromNinePacking(consumer, ModItems.OHLY_INGOT.get(), ModItems.OHLY_NUGGET.get(), ModItems.OHLY_INGOT.get());
@@ -501,6 +699,28 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         // oreSmelting(consumer, ModItems.RAGOUTON_INGOT.get(), ModBlocks.RICH_ENDSTONE_RAGOUTON_ORE.get(), 1.1F, 200);
 
         // RAGOUTON RAW ORE ITEMS
+        oneFromNinePacking(consumer, ModItems.RAW_RAGOUTON.get(), ModItems.RAW_RAGOUTON_PIECE.get(), ModItems.RAW_RAGOUTON.get());
+        nineFromOneUnpacking(consumer, ModItems.RAW_RAGOUTON_PIECE.get(), ModItems.RAW_RAGOUTON.get(), ModItems.RAW_RAGOUTON.get());
+        oneFromNinePacking(consumer, ModBlocks.RAW_RAGOUTON_BLOCK.get(), ModItems.RAW_RAGOUTON.get(), ModItems.RAW_RAGOUTON.get());
+        nineFromOneUnpacking(consumer, ModItems.RAW_RAGOUTON.get(), ModBlocks.RAW_RAGOUTON_BLOCK.get(), ModItems.RAW_RAGOUTON.get());
+        nineFromOneUnpacking(consumer, ModBlocks.RAW_RAGOUTON_BLOCK.get(), ModBlocks.COMPRESSED_RAW_RAGOUTON_BLOCK_1.get(), ModItems.RAW_RAGOUTON.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_RAGOUTON_BLOCK_1.get(), ModBlocks.COMPRESSED_RAW_RAGOUTON_BLOCK_2.get(), ModItems.RAW_RAGOUTON.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_RAGOUTON_BLOCK_2.get(), ModBlocks.COMPRESSED_RAW_RAGOUTON_BLOCK_3.get(), ModItems.RAW_RAGOUTON.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_RAGOUTON_BLOCK_3.get(), ModBlocks.COMPRESSED_RAW_RAGOUTON_BLOCK_4.get(), ModItems.RAW_RAGOUTON.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_RAGOUTON_BLOCK_4.get(), ModBlocks.COMPRESSED_RAW_RAGOUTON_BLOCK_5.get(), ModItems.RAW_RAGOUTON.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_RAGOUTON_BLOCK_5.get(), ModBlocks.COMPRESSED_RAW_RAGOUTON_BLOCK_6.get(), ModItems.RAW_RAGOUTON.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_RAGOUTON_BLOCK_6.get(), ModBlocks.COMPRESSED_RAW_RAGOUTON_BLOCK_7.get(), ModItems.RAW_RAGOUTON.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_RAGOUTON_BLOCK_7.get(), ModBlocks.COMPRESSED_RAW_RAGOUTON_BLOCK_8.get(), ModItems.RAW_RAGOUTON.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_RAGOUTON_BLOCK_8.get(), ModBlocks.COMPRESSED_RAW_RAGOUTON_BLOCK_9.get(), ModItems.RAW_RAGOUTON.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_RAGOUTON_BLOCK_1.get(), ModBlocks.RAW_RAGOUTON_BLOCK.get(), ModItems.RAW_RAGOUTON.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_RAGOUTON_BLOCK_2.get(), ModBlocks.COMPRESSED_RAW_RAGOUTON_BLOCK_1.get(), ModItems.RAW_RAGOUTON.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_RAGOUTON_BLOCK_3.get(), ModBlocks.COMPRESSED_RAW_RAGOUTON_BLOCK_2.get(), ModItems.RAW_RAGOUTON.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_RAGOUTON_BLOCK_4.get(), ModBlocks.COMPRESSED_RAW_RAGOUTON_BLOCK_3.get(), ModItems.RAW_RAGOUTON.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_RAGOUTON_BLOCK_5.get(), ModBlocks.COMPRESSED_RAW_RAGOUTON_BLOCK_4.get(), ModItems.RAW_RAGOUTON.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_RAGOUTON_BLOCK_6.get(), ModBlocks.COMPRESSED_RAW_RAGOUTON_BLOCK_5.get(), ModItems.RAW_RAGOUTON.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_RAGOUTON_BLOCK_7.get(), ModBlocks.COMPRESSED_RAW_RAGOUTON_BLOCK_6.get(), ModItems.RAW_RAGOUTON.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_RAGOUTON_BLOCK_8.get(), ModBlocks.COMPRESSED_RAW_RAGOUTON_BLOCK_7.get(), ModItems.RAW_RAGOUTON.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_RAGOUTON_BLOCK_9.get(), ModBlocks.COMPRESSED_RAW_RAGOUTON_BLOCK_8.get(), ModItems.RAW_RAGOUTON.get());
 
         // RAGOUTON ORE ITEMS
         oneFromNinePacking(consumer, ModItems.RAGOUTON_INGOT.get(), ModItems.RAGOUTON_NUGGET.get(), ModItems.RAGOUTON_INGOT.get());
@@ -552,6 +772,28 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         // oreSmelting(consumer, ModItems.SLITHESE_INGOT.get(), ModBlocks.RICH_ENDSTONE_SLITHESE_ORE.get(), 1.1F, 200);
 
         // SLITHESE RAW ORE ITEMS
+        oneFromNinePacking(consumer, ModItems.RAW_SLITHESE.get(), ModItems.RAW_SLITHESE_PIECE.get(), ModItems.RAW_SLITHESE.get());
+        nineFromOneUnpacking(consumer, ModItems.RAW_SLITHESE_PIECE.get(), ModItems.RAW_SLITHESE.get(), ModItems.RAW_SLITHESE.get());
+        oneFromNinePacking(consumer, ModBlocks.RAW_SLITHESE_BLOCK.get(), ModItems.RAW_SLITHESE.get(), ModItems.RAW_SLITHESE.get());
+        nineFromOneUnpacking(consumer, ModItems.RAW_SLITHESE.get(), ModBlocks.RAW_SLITHESE_BLOCK.get(), ModItems.RAW_SLITHESE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.RAW_SLITHESE_BLOCK.get(), ModBlocks.COMPRESSED_RAW_SLITHESE_BLOCK_1.get(), ModItems.RAW_SLITHESE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_SLITHESE_BLOCK_1.get(), ModBlocks.COMPRESSED_RAW_SLITHESE_BLOCK_2.get(), ModItems.RAW_SLITHESE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_SLITHESE_BLOCK_2.get(), ModBlocks.COMPRESSED_RAW_SLITHESE_BLOCK_3.get(), ModItems.RAW_SLITHESE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_SLITHESE_BLOCK_3.get(), ModBlocks.COMPRESSED_RAW_SLITHESE_BLOCK_4.get(), ModItems.RAW_SLITHESE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_SLITHESE_BLOCK_4.get(), ModBlocks.COMPRESSED_RAW_SLITHESE_BLOCK_5.get(), ModItems.RAW_SLITHESE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_SLITHESE_BLOCK_5.get(), ModBlocks.COMPRESSED_RAW_SLITHESE_BLOCK_6.get(), ModItems.RAW_SLITHESE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_SLITHESE_BLOCK_6.get(), ModBlocks.COMPRESSED_RAW_SLITHESE_BLOCK_7.get(), ModItems.RAW_SLITHESE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_SLITHESE_BLOCK_7.get(), ModBlocks.COMPRESSED_RAW_SLITHESE_BLOCK_8.get(), ModItems.RAW_SLITHESE.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_SLITHESE_BLOCK_8.get(), ModBlocks.COMPRESSED_RAW_SLITHESE_BLOCK_9.get(), ModItems.RAW_SLITHESE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_SLITHESE_BLOCK_1.get(), ModBlocks.RAW_SLITHESE_BLOCK.get(), ModItems.RAW_SLITHESE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_SLITHESE_BLOCK_2.get(), ModBlocks.COMPRESSED_RAW_SLITHESE_BLOCK_1.get(), ModItems.RAW_SLITHESE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_SLITHESE_BLOCK_3.get(), ModBlocks.COMPRESSED_RAW_SLITHESE_BLOCK_2.get(), ModItems.RAW_SLITHESE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_SLITHESE_BLOCK_4.get(), ModBlocks.COMPRESSED_RAW_SLITHESE_BLOCK_3.get(), ModItems.RAW_SLITHESE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_SLITHESE_BLOCK_5.get(), ModBlocks.COMPRESSED_RAW_SLITHESE_BLOCK_4.get(), ModItems.RAW_SLITHESE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_SLITHESE_BLOCK_6.get(), ModBlocks.COMPRESSED_RAW_SLITHESE_BLOCK_5.get(), ModItems.RAW_SLITHESE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_SLITHESE_BLOCK_7.get(), ModBlocks.COMPRESSED_RAW_SLITHESE_BLOCK_6.get(), ModItems.RAW_SLITHESE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_SLITHESE_BLOCK_8.get(), ModBlocks.COMPRESSED_RAW_SLITHESE_BLOCK_7.get(), ModItems.RAW_SLITHESE.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_SLITHESE_BLOCK_9.get(), ModBlocks.COMPRESSED_RAW_SLITHESE_BLOCK_8.get(), ModItems.RAW_SLITHESE.get());
 
         // SLITHESE ORE ITEMS
         oneFromNinePacking(consumer, ModItems.SLITHESE_INGOT.get(), ModItems.SLITHESE_NUGGET.get(), ModItems.SLITHESE_INGOT.get());
@@ -603,6 +845,29 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         // oreSmelting(consumer, ModItems.TARMENIS_INGOT.get(), ModBlocks.RICH_ENDSTONE_TARMENIS_ORE.get(), 1.1F, 200);
 
         // TARMENIS RAW ORE ITEMS
+        oneFromNinePacking(consumer, ModItems.RAW_TARMENIS.get(), ModItems.RAW_TARMENIS_PIECE.get(), ModItems.RAW_TARMENIS.get());
+        nineFromOneUnpacking(consumer, ModItems.RAW_TARMENIS_PIECE.get(), ModItems.RAW_TARMENIS.get(), ModItems.RAW_TARMENIS.get());
+        oneFromNinePacking(consumer, ModBlocks.RAW_TARMENIS_BLOCK.get(), ModItems.RAW_TARMENIS.get(), ModItems.RAW_TARMENIS.get());
+        nineFromOneUnpacking(consumer, ModItems.RAW_TARMENIS.get(), ModBlocks.RAW_TARMENIS_BLOCK.get(), ModItems.RAW_TARMENIS.get());
+        nineFromOneUnpacking(consumer, ModBlocks.RAW_TARMENIS_BLOCK.get(), ModBlocks.COMPRESSED_RAW_TARMENIS_BLOCK_1.get(), ModItems.RAW_TARMENIS.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_TARMENIS_BLOCK_1.get(), ModBlocks.COMPRESSED_RAW_TARMENIS_BLOCK_2.get(), ModItems.RAW_TARMENIS.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_TARMENIS_BLOCK_2.get(), ModBlocks.COMPRESSED_RAW_TARMENIS_BLOCK_3.get(), ModItems.RAW_TARMENIS.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_TARMENIS_BLOCK_3.get(), ModBlocks.COMPRESSED_RAW_TARMENIS_BLOCK_4.get(), ModItems.RAW_TARMENIS.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_TARMENIS_BLOCK_4.get(), ModBlocks.COMPRESSED_RAW_TARMENIS_BLOCK_5.get(), ModItems.RAW_TARMENIS.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_TARMENIS_BLOCK_5.get(), ModBlocks.COMPRESSED_RAW_TARMENIS_BLOCK_6.get(), ModItems.RAW_TARMENIS.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_TARMENIS_BLOCK_6.get(), ModBlocks.COMPRESSED_RAW_TARMENIS_BLOCK_7.get(), ModItems.RAW_TARMENIS.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_TARMENIS_BLOCK_7.get(), ModBlocks.COMPRESSED_RAW_TARMENIS_BLOCK_8.get(), ModItems.RAW_TARMENIS.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_TARMENIS_BLOCK_8.get(), ModBlocks.COMPRESSED_RAW_TARMENIS_BLOCK_9.get(), ModItems.RAW_TARMENIS.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_TARMENIS_BLOCK_1.get(), ModBlocks.RAW_TARMENIS_BLOCK.get(), ModItems.RAW_TARMENIS.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_TARMENIS_BLOCK_2.get(), ModBlocks.COMPRESSED_RAW_TARMENIS_BLOCK_1.get(), ModItems.RAW_TARMENIS.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_TARMENIS_BLOCK_3.get(), ModBlocks.COMPRESSED_RAW_TARMENIS_BLOCK_2.get(), ModItems.RAW_TARMENIS.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_TARMENIS_BLOCK_4.get(), ModBlocks.COMPRESSED_RAW_TARMENIS_BLOCK_3.get(), ModItems.RAW_TARMENIS.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_TARMENIS_BLOCK_5.get(), ModBlocks.COMPRESSED_RAW_TARMENIS_BLOCK_4.get(), ModItems.RAW_TARMENIS.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_TARMENIS_BLOCK_6.get(), ModBlocks.COMPRESSED_RAW_TARMENIS_BLOCK_5.get(), ModItems.RAW_TARMENIS.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_TARMENIS_BLOCK_7.get(), ModBlocks.COMPRESSED_RAW_TARMENIS_BLOCK_6.get(), ModItems.RAW_TARMENIS.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_TARMENIS_BLOCK_8.get(), ModBlocks.COMPRESSED_RAW_TARMENIS_BLOCK_7.get(), ModItems.RAW_TARMENIS.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_TARMENIS_BLOCK_9.get(), ModBlocks.COMPRESSED_RAW_TARMENIS_BLOCK_8.get(), ModItems.RAW_TARMENIS.get());
+
 
         // TARMENIS ORE ITEMS
         oneFromNinePacking(consumer, ModItems.TARMENIS_INGOT.get(), ModItems.TARMENIS_NUGGET.get(), ModItems.TARMENIS_INGOT.get());
@@ -654,6 +919,28 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         // oreSmelting(consumer, ModItems.VIGNASS_INGOT.get(), ModBlocks.RICH_ENDSTONE_VIGNASS_ORE.get(), 1.1F, 200);
 
         // VIGNASS RAW ORE ITEMS
+        oneFromNinePacking(consumer, ModItems.RAW_VIGNASS.get(), ModItems.RAW_VIGNASS_PIECE.get(), ModItems.RAW_VIGNASS.get());
+        nineFromOneUnpacking(consumer, ModItems.RAW_VIGNASS_PIECE.get(), ModItems.RAW_VIGNASS.get(), ModItems.RAW_VIGNASS.get());
+        oneFromNinePacking(consumer, ModBlocks.RAW_VIGNASS_BLOCK.get(), ModItems.RAW_VIGNASS.get(), ModItems.RAW_VIGNASS.get());
+        nineFromOneUnpacking(consumer, ModItems.RAW_VIGNASS.get(), ModBlocks.RAW_VIGNASS_BLOCK.get(), ModItems.RAW_VIGNASS.get());
+        nineFromOneUnpacking(consumer, ModBlocks.RAW_VIGNASS_BLOCK.get(), ModBlocks.COMPRESSED_RAW_VIGNASS_BLOCK_1.get(), ModItems.RAW_VIGNASS.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_VIGNASS_BLOCK_1.get(), ModBlocks.COMPRESSED_RAW_VIGNASS_BLOCK_2.get(), ModItems.RAW_VIGNASS.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_VIGNASS_BLOCK_2.get(), ModBlocks.COMPRESSED_RAW_VIGNASS_BLOCK_3.get(), ModItems.RAW_VIGNASS.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_VIGNASS_BLOCK_3.get(), ModBlocks.COMPRESSED_RAW_VIGNASS_BLOCK_4.get(), ModItems.RAW_VIGNASS.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_VIGNASS_BLOCK_4.get(), ModBlocks.COMPRESSED_RAW_VIGNASS_BLOCK_5.get(), ModItems.RAW_VIGNASS.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_VIGNASS_BLOCK_5.get(), ModBlocks.COMPRESSED_RAW_VIGNASS_BLOCK_6.get(), ModItems.RAW_VIGNASS.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_VIGNASS_BLOCK_6.get(), ModBlocks.COMPRESSED_RAW_VIGNASS_BLOCK_7.get(), ModItems.RAW_VIGNASS.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_VIGNASS_BLOCK_7.get(), ModBlocks.COMPRESSED_RAW_VIGNASS_BLOCK_8.get(), ModItems.RAW_VIGNASS.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_VIGNASS_BLOCK_8.get(), ModBlocks.COMPRESSED_RAW_VIGNASS_BLOCK_9.get(), ModItems.RAW_VIGNASS.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_VIGNASS_BLOCK_1.get(), ModBlocks.RAW_VIGNASS_BLOCK.get(), ModItems.RAW_VIGNASS.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_VIGNASS_BLOCK_2.get(), ModBlocks.COMPRESSED_RAW_VIGNASS_BLOCK_1.get(), ModItems.RAW_VIGNASS.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_VIGNASS_BLOCK_3.get(), ModBlocks.COMPRESSED_RAW_VIGNASS_BLOCK_2.get(), ModItems.RAW_VIGNASS.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_VIGNASS_BLOCK_4.get(), ModBlocks.COMPRESSED_RAW_VIGNASS_BLOCK_3.get(), ModItems.RAW_VIGNASS.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_VIGNASS_BLOCK_5.get(), ModBlocks.COMPRESSED_RAW_VIGNASS_BLOCK_4.get(), ModItems.RAW_VIGNASS.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_VIGNASS_BLOCK_6.get(), ModBlocks.COMPRESSED_RAW_VIGNASS_BLOCK_5.get(), ModItems.RAW_VIGNASS.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_VIGNASS_BLOCK_7.get(), ModBlocks.COMPRESSED_RAW_VIGNASS_BLOCK_6.get(), ModItems.RAW_VIGNASS.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_VIGNASS_BLOCK_8.get(), ModBlocks.COMPRESSED_RAW_VIGNASS_BLOCK_7.get(), ModItems.RAW_VIGNASS.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_VIGNASS_BLOCK_9.get(), ModBlocks.COMPRESSED_RAW_VIGNASS_BLOCK_8.get(), ModItems.RAW_VIGNASS.get());
 
         // VIGNASS ORE ITEMS
         oneFromNinePacking(consumer, ModItems.VIGNASS_INGOT.get(), ModItems.VIGNASS_NUGGET.get(), ModItems.VIGNASS_INGOT.get());
@@ -705,6 +992,28 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         // oreSmelting(consumer, ModItems.VOLUCIERA_INGOT.get(), ModBlocks.RICH_ENDSTONE_VOLUCIERA_ORE.get(), 1.1F, 200);
 
         // VOLUCIERA RAW ORE ITEMS
+        oneFromNinePacking(consumer, ModItems.RAW_VOLUCIERA.get(), ModItems.RAW_VOLUCIERA_PIECE.get(), ModItems.RAW_VOLUCIERA.get());
+        nineFromOneUnpacking(consumer, ModItems.RAW_VOLUCIERA_PIECE.get(), ModItems.RAW_VOLUCIERA.get(), ModItems.RAW_VOLUCIERA.get());
+        oneFromNinePacking(consumer, ModBlocks.RAW_VOLUCIERA_BLOCK.get(), ModItems.RAW_VOLUCIERA.get(), ModItems.RAW_VOLUCIERA.get());
+        nineFromOneUnpacking(consumer, ModItems.RAW_VOLUCIERA.get(), ModBlocks.RAW_VOLUCIERA_BLOCK.get(), ModItems.RAW_VOLUCIERA.get());
+        nineFromOneUnpacking(consumer, ModBlocks.RAW_VOLUCIERA_BLOCK.get(), ModBlocks.COMPRESSED_RAW_VOLUCIERA_BLOCK_1.get(), ModItems.RAW_VOLUCIERA.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_VOLUCIERA_BLOCK_1.get(), ModBlocks.COMPRESSED_RAW_VOLUCIERA_BLOCK_2.get(), ModItems.RAW_VOLUCIERA.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_VOLUCIERA_BLOCK_2.get(), ModBlocks.COMPRESSED_RAW_VOLUCIERA_BLOCK_3.get(), ModItems.RAW_VOLUCIERA.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_VOLUCIERA_BLOCK_3.get(), ModBlocks.COMPRESSED_RAW_VOLUCIERA_BLOCK_4.get(), ModItems.RAW_VOLUCIERA.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_VOLUCIERA_BLOCK_4.get(), ModBlocks.COMPRESSED_RAW_VOLUCIERA_BLOCK_5.get(), ModItems.RAW_VOLUCIERA.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_VOLUCIERA_BLOCK_5.get(), ModBlocks.COMPRESSED_RAW_VOLUCIERA_BLOCK_6.get(), ModItems.RAW_VOLUCIERA.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_VOLUCIERA_BLOCK_6.get(), ModBlocks.COMPRESSED_RAW_VOLUCIERA_BLOCK_7.get(), ModItems.RAW_VOLUCIERA.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_VOLUCIERA_BLOCK_7.get(), ModBlocks.COMPRESSED_RAW_VOLUCIERA_BLOCK_8.get(), ModItems.RAW_VOLUCIERA.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_VOLUCIERA_BLOCK_8.get(), ModBlocks.COMPRESSED_RAW_VOLUCIERA_BLOCK_9.get(), ModItems.RAW_VOLUCIERA.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_VOLUCIERA_BLOCK_1.get(), ModBlocks.RAW_VOLUCIERA_BLOCK.get(), ModItems.RAW_VOLUCIERA.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_VOLUCIERA_BLOCK_2.get(), ModBlocks.COMPRESSED_RAW_VOLUCIERA_BLOCK_1.get(), ModItems.RAW_VOLUCIERA.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_VOLUCIERA_BLOCK_3.get(), ModBlocks.COMPRESSED_RAW_VOLUCIERA_BLOCK_2.get(), ModItems.RAW_VOLUCIERA.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_VOLUCIERA_BLOCK_4.get(), ModBlocks.COMPRESSED_RAW_VOLUCIERA_BLOCK_3.get(), ModItems.RAW_VOLUCIERA.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_VOLUCIERA_BLOCK_5.get(), ModBlocks.COMPRESSED_RAW_VOLUCIERA_BLOCK_4.get(), ModItems.RAW_VOLUCIERA.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_VOLUCIERA_BLOCK_6.get(), ModBlocks.COMPRESSED_RAW_VOLUCIERA_BLOCK_5.get(), ModItems.RAW_VOLUCIERA.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_VOLUCIERA_BLOCK_7.get(), ModBlocks.COMPRESSED_RAW_VOLUCIERA_BLOCK_6.get(), ModItems.RAW_VOLUCIERA.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_VOLUCIERA_BLOCK_8.get(), ModBlocks.COMPRESSED_RAW_VOLUCIERA_BLOCK_7.get(), ModItems.RAW_VOLUCIERA.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_VOLUCIERA_BLOCK_9.get(), ModBlocks.COMPRESSED_RAW_VOLUCIERA_BLOCK_8.get(), ModItems.RAW_VOLUCIERA.get());
 
         // VOLUCIERA ORE ITEMS
         oneFromNinePacking(consumer, ModItems.VOLUCIERA_INGOT.get(), ModItems.VOLUCIERA_NUGGET.get(), ModItems.VOLUCIERA_INGOT.get());
@@ -756,6 +1065,28 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         // oreSmelting(consumer, ModItems.YGGS_INGOT.get(), ModBlocks.RICH_ENDSTONE_YGGS_ORE.get(), 1.1F, 200);
 
         // YGGS RAW ORE ITEMS
+        oneFromNinePacking(consumer, ModItems.RAW_YGGS.get(), ModItems.RAW_YGGS_PIECE.get(), ModItems.RAW_YGGS.get());
+        nineFromOneUnpacking(consumer, ModItems.RAW_YGGS_PIECE.get(), ModItems.RAW_YGGS.get(), ModItems.RAW_YGGS.get());
+        oneFromNinePacking(consumer, ModBlocks.RAW_YGGS_BLOCK.get(), ModItems.RAW_YGGS.get(), ModItems.RAW_YGGS.get());
+        nineFromOneUnpacking(consumer, ModItems.RAW_YGGS.get(), ModBlocks.RAW_YGGS_BLOCK.get(), ModItems.RAW_YGGS.get());
+        nineFromOneUnpacking(consumer, ModBlocks.RAW_YGGS_BLOCK.get(), ModBlocks.COMPRESSED_RAW_YGGS_BLOCK_1.get(), ModItems.RAW_YGGS.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_YGGS_BLOCK_1.get(), ModBlocks.COMPRESSED_RAW_YGGS_BLOCK_2.get(), ModItems.RAW_YGGS.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_YGGS_BLOCK_2.get(), ModBlocks.COMPRESSED_RAW_YGGS_BLOCK_3.get(), ModItems.RAW_YGGS.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_YGGS_BLOCK_3.get(), ModBlocks.COMPRESSED_RAW_YGGS_BLOCK_4.get(), ModItems.RAW_YGGS.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_YGGS_BLOCK_4.get(), ModBlocks.COMPRESSED_RAW_YGGS_BLOCK_5.get(), ModItems.RAW_YGGS.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_YGGS_BLOCK_5.get(), ModBlocks.COMPRESSED_RAW_YGGS_BLOCK_6.get(), ModItems.RAW_YGGS.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_YGGS_BLOCK_6.get(), ModBlocks.COMPRESSED_RAW_YGGS_BLOCK_7.get(), ModItems.RAW_YGGS.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_YGGS_BLOCK_7.get(), ModBlocks.COMPRESSED_RAW_YGGS_BLOCK_8.get(), ModItems.RAW_YGGS.get());
+        nineFromOneUnpacking(consumer, ModBlocks.COMPRESSED_RAW_YGGS_BLOCK_8.get(), ModBlocks.COMPRESSED_RAW_YGGS_BLOCK_9.get(), ModItems.RAW_YGGS.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_YGGS_BLOCK_1.get(), ModBlocks.RAW_YGGS_BLOCK.get(), ModItems.RAW_YGGS.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_YGGS_BLOCK_2.get(), ModBlocks.COMPRESSED_RAW_YGGS_BLOCK_1.get(), ModItems.RAW_YGGS.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_YGGS_BLOCK_3.get(), ModBlocks.COMPRESSED_RAW_YGGS_BLOCK_2.get(), ModItems.RAW_YGGS.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_YGGS_BLOCK_4.get(), ModBlocks.COMPRESSED_RAW_YGGS_BLOCK_3.get(), ModItems.RAW_YGGS.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_YGGS_BLOCK_5.get(), ModBlocks.COMPRESSED_RAW_YGGS_BLOCK_4.get(), ModItems.RAW_YGGS.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_YGGS_BLOCK_6.get(), ModBlocks.COMPRESSED_RAW_YGGS_BLOCK_5.get(), ModItems.RAW_YGGS.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_YGGS_BLOCK_7.get(), ModBlocks.COMPRESSED_RAW_YGGS_BLOCK_6.get(), ModItems.RAW_YGGS.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_YGGS_BLOCK_8.get(), ModBlocks.COMPRESSED_RAW_YGGS_BLOCK_7.get(), ModItems.RAW_YGGS.get());
+        oneFromNinePacking(consumer, ModBlocks.COMPRESSED_RAW_YGGS_BLOCK_9.get(), ModBlocks.COMPRESSED_RAW_YGGS_BLOCK_8.get(), ModItems.RAW_YGGS.get());
 
         // YGGS ORE ITEMS
         oneFromNinePacking(consumer, ModItems.YGGS_INGOT.get(), ModItems.YGGS_NUGGET.get(), ModItems.YGGS_INGOT.get());

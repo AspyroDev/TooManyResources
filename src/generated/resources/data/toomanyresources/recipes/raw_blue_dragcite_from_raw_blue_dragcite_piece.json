@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "toomanyresources:raw_blue_dragcite_piece"
+    },
+    {
+      "item": "toomanyresources:raw_blue_dragcite_piece"
+    },
+    {
+      "item": "toomanyresources:raw_blue_dragcite_piece"
+    },
+    {
+      "item": "toomanyresources:raw_blue_dragcite_piece"
+    },
+    {
+      "item": "toomanyresources:raw_blue_dragcite_piece"
+    },
+    {
+      "item": "toomanyresources:raw_blue_dragcite_piece"
+    },
+    {
+      "item": "toomanyresources:raw_blue_dragcite_piece"
+    },
+    {
+      "item": "toomanyresources:raw_blue_dragcite_piece"
+    },
+    {
+      "item": "toomanyresources:raw_blue_dragcite_piece"
+    }
+  ],
+  "result": {
+    "item": "toomanyresources:raw_blue_dragcite"
+  }
+}

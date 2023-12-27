@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "toomanyresources:raw_ohly_piece"
+    },
+    {
+      "item": "toomanyresources:raw_ohly_piece"
+    },
+    {
+      "item": "toomanyresources:raw_ohly_piece"
+    },
+    {
+      "item": "toomanyresources:raw_ohly_piece"
+    },
+    {
+      "item": "toomanyresources:raw_ohly_piece"
+    },
+    {
+      "item": "toomanyresources:raw_ohly_piece"
+    },
+    {
+      "item": "toomanyresources:raw_ohly_piece"
+    },
+    {
+      "item": "toomanyresources:raw_ohly_piece"
+    },
+    {
+      "item": "toomanyresources:raw_ohly_piece"
+    }
+  ],
+  "result": {
+    "item": "toomanyresources:raw_ohly"
+  }
+}

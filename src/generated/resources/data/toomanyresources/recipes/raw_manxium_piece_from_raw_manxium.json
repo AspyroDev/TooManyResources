@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "toomanyresources:raw_manxium"
+    }
+  ],
+  "result": {
+    "item": "toomanyresources:raw_manxium_piece",
+    "count": 9
+  }
+}

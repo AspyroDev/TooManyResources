@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "toomanyresources:compressed_raw_khelstone_block_1_from_raw_khelstone_block"
+    ]
+  },
+  "criteria": {
+    "has_raw_khelstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "toomanyresources:raw_khelstone"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "toomanyresources:compressed_raw_khelstone_block_1_from_raw_khelstone_block"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_khelstone",
+      "has_the_recipe"
+    ]
+  ]
+}

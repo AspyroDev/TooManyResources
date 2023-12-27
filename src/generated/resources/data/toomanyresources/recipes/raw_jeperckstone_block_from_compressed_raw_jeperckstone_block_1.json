@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "toomanyresources:compressed_raw_jeperckstone_block_1"
+    }
+  ],
+  "result": {
+    "item": "toomanyresources:raw_jeperckstone_block",
+    "count": 9
+  }
+}

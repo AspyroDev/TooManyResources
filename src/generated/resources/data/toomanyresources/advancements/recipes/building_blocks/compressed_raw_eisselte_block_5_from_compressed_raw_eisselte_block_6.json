@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "toomanyresources:compressed_raw_eisselte_block_5_from_compressed_raw_eisselte_block_6"
+    ]
+  },
+  "criteria": {
+    "has_raw_eisselte": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "toomanyresources:raw_eisselte"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "toomanyresources:compressed_raw_eisselte_block_5_from_compressed_raw_eisselte_block_6"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_eisselte",
+      "has_the_recipe"
+    ]
+  ]
+}

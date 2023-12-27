@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "toomanyresources:raw_eisselte"
+    },
+    {
+      "item": "toomanyresources:raw_eisselte"
+    },
+    {
+      "item": "toomanyresources:raw_eisselte"
+    },
+    {
+      "item": "toomanyresources:raw_eisselte"
+    },
+    {
+      "item": "toomanyresources:raw_eisselte"
+    },
+    {
+      "item": "toomanyresources:raw_eisselte"
+    },
+    {
+      "item": "toomanyresources:raw_eisselte"
+    },
+    {
+      "item": "toomanyresources:raw_eisselte"
+    },
+    {
+      "item": "toomanyresources:raw_eisselte"
+    }
+  ],
+  "result": {
+    "item": "toomanyresources:raw_eisselte_block"
+  }
+}

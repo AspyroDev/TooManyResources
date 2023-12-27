@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "toomanyresources:raw_voluciera"
+    }
+  ],
+  "result": {
+    "item": "toomanyresources:raw_voluciera_piece",
+    "count": 9
+  }
+}

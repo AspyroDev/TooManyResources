@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "toomanyresources:raw_ohly_from_raw_ohly_block"
+    ]
+  },
+  "criteria": {
+    "has_raw_ohly": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "toomanyresources:raw_ohly"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "toomanyresources:raw_ohly_from_raw_ohly_block"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_ohly",
+      "has_the_recipe"
+    ]
+  ]
+}

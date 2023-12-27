@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "toomanyresources:raw_bamirite"
+    },
+    {
+      "item": "toomanyresources:raw_bamirite"
+    },
+    {
+      "item": "toomanyresources:raw_bamirite"
+    },
+    {
+      "item": "toomanyresources:raw_bamirite"
+    },
+    {
+      "item": "toomanyresources:raw_bamirite"
+    },
+    {
+      "item": "toomanyresources:raw_bamirite"
+    },
+    {
+      "item": "toomanyresources:raw_bamirite"
+    },
+    {
+      "item": "toomanyresources:raw_bamirite"
+    },
+    {
+      "item": "toomanyresources:raw_bamirite"
+    }
+  ],
+  "result": {
+    "item": "toomanyresources:raw_bamirite_block"
+  }
+}

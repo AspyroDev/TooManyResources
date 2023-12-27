@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "toomanyresources:raw_khelstone_block"
+    }
+  ],
+  "result": {
+    "item": "toomanyresources:raw_khelstone",
+    "count": 9
+  }
+}

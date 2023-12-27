@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "toomanyresources:compressed_raw_helminium_block_7_from_compressed_raw_helminium_block_8"
+    ]
+  },
+  "criteria": {
+    "has_raw_helminium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "toomanyresources:raw_helminium"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "toomanyresources:compressed_raw_helminium_block_7_from_compressed_raw_helminium_block_8"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_helminium",
+      "has_the_recipe"
+    ]
+  ]
+}

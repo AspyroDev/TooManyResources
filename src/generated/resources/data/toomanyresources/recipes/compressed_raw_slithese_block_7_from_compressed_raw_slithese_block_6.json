@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "toomanyresources:compressed_raw_slithese_block_6"
+    },
+    {
+      "item": "toomanyresources:compressed_raw_slithese_block_6"
+    },
+    {
+      "item": "toomanyresources:compressed_raw_slithese_block_6"
+    },
+    {
+      "item": "toomanyresources:compressed_raw_slithese_block_6"
+    },
+    {
+      "item": "toomanyresources:compressed_raw_slithese_block_6"
+    },
+    {
+      "item": "toomanyresources:compressed_raw_slithese_block_6"
+    },
+    {
+      "item": "toomanyresources:compressed_raw_slithese_block_6"
+    },
+    {
+      "item": "toomanyresources:compressed_raw_slithese_block_6"
+    },
+    {
+      "item": "toomanyresources:compressed_raw_slithese_block_6"
+    }
+  ],
+  "result": {
+    "item": "toomanyresources:compressed_raw_slithese_block_7"
+  }
+}

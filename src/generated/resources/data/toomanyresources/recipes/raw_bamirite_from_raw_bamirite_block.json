@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "toomanyresources:raw_bamirite_block"
+    }
+  ],
+  "result": {
+    "item": "toomanyresources:raw_bamirite",
+    "count": 9
+  }
+}
