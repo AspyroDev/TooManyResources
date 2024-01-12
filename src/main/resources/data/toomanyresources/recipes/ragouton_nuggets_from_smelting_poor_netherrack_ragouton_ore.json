@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "toomanyresources:poor_netherrack_ragouton_ore"
+  },
+  "result": {
+    "item": "toomanyresources:ragouton_nugget",
+    "count": 3
+  },
+  "experience": 0.4,
+  "cookingtime": 200
+}

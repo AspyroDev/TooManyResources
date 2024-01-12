@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "toomanyresources:poor_netherrack_voluciera_ore"
+  },
+  "result": {
+    "item": "toomanyresources:voluciera_nugget",
+    "count": 3
+  },
+  "experience": 0.4,
+  "cookingtime": 100
+}

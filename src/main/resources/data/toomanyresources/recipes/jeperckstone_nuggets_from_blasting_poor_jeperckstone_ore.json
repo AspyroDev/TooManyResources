@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "toomanyresources:poor_jeperckstone_ore"
+  },
+  "result": {
+    "item": "toomanyresources:jeperckstone_nugget",
+    "count": 3
+  },
+  "experience": 0.4,
+  "cookingtime": 100
+}

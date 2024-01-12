@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "toomanyresources:poor_netherrack_eisselte_ore"
+  },
+  "result": {
+    "item": "toomanyresources:eisselte_nugget",
+    "count": 3
+  },
+  "experience": 0.4,
+  "cookingtime": 100
+}

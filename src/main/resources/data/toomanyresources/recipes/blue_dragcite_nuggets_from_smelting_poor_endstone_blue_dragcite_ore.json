@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "toomanyresources:poor_endstone_blue_dragcite_ore"
+  },
+  "result": {
+    "item": "toomanyresources:blue_dragcite_nugget",
+    "count": 3
+  },
+  "experience": 0.4,
+  "cookingtime": 200
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "toomanyresources:poor_netherrack_khelstone_ore"
+  },
+  "result": {
+    "item": "toomanyresources:khelstone_nugget",
+    "count": 3
+  },
+  "experience": 0.4,
+  "cookingtime": 200
+}

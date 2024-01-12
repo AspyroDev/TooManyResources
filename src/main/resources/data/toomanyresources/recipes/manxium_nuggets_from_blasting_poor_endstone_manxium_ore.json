@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "toomanyresources:poor_endstone_manxium_ore"
+  },
+  "result": {
+    "item": "toomanyresources:manxium_nugget",
+    "count": 3
+  },
+  "experience": 0.4,
+  "cookingtime": 100
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "toomanyresources:rich_ohly_ore"
+  },
+  "result": {
+    "item": "toomanyresources:ohly_ingot",
+    "count": 3
+  },
+  "experience": 1.1,
+  "cookingtime": 100
+}

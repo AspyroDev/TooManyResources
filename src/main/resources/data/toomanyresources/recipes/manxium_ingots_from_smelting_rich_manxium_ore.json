@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "toomanyresources:rich_manxium_ore"
+  },
+  "result": {
+    "item": "toomanyresources:manxium_ingot",
+    "count": 3
+  },
+  "experience": 1.1,
+  "cookingtime": 200
+}

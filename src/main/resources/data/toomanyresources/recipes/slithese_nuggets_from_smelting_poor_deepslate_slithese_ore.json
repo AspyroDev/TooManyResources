@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "toomanyresources:poor_deepslate_slithese_ore"
+  },
+  "result": {
+    "item": "toomanyresources:slithese_nugget",
+    "count": 3
+  },
+  "experience": 0.4,
+  "cookingtime": 200
+}

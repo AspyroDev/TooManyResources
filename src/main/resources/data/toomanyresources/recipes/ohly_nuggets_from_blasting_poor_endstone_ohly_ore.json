@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "toomanyresources:poor_endstone_ohly_ore"
+  },
+  "result": {
+    "item": "toomanyresources:ohly_nugget",
+    "count": 3
+  },
+  "experience": 0.4,
+  "cookingtime": 100
+}
