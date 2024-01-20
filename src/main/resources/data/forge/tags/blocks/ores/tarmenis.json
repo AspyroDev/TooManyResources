@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "toomanyresources:tarmenis_ore",
+    "toomanyresources:poor_tarmenis_ore",
+    "toomanyresources:rich_tarmenis_ore",
+    "toomanyresources:deepslate_tarmenis_ore",
+    "toomanyresources:poor_deepslate_tarmenis_ore",
+    "toomanyresources:rich_deepslate_tarmenis_ore",
+    "toomanyresources:netherrack_tarmenis_ore",
+    "toomanyresources:poor_netherrack_tarmenis_ore",
+    "toomanyresources:rich_netherrack_tarmenis_ore",
+    "toomanyresources:endstone_tarmenis_ore",
+    "toomanyresources:poor_endstone_tarmenis_ore",
+    "toomanyresources:rich_endstone_tarmenis_ore"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "toomanyresources:ohly_ore",
+    "toomanyresources:poor_ohly_ore",
+    "toomanyresources:rich_ohly_ore",
+    "toomanyresources:deepslate_ohly_ore",
+    "toomanyresources:poor_deepslate_ohly_ore",
+    "toomanyresources:rich_deepslate_ohly_ore",
+    "toomanyresources:netherrack_ohly_ore",
+    "toomanyresources:poor_netherrack_ohly_ore",
+    "toomanyresources:rich_netherrack_ohly_ore",
+    "toomanyresources:endstone_ohly_ore",
+    "toomanyresources:poor_endstone_ohly_ore",
+    "toomanyresources:rich_endstone_ohly_ore"
+  ]
+}

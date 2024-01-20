@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "toomanyresources:bamirite_ore",
+    "toomanyresources:poor_bamirite_ore",
+    "toomanyresources:rich_bamirite_ore",
+    "toomanyresources:deepslate_bamirite_ore",
+    "toomanyresources:poor_deepslate_bamirite_ore",
+    "toomanyresources:rich_deepslate_bamirite_ore",
+    "toomanyresources:netherrack_bamirite_ore",
+    "toomanyresources:poor_netherrack_bamirite_ore",
+    "toomanyresources:rich_netherrack_bamirite_ore",
+    "toomanyresources:endstone_bamirite_ore",
+    "toomanyresources:poor_endstone_bamirite_ore",
+    "toomanyresources:rich_endstone_bamirite_ore"
+  ]
+}

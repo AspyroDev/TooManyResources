@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:ores/bamirite",
+    "#forge:ores/blue_dragcite",
+    "#forge:ores/eisselte",
+    "#forge:ores/helminium",
+    "#forge:ores/jeperckstone",
+    "#forge:ores/khelstone",
+    "#forge:ores/kirionite",
+    "#forge:ores/manxium",
+    "#forge:ores/ohly",
+    "#forge:ores/ragouton",
+    "#forge:ores/slithese",
+    "#forge:ores/tarmenis",
+    "#forge:ores/vignass",
+    "#forge:ores/voluciera",
+    "#forge:ores/yggs"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "toomanyresources:slithese_ore",
+    "toomanyresources:poor_slithese_ore",
+    "toomanyresources:rich_slithese_ore",
+    "toomanyresources:deepslate_slithese_ore",
+    "toomanyresources:poor_deepslate_slithese_ore",
+    "toomanyresources:rich_deepslate_slithese_ore",
+    "toomanyresources:netherrack_slithese_ore",
+    "toomanyresources:poor_netherrack_slithese_ore",
+    "toomanyresources:rich_netherrack_slithese_ore",
+    "toomanyresources:endstone_slithese_ore",
+    "toomanyresources:poor_endstone_slithese_ore",
+    "toomanyresources:rich_endstone_slithese_ore"
+  ]
+}

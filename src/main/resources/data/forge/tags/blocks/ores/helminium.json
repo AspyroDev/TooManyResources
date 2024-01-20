@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "toomanyresources:helminium_ore",
+    "toomanyresources:poor_helminium_ore",
+    "toomanyresources:rich_helminium_ore",
+    "toomanyresources:deepslate_helminium_ore",
+    "toomanyresources:poor_deepslate_helminium_ore",
+    "toomanyresources:rich_deepslate_helminium_ore",
+    "toomanyresources:netherrack_helminium_ore",
+    "toomanyresources:poor_netherrack_helminium_ore",
+    "toomanyresources:rich_netherrack_helminium_ore",
+    "toomanyresources:endstone_helminium_ore",
+    "toomanyresources:poor_endstone_helminium_ore",
+    "toomanyresources:rich_endstone_helminium_ore"
+  ]
+}

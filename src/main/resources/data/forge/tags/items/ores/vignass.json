@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "toomanyresources:vignass_ore",
+    "toomanyresources:poor_vignass_ore",
+    "toomanyresources:rich_vignass_ore",
+    "toomanyresources:deepslate_vignass_ore",
+    "toomanyresources:poor_deepslate_vignass_ore",
+    "toomanyresources:rich_deepslate_vignass_ore",
+    "toomanyresources:netherrack_vignass_ore",
+    "toomanyresources:poor_netherrack_vignass_ore",
+    "toomanyresources:rich_netherrack_vignass_ore",
+    "toomanyresources:endstone_vignass_ore",
+    "toomanyresources:poor_endstone_vignass_ore",
+    "toomanyresources:rich_endstone_vignass_ore"
+  ]
+}

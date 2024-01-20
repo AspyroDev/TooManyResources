@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "toomanyresources:jeperckstone_ore",
+    "toomanyresources:poor_jeperckstone_ore",
+    "toomanyresources:rich_jeperckstone_ore",
+    "toomanyresources:deepslate_jeperckstone_ore",
+    "toomanyresources:poor_deepslate_jeperckstone_ore",
+    "toomanyresources:rich_deepslate_jeperckstone_ore",
+    "toomanyresources:netherrack_jeperckstone_ore",
+    "toomanyresources:poor_netherrack_jeperckstone_ore",
+    "toomanyresources:rich_netherrack_jeperckstone_ore",
+    "toomanyresources:endstone_jeperckstone_ore",
+    "toomanyresources:poor_endstone_jeperckstone_ore",
+    "toomanyresources:rich_endstone_jeperckstone_ore"
+  ]
+}

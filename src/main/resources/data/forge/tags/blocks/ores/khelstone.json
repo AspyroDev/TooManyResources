@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "toomanyresources:khelstone_ore",
+    "toomanyresources:poor_khelstone_ore",
+    "toomanyresources:rich_khelstone_ore",
+    "toomanyresources:deepslate_khelstone_ore",
+    "toomanyresources:poor_deepslate_khelstone_ore",
+    "toomanyresources:rich_deepslate_khelstone_ore",
+    "toomanyresources:netherrack_khelstone_ore",
+    "toomanyresources:poor_netherrack_khelstone_ore",
+    "toomanyresources:rich_netherrack_khelstone_ore",
+    "toomanyresources:endstone_khelstone_ore",
+    "toomanyresources:poor_endstone_khelstone_ore",
+    "toomanyresources:rich_endstone_khelstone_ore"
+  ]
+}

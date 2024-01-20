@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "toomanyresources:ragouton_ore",
+    "toomanyresources:poor_ragouton_ore",
+    "toomanyresources:rich_ragouton_ore",
+    "toomanyresources:deepslate_ragouton_ore",
+    "toomanyresources:poor_deepslate_ragouton_ore",
+    "toomanyresources:rich_deepslate_ragouton_ore",
+    "toomanyresources:netherrack_ragouton_ore",
+    "toomanyresources:poor_netherrack_ragouton_ore",
+    "toomanyresources:rich_netherrack_ragouton_ore",
+    "toomanyresources:endstone_ragouton_ore",
+    "toomanyresources:poor_endstone_ragouton_ore",
+    "toomanyresources:rich_endstone_ragouton_ore"
+  ]
+}

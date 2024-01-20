@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "toomanyresources:voluciera_ore",
+    "toomanyresources:poor_voluciera_ore",
+    "toomanyresources:rich_voluciera_ore",
+    "toomanyresources:deepslate_voluciera_ore",
+    "toomanyresources:poor_deepslate_voluciera_ore",
+    "toomanyresources:rich_deepslate_voluciera_ore",
+    "toomanyresources:netherrack_voluciera_ore",
+    "toomanyresources:poor_netherrack_voluciera_ore",
+    "toomanyresources:rich_netherrack_voluciera_ore",
+    "toomanyresources:endstone_voluciera_ore",
+    "toomanyresources:poor_endstone_voluciera_ore",
+    "toomanyresources:rich_endstone_voluciera_ore"
+  ]
+}
