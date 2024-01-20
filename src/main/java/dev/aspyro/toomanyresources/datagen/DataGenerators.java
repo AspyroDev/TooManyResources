@@ -1,6 +1,7 @@
 package dev.aspyro.toomanyresources.datagen;
 
 import dev.aspyro.toomanyresources.TooManyResources;
+import dev.aspyro.toomanyresources.datagen.loot.ModBlockLootTables;
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -16,5 +17,6 @@ public class DataGenerators {
         ExistingFileHelper existingFileHelper = event.getExistingFileHelper();
 
         generator.addProvider(new ModRecipeProvider(generator));
+        generator.addProvider(new ModLootTableProvider(generator));
     }
 }
